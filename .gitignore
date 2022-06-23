@@ -9,4 +9,5 @@ snapshot.txt
 examples/snapshot.txt
 *.bin
 #*.log
+*.txt
 *.gz
