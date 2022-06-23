@@ -1,0 +1,8 @@
+[2021-03-18 04:14:43 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 04:14:43 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 04:14:43 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 04:14:45 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 04:14:45 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 04:14:45 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 04:14:45 ERROR] [cli:164] Path "experiment.json" does not exist.
+[2021-03-18 04:14:45 DEBUG] [cli:165] Path "experiment.json" does not exist.

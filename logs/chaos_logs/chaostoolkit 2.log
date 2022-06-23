@@ -1,0 +1,79 @@
+[2021-02-24 00:50:22 DEBUG] [cli:73] ###############################################################################
+[2021-02-24 00:50:22 DEBUG] [cli:74] Running command 'run'
+[2021-02-24 00:50:22 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-02-24 00:50:23 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-02-24 00:50:23 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-02-24 00:50:23 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-02-24 00:50:23 ERROR] [cli:164] Path "experiment.json" does not exist.
+[2021-02-24 00:50:23 DEBUG] [cli:165] Path "experiment.json" does not exist.
+[2021-03-09 14:32:26 DEBUG] [cli:73] ###############################################################################
+[2021-03-09 14:32:26 DEBUG] [cli:74] Running command 'run'
+[2021-03-09 14:32:26 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-09 14:32:29 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-09 14:32:29 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-09 14:32:29 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-09 14:32:29 ERROR] [cli:164] Path "experiment.json" does not exist.
+[2021-03-09 14:32:29 DEBUG] [cli:165] Path "experiment.json" does not exist.
+[2021-04-10 18:28:42 DEBUG] [cli:73] ###############################################################################
+[2021-04-10 18:28:42 DEBUG] [cli:74] Running command 'discover'
+[2021-04-10 18:28:42 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-04-10 18:28:43 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-04-10 18:28:43 INFO] [package:22] Attempting to download and install package 'chaostoolkit-kubernetes'
+[2021-04-10 18:28:44 DEBUG] [package:31] Requirement already satisfied: chaostoolkit-kubernetes in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages (0.25.1)
+[2021-04-10 18:28:44 INFO] [package:40] Package downloaded and installed in current environment
+[2021-04-10 18:28:44 INFO] [__init__:117] Discovering capabilities from chaostoolkit-kubernetes
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.actions
+[2021-04-10 18:28:44 INFO] [discover:81] Searching for probes in chaosk8s.probes
+[2021-04-10 18:28:44 DEBUG] [discover:181] 'typing.Tuple[typing.Dict[str, typing.Any], typing.Dict[str, typing.Any]]' could not be ported to something meaningful
+[2021-04-10 18:28:44 DEBUG] [discover:181] 'typing.Union[bool, NoneType]' could not be ported to something meaningful
+[2021-04-10 18:28:44 DEBUG] [discover:181] 'typing.Union[str, NoneType]' could not be ported to something meaningful
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.deployment.actions
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.deployment.probes
+[2021-04-10 18:28:44 DEBUG] [discover:181] 'typing.Union[bool, NoneType]' could not be ported to something meaningful
+[2021-04-10 18:28:44 DEBUG] [discover:181] 'typing.Union[bool, NoneType]' could not be ported to something meaningful
+[2021-04-10 18:28:44 DEBUG] [discover:181] 'typing.Union[bool, NoneType]' could not be ported to something meaningful
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.node.actions
+[2021-04-10 18:28:44 DEBUG] [discover:181] '<class 'kubernetes.client.models.v1_node.V1Node'>' could not be ported to something meaningful
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.node.probes
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.pod.actions
+[2021-04-10 18:28:44 INFO] [discover:81] Searching for probes in chaosk8s.pod.probes
+[2021-04-10 18:28:44 DEBUG] [discover:181] 'typing.Union[str, NoneType]' could not be ported to something meaningful
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.replicaset.actions
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.service.actions
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.service.probes
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.statefulset.actions
+[2021-04-10 18:28:44 INFO] [discover:81] Searching for probes in chaosk8s.statefulset.probes
+[2021-04-10 18:28:44 INFO] [discover:73] Searching for actions in chaosk8s.crd.actions
+[2021-04-10 18:28:44 INFO] [discover:81] Searching for probes in chaosk8s.crd.probes
+[2021-04-10 18:28:44 INFO] [cli:449] Discovery outcome saved in ./discovery.json
+[2021-04-24 01:52:13 DEBUG] [cli:73] ###############################################################################
+[2021-04-24 01:52:13 DEBUG] [cli:74] Running command 'discover'
+[2021-04-24 01:52:13 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-04-24 01:52:14 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-04-24 01:52:14 INFO] [package:22] Attempting to download and install package 'chaostoolkit'
+[2021-04-24 01:52:15 DEBUG] [package:31] Requirement already satisfied: chaostoolkit in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages (1.9.0)
+[2021-04-24 01:52:15 INFO] [package:40] Package downloaded and installed in current environment
+[2021-04-24 01:52:15 DEBUG] [cli:443] Failed to discover chaostoolkit
+[2021-04-24 01:52:15 CRITICAL] [cli:444] package 'chaostoolkit' does not export a `discover` function
+[2021-04-24 01:52:26 DEBUG] [cli:73] ###############################################################################
+[2021-04-24 01:52:26 DEBUG] [cli:74] Running command 'discover'
+[2021-04-24 01:52:26 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-04-24 01:52:27 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-04-24 01:52:27 INFO] [package:22] Attempting to download and install package 'chaostoolkit-istio'
+[2021-04-24 01:52:28 DEBUG] [package:31] Requirement already satisfied: chaostoolkit-istio in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages (0.1.4)
+[2021-04-24 01:52:28 INFO] [package:40] Package downloaded and installed in current environment
+[2021-04-24 01:52:29 INFO] [__init__:103] Discovering capabilities from chaostoolkit-istio
+[2021-04-24 01:52:29 INFO] [discover:73] Searching for actions in chaosistio.fault.actions
+[2021-04-24 01:52:29 INFO] [discover:81] Searching for probes in chaosistio.fault.probes
+[2021-04-24 01:52:29 INFO] [cli:449] Discovery outcome saved in ./discovery.json
+[2021-04-24 01:55:19 DEBUG] [cli:73] ###############################################################################
+[2021-04-24 01:55:19 DEBUG] [cli:74] Running command 'discover'
+[2021-04-24 01:55:19 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-30 11:10:14 DEBUG] [cli:73] ###############################################################################
+[2021-07-30 11:10:14 DEBUG] [cli:74] Running command 'run'
+[2021-07-30 11:10:14 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-30 11:10:15 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-30 11:10:15 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-30 11:10:15 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-30 11:10:15 ERROR] [cli:164] Path "health.yaml" does not exist.
+[2021-07-30 11:10:15 DEBUG] [cli:165] Path "health.yaml" does not exist.

@@ -1,0 +1,419 @@
+[2021-12-30 21:03:57 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:03:57 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:03:57 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:03:58 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:03:58 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:03:58 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:03:58 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:03:58 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:03:58 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:03:58 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:03:58 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:03:58 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:03:58 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 21:03:58 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:03:58 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:03:58 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:03:58 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:03:58 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:03:58 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:03:58 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 21:03:58 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 21:03:58 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 21:03:58 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 21:03:58 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 21:03:58 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:03:58 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 21:03:58 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:03:58 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:03:58 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:58 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:03:58 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:03:58 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:03:58 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:03:58 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:03:58 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:03:58 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:58 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:03:58 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:03:58 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:03:58 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 21:03:58 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:03:58 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:58 INFO] [activity:188] Action: create-deployment
+[2021-12-30 21:03:58 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 21:03:58 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:03:59 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 21:03:59 INFO] [activity:223] Pausing after activity for 2s...
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:04:01 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 21:04:01 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:04:01 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:04:01 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:04:01 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:04:01 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:04:01 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:04:01 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:04:01 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:04:01 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:04:01 INFO] [run:886] Let's rollback...
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:04:01 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:04:01 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 21:04:01 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 21:04:01 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:04:01 DEBUG] [actions:62] Found 1 deployments named 'humid-sensor-service'
+[2021-12-30 21:04:01 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:04:01 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 21:04:01 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:04:01 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 21:04:01 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:09:57 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:09:57 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:09:57 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:09:58 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:09:58 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:09:58 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:09:58 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:09:58 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:09:58 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:09:58 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:09:58 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:09:58 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:09:59 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 21:09:59 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:09:59 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:09:59 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:09:59 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:09:59 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:09:59 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:09:59 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 21:09:59 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 21:09:59 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 21:09:59 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 21:09:59 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:09:59 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 21:09:59 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:09:59 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:09:59 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:09:59 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:09:59 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:09:59 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:09:59 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:09:59 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:09:59 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:09:59 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:09:59 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 21:09:59 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 21:09:59 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:09:59 DEBUG] [actions:62] Found 1 deployments named 'humid-sensor-service-v2'
+[2021-12-30 21:09:59 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:09:59 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 21:09:59 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:09:59 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:09:59 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:09:59 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:09:59 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:10:00 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:10:00 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:10:00 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:10:00 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:10:00 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:10:00 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:10:00 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:10:00 INFO] [run:886] Let's rollback...
+[2021-12-30 21:10:00 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:10:00 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-30 21:10:00 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:10:00 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 21:10:00 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:10:00 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 21:10:00 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:15:11 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:15:11 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:15:11 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:15:12 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:15:12 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:15:12 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:15:12 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:15:12 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:15:12 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:15:12 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:15:12 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:15:12 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:15:13 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 21:15:13 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:15:13 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:15:13 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:15:13 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:15:13 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:15:13 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:15:13 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 21:15:13 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 21:15:13 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 21:15:13 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 21:15:13 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 21:15:13 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:15:13 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 21:15:13 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:15:13 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:15:13 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:15:13 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:15:13 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:15:13 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:15:13 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:15:13 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:15:13 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:15:13 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:15:13 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:15:13 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:15:13 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:15:13 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 21:15:13 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:15:13 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:15:13 INFO] [activity:188] Action: create-deployment
+[2021-12-30 21:15:13 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 21:15:13 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:15:13 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 21:15:13 INFO] [activity:223] Pausing after activity for 2s...
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:15:15 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 21:15:15 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:15:15 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:15:15 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:15:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:15:15 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:15:15 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:15:15 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:15:15 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:15:15 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:15:15 INFO] [run:886] Let's rollback...
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:15:15 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:15:15 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 21:15:15 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 21:15:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:15:15 DEBUG] [actions:62] Found 1 deployments named 'humid-sensor-service'
+[2021-12-30 21:15:15 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:15:15 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 21:15:15 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:15:15 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 21:15:15 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:16:21 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:16:21 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:16:21 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:16:21 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:16:21 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:16:21 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:16:21 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:16:21 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:16:21 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:16:21 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:16:21 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:16:21 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:16:22 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 21:16:22 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:16:22 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:16:22 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:16:22 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:16:22 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:16:22 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:16:22 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 21:16:22 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 21:16:22 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 21:16:22 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 21:16:22 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 21:16:22 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:16:22 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 21:16:22 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:16:22 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:16:22 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:16:22 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:16:22 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:16:22 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:16:22 DEBUG] [probes:43] Found 0 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:16:22 DEBUG] [activity:260] Activity failed
+[2021-12-30 21:16:22 ERROR] [activity:213]   => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' was not found
+[2021-12-30 21:16:22 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:16:22 WARNING] [hypothesis:208] Probe terminated unexpectedly, so its tolerance could not be validated
+[2021-12-30 21:16:22 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:16:22 CRITICAL] [run:509] Steady state probe 'deployment-available-and-healthy' is not in the given tolerance so failing this experiment
+[2021-12-30 21:16:22 INFO] [run:451] Experiment ended with status: failed
+[2021-12-30 21:16:22 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:16:22 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 21:16:22 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:16:37 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:16:37 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:16:37 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:16:38 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:16:38 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:16:38 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:16:38 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:16:38 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:16:38 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:16:38 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:16:38 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:16:38 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:16:40 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 21:16:40 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:16:40 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:16:40 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:16:40 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:16:40 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:16:40 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:16:40 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 21:16:40 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 21:16:40 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 21:16:40 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 21:16:40 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:16:40 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 21:16:40 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:16:40 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:16:40 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:16:40 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:16:40 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:16:40 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:16:40 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:16:40 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:16:40 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:16:40 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:16:40 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 21:16:40 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 21:16:40 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:16:40 DEBUG] [actions:62] Found 1 deployments named 'humid-sensor-service-v2'
+[2021-12-30 21:16:40 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:16:40 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 21:16:40 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:16:40 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:16:40 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:16:40 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:16:40 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:16:40 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:16:40 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:16:40 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:16:40 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:16:40 INFO] [run:886] Let's rollback...
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:16:40 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:16:40 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 21:16:40 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:16:40 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 21:16:40 DEBUG] [caching:42] Clearing activities cache
+[2022-01-06 18:47:16 DEBUG] [cli:103] ###############################################################################
+[2022-01-06 18:47:16 DEBUG] [cli:104] Running command 'run'
+[2022-01-06 18:47:16 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2022-01-06 18:47:17 WARNING] [check:33] 
+[2022-01-06 18:47:17 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2022-01-06 18:47:17 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2022-01-06 18:47:17 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2022-01-06 18:47:17 ERROR] [cli:241] Path "humid_delete" does not exist.
+[2022-01-06 18:47:17 DEBUG] [cli:242] Path "humid_delete" does not exist.
+[2022-01-06 18:47:28 DEBUG] [cli:103] ###############################################################################
+[2022-01-06 18:47:28 DEBUG] [cli:104] Running command 'run'
+[2022-01-06 18:47:28 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2022-01-06 18:47:28 WARNING] [check:33] 
+[2022-01-06 18:47:28 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2022-01-06 18:47:28 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2022-01-06 18:47:28 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2022-01-06 18:47:28 DEBUG] [caching:24] Building activity cache...
+[2022-01-06 18:47:28 DEBUG] [caching:35] Cached 2 activities
+[2022-01-06 18:47:28 INFO] [experiment:58] Validating the experiment's syntax
+[2022-01-06 18:47:28 DEBUG] [configuration:63] Loading configuration...
+[2022-01-06 18:47:28 DEBUG] [secret:78] Loading secrets...
+[2022-01-06 18:47:28 DEBUG] [secret:104] Done loading secrets
+[2022-01-06 18:47:31 INFO] [experiment:109] Experiment looks valid
+[2022-01-06 18:47:31 DEBUG] [caching:42] Clearing activities cache
+[2022-01-06 18:47:31 DEBUG] [caching:24] Building activity cache...
+[2022-01-06 18:47:31 DEBUG] [caching:35] Cached 2 activities
+[2022-01-06 18:47:31 DEBUG] [configuration:63] Loading configuration...
+[2022-01-06 18:47:31 DEBUG] [secret:78] Loading secrets...
+[2022-01-06 18:47:31 DEBUG] [secret:104] Done loading secrets
+[2022-01-06 18:47:31 DEBUG] [configuration:155] Loading dynamic configuration...
+[2022-01-06 18:47:31 INFO] [run:320] Running experiment: Deleting Humidity Sensor
+[2022-01-06 18:47:31 DEBUG] [__init__:49] Initializing controls
+[2022-01-06 18:47:31 INFO] [run:337] Steady-state strategy: default
+[2022-01-06 18:47:31 INFO] [run:341] Rollbacks strategy: default
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2022-01-06 18:47:31 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2022-01-06 18:47:31 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2022-01-06 18:47:31 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2022-01-06 18:47:31 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2022-01-06 18:47:31 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2022-01-06 18:47:31 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2022-01-06 18:47:31 DEBUG] [probes:49] Deployment has '1' available replicas
+[2022-01-06 18:47:31 DEBUG] [activity:205]   => succeeded with 'True'
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2022-01-06 18:47:31 DEBUG] [hypothesis:221] allowed tolerance is True
+[2022-01-06 18:47:31 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2022-01-06 18:47:31 INFO] [run:600] Playing your experiment's method now...
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'method'
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2022-01-06 18:47:31 INFO] [activity:188] Action: delete-deployment
+[2022-01-06 18:47:31 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2022-01-06 18:47:31 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2022-01-06 18:47:31 DEBUG] [actions:62] Found 1 deployments named 'humid-sensor-service'
+[2022-01-06 18:47:31 DEBUG] [activity:207]   => succeeded without any result value
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'method'
+[2022-01-06 18:47:31 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2022-01-06 18:47:31 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2022-01-06 18:47:31 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2022-01-06 18:47:31 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2022-01-06 18:47:31 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2022-01-06 18:47:31 DEBUG] [probes:43] Found 0 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2022-01-06 18:47:31 DEBUG] [activity:260] Activity failed
+[2022-01-06 18:47:31 ERROR] [activity:213]   => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' was not found
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2022-01-06 18:47:31 WARNING] [hypothesis:208] Probe terminated unexpectedly, so its tolerance could not be validated
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2022-01-06 18:47:31 CRITICAL] [run:538] Steady state probe 'deployment-available-and-healthy' is not in the given tolerance so failing this experiment
+[2022-01-06 18:47:31 INFO] [run:451] Experiment ended with status: deviated
+[2022-01-06 18:47:31 INFO] [run:453] The steady-state has deviated, a weakness may have been discovered
+[2022-01-06 18:47:31 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2022-01-06 18:47:31 DEBUG] [__init__:82] Cleaning up controls
+[2022-01-06 18:47:31 DEBUG] [caching:42] Clearing activities cache

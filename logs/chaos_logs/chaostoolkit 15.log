@@ -1,0 +1,396 @@
+[2021-06-28 17:02:19 DEBUG] [cli:73] ###############################################################################
+[2021-06-28 17:02:19 DEBUG] [cli:74] Running command 'run'
+[2021-06-28 17:02:19 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-06-28 17:02:20 WARNING] [check:28] 
+[2021-06-28 17:02:20 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-06-28 17:02:20 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-06-28 17:02:20 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-06-28 17:02:20 DEBUG] [caching:25] Building activity cache...
+[2021-06-28 17:02:20 DEBUG] [caching:35] Cached 2 activities
+[2021-06-28 17:02:20 INFO] [experiment:47] Validating the experiment's syntax
+[2021-06-28 17:02:20 DEBUG] [configuration:54] Loading configuration...
+[2021-06-28 17:02:20 DEBUG] [secret:75] Loading secrets...
+[2021-06-28 17:02:20 DEBUG] [secret:92] Secrets loaded
+[2021-06-28 17:02:27 INFO] [experiment:96] Experiment looks valid
+[2021-06-28 17:02:27 DEBUG] [caching:42] Clearing activities cache
+[2021-06-28 17:02:27 DEBUG] [caching:25] Building activity cache...
+[2021-06-28 17:02:27 DEBUG] [caching:35] Cached 2 activities
+[2021-06-28 17:02:27 DEBUG] [configuration:54] Loading configuration...
+[2021-06-28 17:02:27 DEBUG] [secret:75] Loading secrets...
+[2021-06-28 17:02:27 DEBUG] [secret:92] Secrets loaded
+[2021-06-28 17:02:27 INFO] [run:323] Running experiment: What happens if we terminate an instance of the application?
+[2021-06-28 17:02:27 DEBUG] [__init__:39] Initializing controls
+[2021-06-28 17:02:27 INFO] [run:342] Steady-state strategy: default
+[2021-06-28 17:02:27 INFO] [run:345] Rollbacks strategy: default
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-06-28 17:02:27 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-06-28 17:02:27 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:02:27 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-06-28 17:02:27 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/probes.py'
+[2021-06-28 17:02:27 WARNING] [__init__:152] all_microservices_healthy function is DEPRECATED and will be removed in the next         releases, please use all_pods_healthy instead
+[2021-06-28 17:02:27 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-06-28 17:02:27 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-06-28 17:02:27 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:02:27 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-06-28 17:02:27 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:02:27 INFO] [run:553] Playing your experiment's method now...
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:02:27 INFO] [activity:161] Action: terminate-app-pod
+[2021-06-28 17:02:27 DEBUG] [python:34] Activity 'terminate-app-pod' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-06-28 17:02:27 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-06-28 17:02:27 DEBUG] [actions:193] Found 0 pods labelled 'app=yelb' in ns yelb
+[2021-06-28 17:02:27 DEBUG] [activity:182]   => succeeded without any result value
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-06-28 17:02:27 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-06-28 17:02:27 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:02:27 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-06-28 17:02:27 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/probes.py'
+[2021-06-28 17:02:27 WARNING] [__init__:152] all_microservices_healthy function is DEPRECATED and will be removed in the next         releases, please use all_pods_healthy instead
+[2021-06-28 17:02:27 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-06-28 17:02:27 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-06-28 17:02:27 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:02:27 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-06-28 17:02:27 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:02:27 INFO] [run:809] Let's rollback...
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-06-28 17:02:27 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-06-28 17:02:27 INFO] [run:421] Experiment ended with status: completed
+[2021-06-28 17:02:27 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-06-28 17:02:27 DEBUG] [__init__:72] Cleaning up controls
+[2021-06-28 17:02:27 DEBUG] [caching:42] Clearing activities cache
+[2021-06-28 17:04:11 DEBUG] [cli:73] ###############################################################################
+[2021-06-28 17:04:11 DEBUG] [cli:74] Running command 'run'
+[2021-06-28 17:04:11 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-06-28 17:04:11 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-06-28 17:04:11 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-06-28 17:04:11 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-06-28 17:04:11 DEBUG] [caching:25] Building activity cache...
+[2021-06-28 17:04:11 DEBUG] [caching:35] Cached 2 activities
+[2021-06-28 17:04:11 INFO] [experiment:47] Validating the experiment's syntax
+[2021-06-28 17:04:11 DEBUG] [configuration:54] Loading configuration...
+[2021-06-28 17:04:11 DEBUG] [secret:75] Loading secrets...
+[2021-06-28 17:04:11 DEBUG] [secret:92] Secrets loaded
+[2021-06-28 17:04:13 INFO] [experiment:96] Experiment looks valid
+[2021-06-28 17:04:13 DEBUG] [caching:42] Clearing activities cache
+[2021-06-28 17:04:13 DEBUG] [caching:25] Building activity cache...
+[2021-06-28 17:04:13 DEBUG] [caching:35] Cached 2 activities
+[2021-06-28 17:04:13 DEBUG] [configuration:54] Loading configuration...
+[2021-06-28 17:04:13 DEBUG] [secret:75] Loading secrets...
+[2021-06-28 17:04:13 DEBUG] [secret:92] Secrets loaded
+[2021-06-28 17:04:13 INFO] [run:323] Running experiment: What happens if we terminate an instance of the application?
+[2021-06-28 17:04:13 DEBUG] [__init__:39] Initializing controls
+[2021-06-28 17:04:13 INFO] [run:342] Steady-state strategy: default
+[2021-06-28 17:04:13 INFO] [run:345] Rollbacks strategy: default
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-06-28 17:04:13 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-06-28 17:04:13 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:04:13 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-06-28 17:04:13 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-06-28 17:04:13 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-06-28 17:04:13 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-06-28 17:04:13 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:04:13 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-06-28 17:04:13 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:04:13 INFO] [run:553] Playing your experiment's method now...
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:04:13 INFO] [activity:161] Action: terminate-app-pod
+[2021-06-28 17:04:13 DEBUG] [python:34] Activity 'terminate-app-pod' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-06-28 17:04:13 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-06-28 17:04:13 DEBUG] [actions:193] Found 0 pods labelled 'app=yelb' in ns yelb
+[2021-06-28 17:04:13 DEBUG] [activity:182]   => succeeded without any result value
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-06-28 17:04:13 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-06-28 17:04:13 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:04:13 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-06-28 17:04:13 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-06-28 17:04:13 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-06-28 17:04:13 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-06-28 17:04:13 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:04:13 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-06-28 17:04:13 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:04:13 INFO] [run:809] Let's rollback...
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-06-28 17:04:13 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-06-28 17:04:13 INFO] [run:421] Experiment ended with status: completed
+[2021-06-28 17:04:13 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-06-28 17:04:13 DEBUG] [__init__:72] Cleaning up controls
+[2021-06-28 17:04:13 DEBUG] [caching:42] Clearing activities cache
+[2021-06-28 17:05:52 DEBUG] [cli:73] ###############################################################################
+[2021-06-28 17:05:52 DEBUG] [cli:74] Running command 'run'
+[2021-06-28 17:05:52 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-06-28 17:05:53 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-06-28 17:05:53 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-06-28 17:05:53 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-06-28 17:05:53 DEBUG] [caching:25] Building activity cache...
+[2021-06-28 17:05:53 DEBUG] [caching:35] Cached 2 activities
+[2021-06-28 17:05:53 INFO] [experiment:47] Validating the experiment's syntax
+[2021-06-28 17:05:53 DEBUG] [configuration:54] Loading configuration...
+[2021-06-28 17:05:53 DEBUG] [secret:75] Loading secrets...
+[2021-06-28 17:05:53 DEBUG] [secret:92] Secrets loaded
+[2021-06-28 17:05:54 INFO] [experiment:96] Experiment looks valid
+[2021-06-28 17:05:54 DEBUG] [caching:42] Clearing activities cache
+[2021-06-28 17:05:54 DEBUG] [caching:25] Building activity cache...
+[2021-06-28 17:05:54 DEBUG] [caching:35] Cached 2 activities
+[2021-06-28 17:05:54 DEBUG] [configuration:54] Loading configuration...
+[2021-06-28 17:05:54 DEBUG] [secret:75] Loading secrets...
+[2021-06-28 17:05:54 DEBUG] [secret:92] Secrets loaded
+[2021-06-28 17:05:54 INFO] [run:323] Running experiment: What happens if we terminate an instance of the application?
+[2021-06-28 17:05:54 DEBUG] [__init__:39] Initializing controls
+[2021-06-28 17:05:54 INFO] [run:342] Steady-state strategy: default
+[2021-06-28 17:05:54 INFO] [run:345] Rollbacks strategy: default
+[2021-06-28 17:05:54 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-06-28 17:05:54 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-06-28 17:05:54 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-06-28 17:05:54 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:05:54 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:05:54 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-06-28 17:05:54 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-06-28 17:05:54 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-06-28 17:05:55 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-06-28 17:05:55 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:05:55 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-06-28 17:05:55 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:05:55 INFO] [run:553] Playing your experiment's method now...
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:05:55 INFO] [activity:161] Action: terminate-app-pod
+[2021-06-28 17:05:55 DEBUG] [python:34] Activity 'terminate-app-pod' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-06-28 17:05:55 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-06-28 17:05:55 DEBUG] [actions:193] Found 1 pods labelled 'app=yelb-ui' in ns yelb
+[2021-06-28 17:05:55 DEBUG] [activity:182]   => succeeded without any result value
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-06-28 17:05:55 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-06-28 17:05:55 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:05:55 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-06-28 17:05:55 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-06-28 17:05:55 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-06-28 17:05:55 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-06-28 17:05:55 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-06-28 17:05:55 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-06-28 17:05:55 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-06-28 17:05:55 INFO] [run:809] Let's rollback...
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-06-28 17:05:55 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-06-28 17:05:55 INFO] [run:421] Experiment ended with status: completed
+[2021-06-28 17:05:55 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-06-28 17:05:55 DEBUG] [__init__:72] Cleaning up controls
+[2021-06-28 17:05:55 DEBUG] [caching:42] Clearing activities cache
+[2021-07-30 11:10:31 DEBUG] [cli:73] ###############################################################################
+[2021-07-30 11:10:31 DEBUG] [cli:74] Running command 'run'
+[2021-07-30 11:10:31 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-30 11:10:32 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-30 11:10:32 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-30 11:10:32 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-30 11:10:32 DEBUG] [caching:25] Building activity cache...
+[2021-07-30 11:10:32 DEBUG] [caching:35] Cached 2 activities
+[2021-07-30 11:10:32 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-30 11:10:32 DEBUG] [configuration:54] Loading configuration...
+[2021-07-30 11:10:32 DEBUG] [secret:75] Loading secrets...
+[2021-07-30 11:10:32 DEBUG] [secret:92] Secrets loaded
+[2021-07-30 11:10:33 INFO] [experiment:96] Experiment looks valid
+[2021-07-30 11:10:33 DEBUG] [caching:42] Clearing activities cache
+[2021-07-30 11:10:33 DEBUG] [caching:25] Building activity cache...
+[2021-07-30 11:10:33 DEBUG] [caching:35] Cached 2 activities
+[2021-07-30 11:10:33 DEBUG] [configuration:54] Loading configuration...
+[2021-07-30 11:10:33 DEBUG] [secret:75] Loading secrets...
+[2021-07-30 11:10:33 DEBUG] [secret:92] Secrets loaded
+[2021-07-30 11:10:33 INFO] [run:323] Running experiment: What happens if we terminate an instance of the application?
+[2021-07-30 11:10:33 DEBUG] [__init__:39] Initializing controls
+[2021-07-30 11:10:33 INFO] [run:342] Steady-state strategy: default
+[2021-07-30 11:10:33 INFO] [run:345] Rollbacks strategy: default
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-30 11:10:33 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-30 11:10:33 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:10:33 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-07-30 11:10:33 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-07-30 11:10:33 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-30 11:10:33 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-07-30 11:10:33 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:10:33 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-30 11:10:33 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-30 11:10:33 INFO] [run:553] Playing your experiment's method now...
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:10:33 INFO] [activity:161] Action: terminate-app-pod
+[2021-07-30 11:10:33 DEBUG] [python:34] Activity 'terminate-app-pod' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-07-30 11:10:33 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-30 11:10:33 DEBUG] [actions:193] Found 1 pods labelled 'app=yelb-ui' in ns yelb
+[2021-07-30 11:10:33 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-30 11:10:33 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-30 11:10:33 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:10:33 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-07-30 11:10:33 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-07-30 11:10:33 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-30 11:10:33 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-07-30 11:10:33 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:10:33 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-30 11:10:33 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-30 11:10:33 INFO] [run:809] Let's rollback...
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-30 11:10:33 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-30 11:10:33 INFO] [run:421] Experiment ended with status: completed
+[2021-07-30 11:10:33 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-30 11:10:33 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-30 11:10:33 DEBUG] [caching:42] Clearing activities cache
+[2021-07-30 11:16:00 DEBUG] [cli:73] ###############################################################################
+[2021-07-30 11:16:00 DEBUG] [cli:74] Running command 'report'
+[2021-07-30 11:16:00 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-30 11:16:01 DEBUG] [caching:25] Building activity cache...
+[2021-07-30 11:16:01 DEBUG] [caching:35] Cached 2 activities
+[2021-07-30 09:18:18 DEBUG] ###############################################################################
+[2021-07-30 09:18:18 DEBUG] Running command 'report'
+[2021-07-30 09:18:18 DEBUG] Using settings file '/.chaostoolkit/settings.yaml'
+[2021-07-30 09:18:19 WARNING] 
+[2021-07-30 09:18:19 DEBUG] Building activity cache...
+[2021-07-30 09:18:19 DEBUG] Cached 2 activities
+[2021-07-30 11:25:34 DEBUG] [cli:73] ###############################################################################
+[2021-07-30 11:25:34 DEBUG] [cli:74] Running command 'run'
+[2021-07-30 11:25:34 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-30 11:25:34 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-30 11:25:34 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-30 11:25:34 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-30 11:25:34 DEBUG] [caching:25] Building activity cache...
+[2021-07-30 11:25:34 DEBUG] [caching:35] Cached 2 activities
+[2021-07-30 11:25:34 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-30 11:25:34 DEBUG] [configuration:54] Loading configuration...
+[2021-07-30 11:25:34 DEBUG] [secret:75] Loading secrets...
+[2021-07-30 11:25:34 DEBUG] [secret:92] Secrets loaded
+[2021-07-30 11:25:35 INFO] [experiment:96] Experiment looks valid
+[2021-07-30 11:25:35 DEBUG] [caching:42] Clearing activities cache
+[2021-07-30 11:25:35 DEBUG] [caching:25] Building activity cache...
+[2021-07-30 11:25:35 DEBUG] [caching:35] Cached 2 activities
+[2021-07-30 11:25:35 DEBUG] [configuration:54] Loading configuration...
+[2021-07-30 11:25:35 DEBUG] [secret:75] Loading secrets...
+[2021-07-30 11:25:35 DEBUG] [secret:92] Secrets loaded
+[2021-07-30 11:25:35 INFO] [run:323] Running experiment: What happens if we terminate an instance of the application?
+[2021-07-30 11:25:35 DEBUG] [__init__:39] Initializing controls
+[2021-07-30 11:25:35 INFO] [run:342] Steady-state strategy: default
+[2021-07-30 11:25:35 INFO] [run:345] Rollbacks strategy: default
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-30 11:25:35 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-30 11:25:35 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:25:35 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-07-30 11:25:35 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-07-30 11:25:35 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-30 11:25:35 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-07-30 11:25:35 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:25:35 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-30 11:25:35 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-30 11:25:35 INFO] [run:553] Playing your experiment's method now...
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:25:35 INFO] [activity:161] Action: terminate-app-pod
+[2021-07-30 11:25:35 DEBUG] [python:34] Activity 'terminate-app-pod' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-07-30 11:25:35 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-30 11:25:35 DEBUG] [actions:193] Found 1 pods labelled 'app=yelb-ui' in ns yelb
+[2021-07-30 11:25:35 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-30 11:25:35 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-30 11:25:35 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:25:35 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-07-30 11:25:35 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-07-30 11:25:35 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-30 11:25:35 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-07-30 11:25:35 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:25:35 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-30 11:25:35 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-30 11:25:35 INFO] [run:809] Let's rollback...
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-30 11:25:35 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-30 11:25:35 INFO] [run:421] Experiment ended with status: completed
+[2021-07-30 11:25:35 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-30 11:25:35 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-30 11:25:35 DEBUG] [caching:42] Clearing activities cache
+[2021-07-30 11:25:45 DEBUG] [cli:73] ###############################################################################
+[2021-07-30 11:25:45 DEBUG] [cli:74] Running command 'run'
+[2021-07-30 11:25:45 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-30 11:25:45 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-30 11:25:45 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-30 11:25:45 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-30 11:25:45 DEBUG] [caching:25] Building activity cache...
+[2021-07-30 11:25:45 DEBUG] [caching:35] Cached 2 activities
+[2021-07-30 11:25:45 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-30 11:25:45 DEBUG] [configuration:54] Loading configuration...
+[2021-07-30 11:25:45 DEBUG] [secret:75] Loading secrets...
+[2021-07-30 11:25:45 DEBUG] [secret:92] Secrets loaded
+[2021-07-30 11:25:46 INFO] [experiment:96] Experiment looks valid
+[2021-07-30 11:25:46 DEBUG] [caching:42] Clearing activities cache
+[2021-07-30 11:25:46 DEBUG] [caching:25] Building activity cache...
+[2021-07-30 11:25:46 DEBUG] [caching:35] Cached 2 activities
+[2021-07-30 11:25:46 DEBUG] [configuration:54] Loading configuration...
+[2021-07-30 11:25:46 DEBUG] [secret:75] Loading secrets...
+[2021-07-30 11:25:46 DEBUG] [secret:92] Secrets loaded
+[2021-07-30 11:25:46 INFO] [run:323] Running experiment: What happens if we terminate an instance of the application?
+[2021-07-30 11:25:46 DEBUG] [__init__:39] Initializing controls
+[2021-07-30 11:25:46 INFO] [run:342] Steady-state strategy: default
+[2021-07-30 11:25:46 INFO] [run:345] Rollbacks strategy: default
+[2021-07-30 11:25:46 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-30 11:25:46 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-30 11:25:46 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-07-30 11:25:46 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-30 11:25:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:25:46 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-07-30 11:25:46 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-07-30 11:25:46 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-30 11:25:46 DEBUG] [probes:277] Found 0 failed and 1 not ready pods
+[2021-07-30 11:25:46 DEBUG] [activity:235] Activity failed
+[2021-07-30 11:25:46 ERROR] [activity:188]   => failed: chaoslib.exceptions.ActivityFailed: the system is unhealthy
+[2021-07-30 11:25:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-30 11:25:46 WARNING] [hypothesis:200] Probe terminated unexpectedly, so its tolerance could not be validated
+[2021-07-30 11:25:46 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-30 11:25:46 CRITICAL] [run:477] Steady state probe 'all-apps-are-healthy' is not in the given tolerance so failing this experiment
+[2021-07-30 11:25:46 INFO] [run:421] Experiment ended with status: failed
+[2021-07-30 11:25:46 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-30 11:25:46 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-30 11:25:46 DEBUG] [caching:42] Clearing activities cache

@@ -1,0 +1,545 @@
+[2021-02-24 00:51:48 DEBUG] [cli:73] ###############################################################################
+[2021-02-24 00:51:48 DEBUG] [cli:74] Running command 'run'
+[2021-02-24 00:51:48 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-02-24 00:51:48 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-02-24 00:51:48 DEBUG] [caching:25] Building activity cache...
+[2021-02-24 00:51:48 DEBUG] [caching:35] Cached 2 activities
+[2021-02-24 00:51:48 INFO] [experiment:47] Validating the experiment's syntax
+[2021-02-24 00:51:48 DEBUG] [configuration:54] Loading configuration...
+[2021-02-24 00:51:48 DEBUG] [secret:75] Loading secrets...
+[2021-02-24 00:51:48 DEBUG] [secret:92] Secrets loaded
+[2021-02-24 00:51:48 INFO] [experiment:96] Experiment looks valid
+[2021-02-24 00:51:48 DEBUG] [caching:42] Clearing activities cache
+[2021-02-24 00:51:48 DEBUG] [caching:25] Building activity cache...
+[2021-02-24 00:51:48 DEBUG] [caching:35] Cached 2 activities
+[2021-02-24 00:51:48 DEBUG] [configuration:54] Loading configuration...
+[2021-02-24 00:51:48 DEBUG] [secret:75] Loading secrets...
+[2021-02-24 00:51:48 DEBUG] [secret:92] Secrets loaded
+[2021-02-24 00:51:48 INFO] [run:323] Running experiment: Does our service tolerate the loss of its exchange file?
+[2021-02-24 00:51:48 DEBUG] [__init__:39] Initializing controls
+[2021-02-24 00:51:48 INFO] [run:342] Steady-state strategy: default
+[2021-02-24 00:51:48 INFO] [run:345] Rollbacks strategy: default
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-02-24 00:51:48 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-02-24 00:51:48 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 00:51:48 INFO] [activity:161] Probe: service-is-unavailable
+[2021-02-24 00:51:48 DEBUG] [activity:180]   => succeeded with '{'status': 200, 'headers': {'Date': 'Tue, 23 Feb 2021 23:51:48 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': '2021-02-24T00:51:44.551436'}'
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 00:51:48 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-02-24 00:51:48 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 00:51:48 INFO] [run:553] Playing your experiment's method now...
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 00:51:48 INFO] [activity:161] Action: move-exchange-file
+[2021-02-24 00:51:48 DEBUG] [activity:182]   => succeeded without any result value
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-02-24 00:51:48 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-02-24 00:51:48 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 00:51:48 INFO] [activity:161] Probe: service-is-unavailable
+[2021-02-24 00:51:48 DEBUG] [activity:180]   => succeeded with '{'status': 500, 'headers': {'Date': 'Tue, 23 Feb 2021 23:51:48 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-Type': 'text/plain', 'Content-Length': '59'}, 'body': 'A server error occurred.  Please contact the administrator.'}'
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 00:51:48 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 00:51:48 CRITICAL] [run:507] Steady state probe 'service-is-unavailable' is not in the given tolerance so failing this experiment
+[2021-02-24 00:51:48 INFO] [run:421] Experiment ended with status: deviated
+[2021-02-24 00:51:48 INFO] [run:423] The steady-state has deviated, a weakness may have been discovered
+[2021-02-24 00:51:48 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-02-24 00:51:48 DEBUG] [__init__:72] Cleaning up controls
+[2021-02-24 00:51:48 DEBUG] [caching:42] Clearing activities cache
+[2021-02-24 01:18:40 DEBUG] [cli:73] ###############################################################################
+[2021-02-24 01:18:40 DEBUG] [cli:74] Running command 'run'
+[2021-02-24 01:18:40 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-02-24 01:18:41 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-02-24 01:18:41 DEBUG] [caching:25] Building activity cache...
+[2021-02-24 01:18:41 DEBUG] [caching:35] Cached 2 activities
+[2021-02-24 01:18:41 INFO] [experiment:47] Validating the experiment's syntax
+[2021-02-24 01:18:41 DEBUG] [configuration:54] Loading configuration...
+[2021-02-24 01:18:41 DEBUG] [secret:75] Loading secrets...
+[2021-02-24 01:18:41 DEBUG] [secret:92] Secrets loaded
+[2021-02-24 01:18:41 INFO] [experiment:96] Experiment looks valid
+[2021-02-24 01:18:41 DEBUG] [caching:42] Clearing activities cache
+[2021-02-24 01:18:41 DEBUG] [caching:25] Building activity cache...
+[2021-02-24 01:18:41 DEBUG] [caching:35] Cached 2 activities
+[2021-02-24 01:18:41 DEBUG] [configuration:54] Loading configuration...
+[2021-02-24 01:18:41 DEBUG] [secret:75] Loading secrets...
+[2021-02-24 01:18:41 DEBUG] [secret:92] Secrets loaded
+[2021-02-24 01:18:41 INFO] [run:323] Running experiment: Does our service tolerate the loss of its exchange file?
+[2021-02-24 01:18:41 DEBUG] [__init__:39] Initializing controls
+[2021-02-24 01:18:41 INFO] [run:342] Steady-state strategy: default
+[2021-02-24 01:18:41 INFO] [run:345] Rollbacks strategy: default
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-02-24 01:18:41 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-02-24 01:18:41 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:18:41 INFO] [activity:161] Probe: service-is-unavailable
+[2021-02-24 01:18:41 DEBUG] [activity:180]   => succeeded with '{'status': 200, 'headers': {'Date': 'Wed, 24 Feb 2021 00:18:41 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': '2021-02-24T01:18:41.368106'}'
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:18:41 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-02-24 01:18:41 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 01:18:41 INFO] [run:553] Playing your experiment's method now...
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:18:41 INFO] [activity:161] Action: move-exchange-file
+[2021-02-24 01:18:41 DEBUG] [activity:182]   => succeeded without any result value
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-02-24 01:18:41 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-02-24 01:18:41 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:18:41 INFO] [activity:161] Probe: service-is-unavailable
+[2021-02-24 01:18:41 DEBUG] [activity:180]   => succeeded with '{'status': 503, 'headers': {'Date': 'Wed, 24 Feb 2021 00:18:41 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': 'Exchange file is not ready'}'
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:18:41 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-02-24 01:18:41 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 01:18:41 INFO] [run:809] Let's rollback...
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-02-24 01:18:41 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-02-24 01:18:41 INFO] [run:421] Experiment ended with status: completed
+[2021-02-24 01:18:41 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-02-24 01:18:41 DEBUG] [__init__:72] Cleaning up controls
+[2021-02-24 01:18:41 DEBUG] [caching:42] Clearing activities cache
+[2021-02-24 01:19:43 DEBUG] [cli:73] ###############################################################################
+[2021-02-24 01:19:43 DEBUG] [cli:74] Running command 'run'
+[2021-02-24 01:19:43 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-02-24 01:19:44 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-02-24 01:19:44 DEBUG] [caching:25] Building activity cache...
+[2021-02-24 01:19:44 DEBUG] [caching:35] Cached 2 activities
+[2021-02-24 01:19:44 INFO] [experiment:47] Validating the experiment's syntax
+[2021-02-24 01:19:44 DEBUG] [configuration:54] Loading configuration...
+[2021-02-24 01:19:44 DEBUG] [secret:75] Loading secrets...
+[2021-02-24 01:19:44 DEBUG] [secret:92] Secrets loaded
+[2021-02-24 01:19:44 INFO] [experiment:96] Experiment looks valid
+[2021-02-24 01:19:44 DEBUG] [caching:42] Clearing activities cache
+[2021-02-24 01:19:44 DEBUG] [caching:25] Building activity cache...
+[2021-02-24 01:19:44 DEBUG] [caching:35] Cached 2 activities
+[2021-02-24 01:19:44 DEBUG] [configuration:54] Loading configuration...
+[2021-02-24 01:19:44 DEBUG] [secret:75] Loading secrets...
+[2021-02-24 01:19:44 DEBUG] [secret:92] Secrets loaded
+[2021-02-24 01:19:44 INFO] [run:323] Running experiment: Does our service tolerate the loss of its exchange file?
+[2021-02-24 01:19:44 DEBUG] [__init__:39] Initializing controls
+[2021-02-24 01:19:44 INFO] [run:342] Steady-state strategy: default
+[2021-02-24 01:19:44 INFO] [run:345] Rollbacks strategy: default
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-02-24 01:19:44 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-02-24 01:19:44 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:19:44 INFO] [activity:161] Probe: service-is-unavailable
+[2021-02-24 01:19:44 DEBUG] [activity:180]   => succeeded with '{'status': 200, 'headers': {'Date': 'Wed, 24 Feb 2021 00:19:44 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': '2021-02-24T01:19:41.398604'}'
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:19:44 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-02-24 01:19:44 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 01:19:44 INFO] [run:553] Playing your experiment's method now...
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:19:44 INFO] [activity:161] Action: move-exchange-file
+[2021-02-24 01:19:44 DEBUG] [activity:182]   => succeeded without any result value
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-02-24 01:19:44 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-02-24 01:19:44 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:19:44 INFO] [activity:161] Probe: service-is-unavailable
+[2021-02-24 01:19:44 DEBUG] [activity:180]   => succeeded with '{'status': 503, 'headers': {'Date': 'Wed, 24 Feb 2021 00:19:44 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': 'Exchange file is not ready'}'
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-02-24 01:19:44 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-02-24 01:19:44 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-02-24 01:19:44 INFO] [run:809] Let's rollback...
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-02-24 01:19:44 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-02-24 01:19:44 INFO] [run:421] Experiment ended with status: completed
+[2021-02-24 01:19:44 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-02-24 01:19:44 DEBUG] [__init__:72] Cleaning up controls
+[2021-02-24 01:19:44 DEBUG] [caching:42] Clearing activities cache
+[2021-03-09 14:33:07 DEBUG] [cli:73] ###############################################################################
+[2021-03-09 14:33:07 DEBUG] [cli:74] Running command 'run'
+[2021-03-09 14:33:07 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-09 14:33:09 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-09 14:33:09 DEBUG] [caching:25] Building activity cache...
+[2021-03-09 14:33:09 DEBUG] [caching:35] Cached 2 activities
+[2021-03-09 14:33:09 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-09 14:33:09 DEBUG] [configuration:54] Loading configuration...
+[2021-03-09 14:33:09 DEBUG] [secret:75] Loading secrets...
+[2021-03-09 14:33:09 DEBUG] [secret:92] Secrets loaded
+[2021-03-09 14:33:09 INFO] [experiment:96] Experiment looks valid
+[2021-03-09 14:33:09 DEBUG] [caching:42] Clearing activities cache
+[2021-03-09 14:33:09 DEBUG] [caching:25] Building activity cache...
+[2021-03-09 14:33:09 DEBUG] [caching:35] Cached 2 activities
+[2021-03-09 14:33:09 DEBUG] [configuration:54] Loading configuration...
+[2021-03-09 14:33:09 DEBUG] [secret:75] Loading secrets...
+[2021-03-09 14:33:09 DEBUG] [secret:92] Secrets loaded
+[2021-03-09 14:33:09 INFO] [run:323] Running experiment: Does our service tolerate the loss of its exchange file?
+[2021-03-09 14:33:09 DEBUG] [__init__:39] Initializing controls
+[2021-03-09 14:33:09 INFO] [run:342] Steady-state strategy: default
+[2021-03-09 14:33:09 INFO] [run:345] Rollbacks strategy: default
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-09 14:33:09 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-09 14:33:09 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:33:09 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-09 14:33:09 DEBUG] [activity:180]   => succeeded with '{'status': 200, 'headers': {'Date': 'Tue, 09 Mar 2021 13:33:09 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': '2021-03-09T14:32:59.583625'}'
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:33:09 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-03-09 14:33:09 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:33:09 INFO] [run:553] Playing your experiment's method now...
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:33:09 INFO] [activity:161] Action: move-exchange-file
+[2021-03-09 14:33:09 DEBUG] [activity:182]   => succeeded without any result value
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-03-09 14:33:09 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-03-09 14:33:09 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:33:09 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-09 14:33:09 DEBUG] [activity:180]   => succeeded with '{'status': 500, 'headers': {'Date': 'Tue, 09 Mar 2021 13:33:09 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-Type': 'text/plain', 'Content-Length': '59'}, 'body': 'A server error occurred.  Please contact the administrator.'}'
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:33:09 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:33:09 CRITICAL] [run:507] Steady state probe 'service-is-unavailable' is not in the given tolerance so failing this experiment
+[2021-03-09 14:33:09 INFO] [run:421] Experiment ended with status: deviated
+[2021-03-09 14:33:09 INFO] [run:423] The steady-state has deviated, a weakness may have been discovered
+[2021-03-09 14:33:09 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-09 14:33:09 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-09 14:33:09 DEBUG] [caching:42] Clearing activities cache
+[2021-03-09 14:40:25 DEBUG] [cli:73] ###############################################################################
+[2021-03-09 14:40:25 DEBUG] [cli:74] Running command 'run'
+[2021-03-09 14:40:25 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-09 14:40:27 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-09 14:40:27 DEBUG] [caching:25] Building activity cache...
+[2021-03-09 14:40:27 DEBUG] [caching:35] Cached 2 activities
+[2021-03-09 14:40:27 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-09 14:40:27 DEBUG] [configuration:54] Loading configuration...
+[2021-03-09 14:40:27 DEBUG] [secret:75] Loading secrets...
+[2021-03-09 14:40:27 DEBUG] [secret:92] Secrets loaded
+[2021-03-09 14:40:27 INFO] [experiment:96] Experiment looks valid
+[2021-03-09 14:40:27 DEBUG] [caching:42] Clearing activities cache
+[2021-03-09 14:40:27 DEBUG] [caching:25] Building activity cache...
+[2021-03-09 14:40:27 DEBUG] [caching:35] Cached 2 activities
+[2021-03-09 14:40:27 DEBUG] [configuration:54] Loading configuration...
+[2021-03-09 14:40:27 DEBUG] [secret:75] Loading secrets...
+[2021-03-09 14:40:27 DEBUG] [secret:92] Secrets loaded
+[2021-03-09 14:40:27 INFO] [run:323] Running experiment: Does our service tolerate the loss of its exchange file?
+[2021-03-09 14:40:27 DEBUG] [__init__:39] Initializing controls
+[2021-03-09 14:40:27 INFO] [run:342] Steady-state strategy: default
+[2021-03-09 14:40:27 INFO] [run:345] Rollbacks strategy: default
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-09 14:40:27 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-09 14:40:27 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:40:27 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-09 14:40:27 DEBUG] [activity:180]   => succeeded with '{'status': 200, 'headers': {'Date': 'Tue, 09 Mar 2021 13:40:27 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': '2021-03-09T14:40:26.461263'}'
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:40:27 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-03-09 14:40:27 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:40:27 INFO] [run:553] Playing your experiment's method now...
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:40:27 INFO] [activity:161] Action: move-exchange-file
+[2021-03-09 14:40:27 DEBUG] [activity:182]   => succeeded without any result value
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-03-09 14:40:27 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-03-09 14:40:27 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:40:27 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-09 14:40:27 DEBUG] [activity:180]   => succeeded with '{'status': 503, 'headers': {'Date': 'Tue, 09 Mar 2021 13:40:27 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': 'Exchange file is not ready'}'
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:40:27 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-03-09 14:40:27 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:40:27 INFO] [run:809] Let's rollback...
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-03-09 14:40:27 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-03-09 14:40:27 INFO] [run:421] Experiment ended with status: completed
+[2021-03-09 14:40:27 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-09 14:40:27 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-09 14:40:27 DEBUG] [caching:42] Clearing activities cache
+[2021-03-09 14:44:56 DEBUG] [cli:73] ###############################################################################
+[2021-03-09 14:44:56 DEBUG] [cli:74] Running command 'run'
+[2021-03-09 14:44:56 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-09 14:44:57 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-09 14:44:57 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-09 14:44:57 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-09 14:44:57 DEBUG] [caching:25] Building activity cache...
+[2021-03-09 14:44:57 DEBUG] [caching:35] Cached 2 activities
+[2021-03-09 14:44:57 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-09 14:44:57 DEBUG] [configuration:54] Loading configuration...
+[2021-03-09 14:44:57 DEBUG] [secret:75] Loading secrets...
+[2021-03-09 14:44:57 DEBUG] [secret:92] Secrets loaded
+[2021-03-09 14:44:57 INFO] [experiment:96] Experiment looks valid
+[2021-03-09 14:44:57 DEBUG] [caching:42] Clearing activities cache
+[2021-03-09 14:44:57 DEBUG] [caching:25] Building activity cache...
+[2021-03-09 14:44:57 DEBUG] [caching:35] Cached 2 activities
+[2021-03-09 14:44:57 DEBUG] [configuration:54] Loading configuration...
+[2021-03-09 14:44:57 DEBUG] [secret:75] Loading secrets...
+[2021-03-09 14:44:57 DEBUG] [secret:92] Secrets loaded
+[2021-03-09 14:44:57 INFO] [run:323] Running experiment: Does our service tolerate the loss of its exchange file?
+[2021-03-09 14:44:57 DEBUG] [__init__:39] Initializing controls
+[2021-03-09 14:44:57 INFO] [run:342] Steady-state strategy: default
+[2021-03-09 14:44:57 INFO] [run:345] Rollbacks strategy: default
+[2021-03-09 14:44:57 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-09 14:44:57 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-09 14:44:57 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-09 14:44:57 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:44:57 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:44:57 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-09 14:44:57 DEBUG] [activity:235] Activity failed
+[2021-03-09 14:44:57 ERROR] [activity:188]   => failed: failed to connect to http://localhost:8080/: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe4fefaa9a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+[2021-03-09 14:44:57 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:44:57 WARNING] [hypothesis:200] Probe terminated unexpectedly, so its tolerance could not be validated
+[2021-03-09 14:44:57 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:44:57 CRITICAL] [run:477] Steady state probe 'service-is-unavailable' is not in the given tolerance so failing this experiment
+[2021-03-09 14:44:57 INFO] [run:421] Experiment ended with status: failed
+[2021-03-09 14:44:57 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-09 14:44:57 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-09 14:44:57 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 02:03:06 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 02:03:06 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 02:03:06 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 02:03:08 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 02:03:08 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 02:03:08 DEBUG] [caching:35] Cached 2 activities
+[2021-03-18 02:03:08 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 02:03:08 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 02:03:08 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 02:03:08 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 02:03:08 INFO] [experiment:96] Experiment looks valid
+[2021-03-18 02:03:08 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 02:03:08 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 02:03:08 DEBUG] [caching:35] Cached 2 activities
+[2021-03-18 02:03:08 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 02:03:08 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 02:03:08 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 02:03:08 INFO] [run:323] Running experiment: Does our service tolerate the loss of its exchange file?
+[2021-03-18 02:03:08 DEBUG] [__init__:39] Initializing controls
+[2021-03-18 02:03:08 INFO] [run:342] Steady-state strategy: default
+[2021-03-18 02:03:08 INFO] [run:345] Rollbacks strategy: default
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-18 02:03:08 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-18 02:03:08 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 02:03:08 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-18 02:03:08 DEBUG] [activity:180]   => succeeded with '{'status': 200, 'headers': {'Date': 'Thu, 18 Mar 2021 01:03:08 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': '2021-03-18T02:03:08.501274'}'
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 02:03:08 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-03-18 02:03:08 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-18 02:03:08 INFO] [run:553] Playing your experiment's method now...
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 02:03:08 INFO] [activity:161] Action: move-exchange-file
+[2021-03-18 02:03:08 DEBUG] [activity:182]   => succeeded without any result value
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-03-18 02:03:08 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-03-18 02:03:08 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 02:03:08 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-18 02:03:08 DEBUG] [activity:180]   => succeeded with '{'status': 500, 'headers': {'Date': 'Thu, 18 Mar 2021 01:03:08 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-Type': 'text/plain', 'Content-Length': '59'}, 'body': 'A server error occurred.  Please contact the administrator.'}'
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 02:03:08 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-18 02:03:08 CRITICAL] [run:507] Steady state probe 'service-is-unavailable' is not in the given tolerance so failing this experiment
+[2021-03-18 02:03:08 INFO] [run:421] Experiment ended with status: deviated
+[2021-03-18 02:03:08 INFO] [run:423] The steady-state has deviated, a weakness may have been discovered
+[2021-03-18 02:03:08 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-18 02:03:08 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-18 02:03:08 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 02:16:57 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 02:16:57 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 02:16:57 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 02:16:58 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 02:16:58 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 02:16:58 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 02:16:58 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 02:16:58 DEBUG] [caching:35] Cached 2 activities
+[2021-03-18 02:16:58 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 02:16:58 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 02:16:58 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 02:16:58 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 02:16:58 INFO] [experiment:96] Experiment looks valid
+[2021-03-18 02:16:58 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 02:16:58 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 02:16:58 DEBUG] [caching:35] Cached 2 activities
+[2021-03-18 02:16:58 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 02:16:58 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 02:16:58 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 02:16:58 INFO] [run:323] Running experiment: Does our service tolerate the loss of its exchange file?
+[2021-03-18 02:16:58 DEBUG] [__init__:39] Initializing controls
+[2021-03-18 02:16:58 DEBUG] [__init__:48] Initializing control 'opentracing'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'configure_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 DEBUG] [control:24] Configuring opentracing control...
+[2021-03-18 02:16:58 DEBUG] [control:29] Creating a jaeger tracer
+[2021-03-18 02:16:58 DEBUG] [control:311] Configured Jaeger Tracer to send to '127.0.0.1:6831'
+[2021-03-18 02:16:58 DEBUG] [control:41] OpenTracing tracer <jaeger_client.tracer.Tracer object at 0x7ff6225f45b0> created
+[2021-03-18 02:16:58 INFO] [run:342] Steady-state strategy: default
+[2021-03-18 02:16:58 INFO] [run:345] Rollbacks strategy: default
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'experiment'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'before_experiment_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-18 02:16:58 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'hypothesis'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'before_hypothesis_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'activity'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'before_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-18 02:16:58 DEBUG] [activity:180]   => succeeded with '{'status': 200, 'headers': {'Date': 'Thu, 18 Mar 2021 01:16:58 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': '2021-03-18T02:16:50.314132'}'
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'activity'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'after_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-03-18 02:16:58 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'hypothesis'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'after_hypothesis_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 INFO] [run:553] Playing your experiment's method now...
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'method'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'before_method_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'activity'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'before_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 INFO] [activity:161] Action: move-exchange-file
+[2021-03-18 02:16:58 DEBUG] [activity:182]   => succeeded without any result value
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'activity'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'after_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'method'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'after_method_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-03-18 02:16:58 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'hypothesis'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'before_hypothesis_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'activity'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'before_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-18 02:16:58 DEBUG] [activity:180]   => succeeded with '{'status': 500, 'headers': {'Date': 'Thu, 18 Mar 2021 01:16:58 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-Type': 'text/plain', 'Content-Length': '59'}, 'body': 'A server error occurred.  Please contact the administrator.'}'
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'activity'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'after_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'hypothesis'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'after_hypothesis_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 CRITICAL] [run:507] Steady state probe 'service-is-unavailable' is not in the given tolerance so failing this experiment
+[2021-03-18 02:16:58 INFO] [run:421] Experiment ended with status: deviated
+[2021-03-18 02:16:58 INFO] [run:423] The steady-state has deviated, a weakness may have been discovered
+[2021-03-18 02:16:58 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'experiment'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'after_experiment_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:58 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-18 02:16:58 DEBUG] [__init__:81] Cleaning up control 'opentracing'
+[2021-03-18 02:16:58 DEBUG] [python:166] Control 'cleanup_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:16:59 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 02:18:07 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 02:18:07 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 02:18:07 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 02:18:07 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 02:18:07 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 02:18:07 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 02:18:07 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 02:18:07 DEBUG] [caching:35] Cached 2 activities
+[2021-03-18 02:18:07 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 02:18:07 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 02:18:07 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 02:18:07 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 02:18:07 INFO] [experiment:96] Experiment looks valid
+[2021-03-18 02:18:07 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 02:18:07 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 02:18:07 DEBUG] [caching:35] Cached 2 activities
+[2021-03-18 02:18:07 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 02:18:07 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 02:18:07 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 02:18:07 INFO] [run:323] Running experiment: Does our service tolerate the loss of its exchange file?
+[2021-03-18 02:18:07 DEBUG] [__init__:39] Initializing controls
+[2021-03-18 02:18:07 DEBUG] [__init__:48] Initializing control 'opentracing'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'configure_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 DEBUG] [control:24] Configuring opentracing control...
+[2021-03-18 02:18:07 DEBUG] [control:29] Creating a jaeger tracer
+[2021-03-18 02:18:07 DEBUG] [control:311] Configured Jaeger Tracer to send to '127.0.0.1:6831'
+[2021-03-18 02:18:07 DEBUG] [control:41] OpenTracing tracer <jaeger_client.tracer.Tracer object at 0x7fb1976f45b0> created
+[2021-03-18 02:18:07 INFO] [run:342] Steady-state strategy: default
+[2021-03-18 02:18:07 INFO] [run:345] Rollbacks strategy: default
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'experiment'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'before_experiment_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-18 02:18:07 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'hypothesis'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'before_hypothesis_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'activity'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'before_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-18 02:18:07 DEBUG] [activity:180]   => succeeded with '{'status': 200, 'headers': {'Date': 'Thu, 18 Mar 2021 01:18:07 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': '2021-03-18T02:18:02.342198'}'
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'activity'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'after_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-03-18 02:18:07 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'hypothesis'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'after_hypothesis_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 INFO] [run:553] Playing your experiment's method now...
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'method'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'before_method_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'activity'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'before_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 INFO] [activity:161] Action: move-exchange-file
+[2021-03-18 02:18:07 DEBUG] [activity:182]   => succeeded without any result value
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'activity'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'after_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'method'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'after_method_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-03-18 02:18:07 INFO] [hypothesis:183] Steady state hypothesis: The exchange file must exist
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'hypothesis'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'before_hypothesis_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'activity'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'before_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 INFO] [activity:161] Probe: service-is-unavailable
+[2021-03-18 02:18:07 DEBUG] [activity:180]   => succeeded with '{'status': 503, 'headers': {'Date': 'Thu, 18 Mar 2021 01:18:07 GMT', 'Server': 'WSGIServer/0.2 CPython/3.8.8', 'Content-type': 'text/plain', 'Content-Length': '26'}, 'body': 'Exchange file is not ready'}'
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'activity'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'after_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 DEBUG] [hypothesis:211] allowed tolerance is [200, 503]
+[2021-03-18 02:18:07 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'hypothesis'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'after_hypothesis_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 INFO] [run:809] Let's rollback...
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'rollback'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'before_rollback_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'rollback'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'after_rollback_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 INFO] [run:421] Experiment ended with status: completed
+[2021-03-18 02:18:07 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'experiment'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'after_experiment_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:07 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-18 02:18:07 DEBUG] [__init__:81] Cleaning up control 'opentracing'
+[2021-03-18 02:18:07 DEBUG] [python:166] Control 'cleanup_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 02:18:08 DEBUG] [caching:42] Clearing activities cache

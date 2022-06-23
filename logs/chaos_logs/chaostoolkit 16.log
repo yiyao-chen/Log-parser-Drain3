@@ -1,0 +1,43 @@
+[2021-03-18 03:45:23 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 03:45:23 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 03:45:23 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 03:45:25 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 03:45:25 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 03:45:25 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 03:45:25 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 03:45:25 DEBUG] [caching:35] Cached 9 activities
+[2021-03-18 03:45:25 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 03:45:25 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 03:45:25 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 03:45:25 ERROR] [cli:174] Configuration makes reference to an environment key that does not exist: WEBAPP_SERVICE_ADDR
+[2021-03-18 03:45:25 DEBUG] [cli:175] Configuration makes reference to an environment key that does not exist: WEBAPP_SERVICE_ADDR
+[2021-03-18 03:46:13 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 03:46:13 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 03:46:13 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 03:46:14 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 03:46:14 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 03:46:14 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 03:46:14 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 03:46:14 DEBUG] [caching:35] Cached 9 activities
+[2021-03-18 03:46:14 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 03:46:14 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 03:46:14 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 03:46:14 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 03:46:14 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 03:46:14 ERROR] [cli:174] path 'vegeta' cannot be found, in activity 'talk-to-webapp'
+[2021-03-18 03:46:14 DEBUG] [cli:175] path 'vegeta' cannot be found, in activity 'talk-to-webapp'
+[2021-03-18 04:15:06 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 04:15:06 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 04:15:06 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 04:15:06 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 04:15:06 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 04:15:06 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 04:15:06 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 04:15:06 DEBUG] [caching:35] Cached 9 activities
+[2021-03-18 04:15:06 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 04:15:06 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 04:15:06 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 04:15:06 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 04:15:07 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 04:15:07 ERROR] [cli:174] path 'vegeta' cannot be found, in activity 'talk-to-webapp'
+[2021-03-18 04:15:07 DEBUG] [cli:175] path 'vegeta' cannot be found, in activity 'talk-to-webapp'

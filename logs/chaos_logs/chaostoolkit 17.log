@@ -1,0 +1,39 @@
+[2021-03-09 14:48:55 DEBUG] [cli:73] ###############################################################################
+[2021-03-09 14:48:55 DEBUG] [cli:74] Running command 'run'
+[2021-03-09 14:48:55 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-09 14:48:56 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-09 14:48:56 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-09 14:48:56 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-09 14:48:56 DEBUG] [caching:25] Building activity cache...
+[2021-03-09 14:48:56 DEBUG] [caching:35] Cached 3 activities
+[2021-03-09 14:48:56 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-09 14:48:56 DEBUG] [configuration:54] Loading configuration...
+[2021-03-09 14:48:56 DEBUG] [secret:75] Loading secrets...
+[2021-03-09 14:48:56 DEBUG] [secret:92] Secrets loaded
+[2021-03-09 14:48:59 INFO] [experiment:96] Experiment looks valid
+[2021-03-09 14:48:59 DEBUG] [caching:42] Clearing activities cache
+[2021-03-09 14:48:59 DEBUG] [caching:25] Building activity cache...
+[2021-03-09 14:48:59 DEBUG] [caching:35] Cached 3 activities
+[2021-03-09 14:48:59 DEBUG] [configuration:54] Loading configuration...
+[2021-03-09 14:48:59 DEBUG] [secret:75] Loading secrets...
+[2021-03-09 14:48:59 DEBUG] [secret:92] Secrets loaded
+[2021-03-09 14:48:59 INFO] [run:323] Running experiment: My application is resilient to admin-instigated node drainage
+[2021-03-09 14:48:59 DEBUG] [__init__:39] Initializing controls
+[2021-03-09 14:48:59 INFO] [run:342] Steady-state strategy: default
+[2021-03-09 14:48:59 INFO] [run:345] Rollbacks strategy: default
+[2021-03-09 14:48:59 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-09 14:48:59 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-09 14:48:59 INFO] [hypothesis:183] Steady state hypothesis: Services are all available and healthy
+[2021-03-09 14:48:59 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:48:59 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:48:59 INFO] [activity:161] Probe: application-must-respond-normally
+[2021-03-09 14:48:59 DEBUG] [activity:235] Activity failed
+[2021-03-09 14:48:59 ERROR] [activity:188]   => failed: failed to connect to http://http://35.189.85.252/: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //35.189.85.252/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fed3a5dfbe0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+[2021-03-09 14:48:59 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-09 14:48:59 WARNING] [hypothesis:200] Probe terminated unexpectedly, so its tolerance could not be validated
+[2021-03-09 14:48:59 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-09 14:48:59 CRITICAL] [run:477] Steady state probe 'application-must-respond-normally' is not in the given tolerance so failing this experiment
+[2021-03-09 14:48:59 INFO] [run:421] Experiment ended with status: failed
+[2021-03-09 14:48:59 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-09 14:48:59 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-09 14:48:59 DEBUG] [caching:42] Clearing activities cache

@@ -1,0 +1,73 @@
+[2021-04-28 02:57:27 DEBUG] [cli:73] ###############################################################################
+[2021-04-28 02:57:27 DEBUG] [cli:74] Running command 'run'
+[2021-04-28 02:57:27 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-04-28 02:57:27 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-04-28 02:57:27 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-04-28 02:57:27 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-04-28 02:57:27 DEBUG] [caching:25] Building activity cache...
+[2021-04-28 02:57:27 DEBUG] [caching:35] Cached 2 activities
+[2021-04-28 02:57:27 INFO] [experiment:47] Validating the experiment's syntax
+[2021-04-28 02:57:27 DEBUG] [configuration:54] Loading configuration...
+[2021-04-28 02:57:27 DEBUG] [secret:75] Loading secrets...
+[2021-04-28 02:57:27 DEBUG] [secret:92] Secrets loaded
+[2021-04-28 02:57:28 INFO] [experiment:96] Experiment looks valid
+[2021-04-28 02:57:28 DEBUG] [caching:42] Clearing activities cache
+[2021-04-28 02:57:28 DEBUG] [caching:25] Building activity cache...
+[2021-04-28 02:57:28 DEBUG] [caching:35] Cached 2 activities
+[2021-04-28 02:57:28 DEBUG] [configuration:54] Loading configuration...
+[2021-04-28 02:57:28 DEBUG] [secret:75] Loading secrets...
+[2021-04-28 02:57:28 DEBUG] [secret:92] Secrets loaded
+[2021-04-28 02:57:28 INFO] [run:323] Running experiment: What happens if we terminate an instance of the application?
+[2021-04-28 02:57:28 DEBUG] [__init__:39] Initializing controls
+[2021-04-28 02:57:28 INFO] [run:342] Steady-state strategy: default
+[2021-04-28 02:57:28 INFO] [run:345] Rollbacks strategy: default
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-04-28 02:57:28 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-04-28 02:57:28 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-04-28 02:57:28 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-04-28 02:57:28 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-04-28 02:57:28 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-04-28 02:57:28 DEBUG] [probes:277] Found 0 failed and 0 not ready pods
+[2021-04-28 02:57:28 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-04-28 02:57:28 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-04-28 02:57:28 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-04-28 02:57:28 INFO] [run:553] Playing your experiment's method now...
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-04-28 02:57:28 INFO] [activity:161] Action: terminate-app-pod
+[2021-04-28 02:57:28 DEBUG] [python:34] Activity 'terminate-app-pod' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-04-28 02:57:28 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-04-28 02:57:28 DEBUG] [actions:197] Found 6 pods in ns 'default'
+[2021-04-28 02:57:28 DEBUG] [activity:182]   => succeeded without any result value
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-04-28 02:57:28 INFO] [activity:161] Action: terminate-app-pod
+[2021-04-28 02:57:28 DEBUG] [python:34] Activity 'terminate-app-pod' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-04-28 02:57:28 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-04-28 02:57:28 DEBUG] [actions:197] Found 6 pods in ns 'default'
+[2021-04-28 02:57:28 DEBUG] [activity:182]   => succeeded without any result value
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-04-28 02:57:28 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-04-28 02:57:28 INFO] [hypothesis:183] Steady state hypothesis: The app is healthy
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-04-28 02:57:28 INFO] [activity:161] Probe: all-apps-are-healthy
+[2021-04-28 02:57:28 DEBUG] [python:34] Activity 'all-apps-are-healthy' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/chaosk8s/pod/probes.py'
+[2021-04-28 02:57:28 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-04-28 02:57:28 DEBUG] [probes:277] Found 0 failed and 2 not ready pods
+[2021-04-28 02:57:28 DEBUG] [activity:235] Activity failed
+[2021-04-28 02:57:28 ERROR] [activity:188]   => failed: chaoslib.exceptions.ActivityFailed: the system is unhealthy
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-04-28 02:57:28 WARNING] [hypothesis:200] Probe terminated unexpectedly, so its tolerance could not be validated
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-04-28 02:57:28 CRITICAL] [run:507] Steady state probe 'all-apps-are-healthy' is not in the given tolerance so failing this experiment
+[2021-04-28 02:57:28 INFO] [run:421] Experiment ended with status: deviated
+[2021-04-28 02:57:28 INFO] [run:423] The steady-state has deviated, a weakness may have been discovered
+[2021-04-28 02:57:28 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-04-28 02:57:28 DEBUG] [__init__:72] Cleaning up controls
+[2021-04-28 02:57:28 DEBUG] [caching:42] Clearing activities cache
