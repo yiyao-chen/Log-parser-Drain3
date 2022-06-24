@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 import sys
 import re
 import time
@@ -10,13 +11,12 @@ from drain3.template_miner_config import TemplateMinerConfig
 
 
 def main():
-    in_log_file, logger, template_miner = init_config()
+    in_folder = "logs/chaos_logs"
+    to_file = "result/chaos_result.txt"
 
-    lines = get_lines_from_file(in_log_file)
-
-    parse_lines(lines, logger, template_miner)
-
-    write_result_to_file(logger, template_miner)
+    logger, template_miner = init_config()
+    parse_folder(in_folder, logger, template_miner)
+    write_result_to_file(logger, template_miner, to_file)
 
     print("Prefix Tree:")
     template_miner.drain.print_tree()
@@ -26,25 +26,32 @@ def main():
 def init_config():
     logger = logging.getLogger(__name__)
     logging.basicConfig(stream=sys.stdout, level=logging.INFO, format='%(message)s')
-    in_log_file = "logs/chaos_logs/chaostoolkit 19.log"
     config = TemplateMinerConfig()
     config.load(dirname(__file__) + "/drain3.ini")
     config.profiling_enabled = True
     template_miner = TemplateMiner(config=config)
-    return in_log_file, logger, template_miner
+    return logger, template_miner
 
 
-def get_lines_from_file(in_log_file):
-    with open(in_log_file) as f:
+def get_lines_from_file(file):
+    with open(file) as f:
         lines = f.readlines()
     return lines
 
 
-def parse_lines(lines, logger, template_miner):
+def parse_folder(folder, logger, template_miner):
+    for file in os.scandir(folder):
+        if file.is_file():
+            parse_file(file, logger, template_miner)
+
+
+def parse_file(file, logger, template_miner):
     line_count = 0
     start_time = time.time()
     batch_start_time = start_time
     batch_size = 10000
+
+    lines = get_lines_from_file(file)
 
     for line in lines:
         line = line.rstrip()
@@ -63,6 +70,7 @@ def parse_lines(lines, logger, template_miner):
             result_json = json.dumps(result)
             logger.info(f"Input ({line_count}): " + line)
             logger.info("Result: " + result_json)
+
     time_took = time.time() - start_time
     rate = line_count / time_took
     logger.info(
@@ -70,9 +78,9 @@ def parse_lines(lines, logger, template_miner):
         f"{len(template_miner.drain.clusters)} clusters")
 
 
-def write_result_to_file(logger, template_miner):
+def write_result_to_file(logger, template_miner, to_file):
     sorted_clusters = sorted(template_miner.drain.clusters, key=lambda it: it.size, reverse=True)
-    to_file = open("result/test_refactor.txt", "w")
+    to_file = open(to_file, "w")
     for cluster in sorted_clusters:
         logger.info(cluster)
         to_file.write(str(cluster) + "\n")
