@@ -8,13 +8,14 @@ from os.path import dirname
 
 from drain3 import TemplateMiner
 from drain3.template_miner_config import TemplateMinerConfig
-
+from drain3.file_persistence import FilePersistence
 
 def main():
+    persistence = FilePersistence("drain3_state.bin")
     in_folder = "logs/chaos_logs"
     to_file = "result/chaos_result.txt"
 
-    logger, template_miner = init_config()
+    logger, template_miner = init_config(persistence)
     parse_folder(in_folder, logger, template_miner)
     write_result_to_file(logger, template_miner, to_file)
 
@@ -23,13 +24,13 @@ def main():
     template_miner.profiler.report(0)
 
 
-def init_config():
+def init_config(persistence):
     logger = logging.getLogger(__name__)
     logging.basicConfig(stream=sys.stdout, level=logging.INFO, format='%(message)s')
     config = TemplateMinerConfig()
     config.load(dirname(__file__) + "/drain3.ini")
     config.profiling_enabled = True
-    template_miner = TemplateMiner(config=config)
+    template_miner = TemplateMiner(persistence, config=config)
     return logger, template_miner
 
 
