@@ -1,0 +1,1532 @@
+[2021-07-19 13:36:57 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:36:57 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:36:57 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:36:58 WARNING] [check:28] 
+[2021-07-19 13:36:58 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:36:58 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:36:58 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:36:58 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:36:58 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:36:58 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:36:58 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:36:58 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:36:58 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:36:58 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:36:58 ERROR] [cli:174] could not find Python module 'chaosk8s.probes' in activity 'deployment-available-and-healthy'
+[2021-07-19 13:36:58 DEBUG] [cli:175] could not find Python module 'chaosk8s.probes' in activity 'deployment-available-and-healthy'
+[2021-07-19 13:38:34 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:38:34 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:38:34 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:38:35 WARNING] [check:28] 
+[2021-07-19 13:38:35 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:38:35 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:38:35 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:38:35 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:38:35 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:38:35 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:38:35 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:38:35 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:38:35 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:38:36 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:38:36 ERROR] [cli:174] required argument 'name' is missing from activity 'delete_deployment'
+[2021-07-19 13:38:36 DEBUG] [cli:175] required argument 'name' is missing from activity 'delete_deployment'
+[2021-07-19 13:40:35 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:40:35 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:40:35 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:40:36 WARNING] [check:28] 
+[2021-07-19 13:40:36 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:40:36 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:40:36 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:40:36 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:40:36 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:40:36 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:40:36 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:40:36 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:40:36 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:40:37 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:40:37 ERROR] [cli:174] required argument 'name' is missing from activity 'delete_deployment'
+[2021-07-19 13:40:37 DEBUG] [cli:175] required argument 'name' is missing from activity 'delete_deployment'
+[2021-07-19 13:42:16 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:42:16 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:42:16 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:42:17 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:42:17 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:42:17 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:42:17 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:42:17 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:42:17 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:42:17 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:42:17 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:42:17 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:42:18 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:42:18 ERROR] [cli:174] required argument 'name' is missing from activity 'delete_deployment'
+[2021-07-19 13:42:18 DEBUG] [cli:175] required argument 'name' is missing from activity 'delete_deployment'
+[2021-07-19 13:44:11 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:44:11 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:44:11 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:44:12 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:44:12 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:44:12 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:44:12 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:44:12 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:44:12 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:44:12 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:44:12 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:44:12 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:44:13 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 13:44:13 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:44:13 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:44:13 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:44:13 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:44:13 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:44:13 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:44:13 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 13:44:13 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 13:44:13 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 13:44:13 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 13:44:13 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:44:13 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 13:44:13 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:44:13 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:44:13 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:44:13 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:44:13 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:44:13 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:44:13 DEBUG] [probes:42] Found 0 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:44:13 DEBUG] [activity:235] Activity failed
+[2021-07-19 13:44:13 ERROR] [activity:188]   => failed: chaoslib.exceptions.ActivityFailed: Deployment 'yelb-ui' was not found
+[2021-07-19 13:44:13 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:44:13 WARNING] [hypothesis:200] Probe terminated unexpectedly, so its tolerance could not be validated
+[2021-07-19 13:44:13 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:44:13 CRITICAL] [run:477] Steady state probe 'deployment-available-and-healthy' is not in the given tolerance so failing this experiment
+[2021-07-19 13:44:13 INFO] [run:421] Experiment ended with status: failed
+[2021-07-19 13:44:13 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:44:13 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 13:44:13 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:45:06 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:45:06 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:45:06 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:45:07 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:45:07 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:45:07 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:45:07 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:45:07 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:45:07 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:45:07 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:45:07 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:45:07 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:45:07 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 13:45:07 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:45:07 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:45:07 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:45:07 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:45:07 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:45:07 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:45:07 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 13:45:07 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 13:45:07 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 13:45:07 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 13:45:07 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:45:07 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 13:45:07 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:45:07 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:45:07 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:45:07 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:45:07 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:45:07 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:45:08 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:45:08 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 13:45:08 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 13:45:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:45:08 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 13:45:08 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 13:45:08 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:45:08 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 13:45:08 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 13:45:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:45:08 INFO] [activity:161] Action: create-deployment
+[2021-07-19 13:45:08 DEBUG] [python:34] Activity 'create-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 13:45:08 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:45:08 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 13:45:08 INFO] [activity:198] Pausing after activity for 20s...
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 13:45:28 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 13:45:28 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:45:28 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:45:28 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:45:28 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:45:28 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:45:28 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 13:45:28 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:45:28 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 13:45:28 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:45:28 INFO] [run:809] Let's rollback...
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 13:45:28 INFO] [rollback:28] Rollback: delete-deployment
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:45:28 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 13:45:28 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 13:45:28 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:45:28 DEBUG] [actions:58] Found 0 deployments named 'yelb'
+[2021-07-19 13:45:28 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 13:45:28 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 13:45:28 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:45:28 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 13:45:28 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:50:11 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:50:11 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:50:11 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:50:11 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:50:11 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:50:11 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:50:11 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:50:11 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:50:11 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:50:11 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:50:11 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:50:11 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:50:12 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 13:50:12 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:50:12 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:50:12 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:50:12 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:50:12 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:50:12 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:50:12 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 13:50:12 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 13:50:12 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 13:50:12 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 13:50:12 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:50:12 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 13:50:12 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:50:12 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:50:12 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:50:12 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:50:12 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:50:12 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:50:12 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:50:12 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 13:50:12 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 13:50:12 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:50:12 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 13:50:12 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 13:50:12 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:50:12 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 13:50:12 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 13:50:12 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:50:12 INFO] [activity:161] Action: create-deployment
+[2021-07-19 13:50:12 DEBUG] [python:34] Activity 'create-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 13:50:12 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:50:12 DEBUG] [activity:235] Activity failed
+[2021-07-19 13:50:12 ERROR] [activity:188]   => failed: kubernetes.client.exceptions.ApiException: (409)
+[2021-07-19 13:50:12 INFO] [activity:198] Pausing after activity for 20s...
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 13:50:32 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 13:50:32 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:50:32 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:50:32 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:50:32 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:50:32 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:50:32 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 13:50:32 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:50:32 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 13:50:32 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:50:32 INFO] [run:809] Let's rollback...
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 13:50:32 INFO] [rollback:28] Rollback: delete-deployment
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:50:32 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 13:50:32 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 13:50:32 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:50:32 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 13:50:32 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 13:50:32 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 13:50:32 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:50:32 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 13:50:32 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:53:16 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:53:16 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:53:16 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:53:17 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:53:17 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:53:17 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:53:17 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:53:17 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:53:17 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:53:17 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:53:17 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:53:17 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:53:18 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:53:18 ERROR] [cli:174] argument 'arguments' is not part of the function signature in activity 'delete_deployment'
+[2021-07-19 13:53:18 DEBUG] [cli:175] argument 'arguments' is not part of the function signature in activity 'delete_deployment'
+[2021-07-19 13:53:41 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:53:41 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:53:41 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:53:41 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:53:41 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:53:41 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:53:41 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:53:41 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:53:41 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:53:41 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:53:41 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:53:41 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:53:42 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:54:01 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:54:01 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:54:01 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:54:02 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:54:02 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:54:02 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:54:02 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:54:02 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:54:02 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:54:02 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:54:02 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:54:02 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:54:03 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 13:54:03 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:54:03 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:54:03 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:54:03 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:54:03 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:54:03 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:54:03 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 13:54:03 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 13:54:03 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 13:54:03 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:54:03 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 13:54:03 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:54:03 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:54:03 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:54:03 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:54:03 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:54:03 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 13:54:03 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:54:03 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 13:54:03 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:54:03 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:54:03 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 13:54:03 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 13:54:03 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:54:03 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 13:54:03 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 13:54:03 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 13:54:03 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:54:03 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:54:03 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:54:03 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:54:03 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:54:03 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 13:54:03 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:54:03 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 13:54:03 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:54:03 INFO] [run:809] Let's rollback...
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 13:54:03 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 13:54:03 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 13:54:03 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:54:03 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 13:54:03 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:56:22 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:56:22 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:56:22 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:56:22 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:56:22 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:56:22 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:56:22 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:56:22 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:56:22 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:56:22 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:56:22 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:56:22 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:56:23 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 13:56:23 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:56:23 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:56:23 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:56:23 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:56:23 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:56:23 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:56:23 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 13:56:23 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 13:56:23 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 13:56:23 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 13:56:23 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:56:23 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 13:56:23 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:56:23 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:56:23 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:56:23 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:56:23 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:56:23 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:56:23 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:56:23 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 13:56:23 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 13:56:23 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:56:23 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 13:56:23 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 13:56:23 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:56:23 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 13:56:23 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 13:56:23 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:56:23 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 13:56:23 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 13:56:23 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:56:23 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 13:56:23 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 13:56:23 INFO] [activity:198] Pausing after activity for 20s...
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 13:56:43 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 13:56:43 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:56:43 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:56:43 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:56:43 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:56:43 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:56:43 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 13:56:43 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:56:43 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 13:56:43 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:56:43 INFO] [run:809] Let's rollback...
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 13:56:43 INFO] [rollback:28] Rollback: delete-deployment
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:56:43 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 13:56:43 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 13:56:43 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:56:43 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 13:56:43 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 13:56:43 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 13:56:43 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:56:43 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 13:56:43 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:59:24 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 13:59:24 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 13:59:24 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 13:59:25 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 13:59:25 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:59:25 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 13:59:25 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:59:25 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:59:25 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 13:59:25 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:59:25 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:59:25 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:59:26 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 13:59:26 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 13:59:26 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 13:59:26 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 13:59:26 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 13:59:26 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 13:59:26 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 13:59:26 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 13:59:26 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 13:59:26 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 13:59:26 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 13:59:26 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:59:26 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 13:59:26 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:59:26 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:59:26 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:59:26 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:59:26 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:59:26 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:59:26 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:59:26 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 13:59:26 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 13:59:26 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:59:26 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 13:59:26 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 13:59:26 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:59:26 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 13:59:26 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 13:59:26 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:59:26 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 13:59:26 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 13:59:26 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:59:26 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 13:59:26 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 13:59:26 INFO] [activity:198] Pausing after activity for 20s...
+[2021-07-19 13:59:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:59:46 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 13:59:46 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 13:59:46 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 13:59:46 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:59:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:59:46 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 13:59:46 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 13:59:46 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 13:59:46 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 13:59:46 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 13:59:46 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 13:59:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 13:59:46 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 13:59:46 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 13:59:46 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 13:59:46 INFO] [run:809] Let's rollback...
+[2021-07-19 13:59:46 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 13:59:46 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 13:59:46 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 13:59:46 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 13:59:46 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 13:59:46 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 13:59:46 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:12:19 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:12:19 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:12:19 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:12:20 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:12:20 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:12:20 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:12:20 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:12:20 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:12:20 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:12:20 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:12:20 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:12:20 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:12:21 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:12:21 ERROR] [cli:174] 'chaosk8s.node.actions' does not expose 'delete_deployment' in activity 'cordon_node'
+[2021-07-19 14:12:21 DEBUG] [cli:175] 'chaosk8s.node.actions' does not expose 'delete_deployment' in activity 'cordon_node'
+[2021-07-19 14:12:44 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:12:44 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:12:44 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:12:44 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:12:44 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:12:44 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:12:44 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:12:44 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:12:44 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:12:44 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:12:44 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:12:44 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:12:45 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:12:45 ERROR] [cli:174] argument 'pod_namespace' is not part of the function signature in activity 'delete_deployment'
+[2021-07-19 14:12:45 DEBUG] [cli:175] argument 'pod_namespace' is not part of the function signature in activity 'delete_deployment'
+[2021-07-19 14:14:42 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:14:42 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:14:42 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:14:43 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:14:43 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:14:43 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:14:43 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:14:43 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:14:43 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:14:43 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:14:43 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:14:43 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:14:44 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:14:44 ERROR] [cli:174] argument 'Ns' is not part of the function signature in activity 'delete_deployment'
+[2021-07-19 14:14:44 DEBUG] [cli:175] argument 'Ns' is not part of the function signature in activity 'delete_deployment'
+[2021-07-19 14:14:59 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:14:59 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:14:59 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:15:00 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:15:00 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:15:00 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:15:00 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:15:00 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:15:00 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:15:00 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:15:00 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:15:00 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:15:00 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 14:15:00 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:15:00 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:15:00 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:15:00 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:15:00 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:15:00 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:15:00 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 14:15:00 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 14:15:00 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 14:15:00 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 14:15:00 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:15:00 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 14:15:00 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:15:00 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:15:00 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:15:00 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:15:00 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:15:00 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:15:00 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:15:00 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:15:00 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:15:00 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:15:00 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:15:00 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:15:00 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:15:00 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 14:15:00 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:15:00 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:15:00 INFO] [activity:161] Action: create-deployment
+[2021-07-19 14:15:00 DEBUG] [python:34] Activity 'create-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 14:15:00 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:15:01 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 14:15:01 INFO] [activity:198] Pausing after activity for 20s...
+[2021-07-19 14:15:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:15:20 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:15:20 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 14:15:20 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:15:20 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:15:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:15:20 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:15:20 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:15:20 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:15:20 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:15:20 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:15:20 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:15:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:15:20 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:15:20 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:15:20 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:15:20 INFO] [run:809] Let's rollback...
+[2021-07-19 14:15:20 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:15:20 INFO] [rollback:28] Rollback: delete-deployment
+[2021-07-19 14:15:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:15:20 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 14:15:20 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 14:15:20 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:15:20 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 14:15:20 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 14:15:20 INFO] [activity:198] Pausing after activity for 10s...
+[2021-07-19 14:15:30 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:15:30 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:15:30 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 14:15:30 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:15:30 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 14:15:30 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:16:17 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:16:17 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:16:17 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:16:18 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:16:18 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:16:18 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:16:18 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:16:18 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:16:18 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:16:18 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:16:18 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:16:18 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:16:18 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:16:18 ERROR] [cli:174] 'chaosk8s.node.actions' does not expose 'delete_deployment' in activity 'create_k8s_api_client'
+[2021-07-19 14:16:18 DEBUG] [cli:175] 'chaosk8s.node.actions' does not expose 'delete_deployment' in activity 'create_k8s_api_client'
+[2021-07-19 14:16:37 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:16:37 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:16:37 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:16:37 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:16:37 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:16:37 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:16:37 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:16:37 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:16:37 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:16:37 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:16:37 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:16:37 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:16:38 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:16:38 ERROR] [cli:174] could not find Python module 'chaosk8s.deployments.actions' in activity 'delete-deployment'
+[2021-07-19 14:16:38 DEBUG] [cli:175] could not find Python module 'chaosk8s.deployments.actions' in activity 'delete-deployment'
+[2021-07-19 14:17:02 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:17:02 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:17:02 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:17:03 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:17:03 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:17:03 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:17:03 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:17:03 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:17:03 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:17:03 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:17:03 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:17:03 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:17:03 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 14:17:03 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:17:03 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:17:03 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:17:03 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:17:03 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:17:03 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:17:03 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 14:17:03 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 14:17:03 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 14:17:03 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 14:17:03 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:17:03 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 14:17:03 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:17:03 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:03 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:03 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:17:03 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:17:03 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:17:03 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:17:03 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:17:03 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:17:03 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:03 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:17:03 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:17:03 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:03 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 14:17:03 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:17:03 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:03 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 14:17:03 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 14:17:03 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:17:04 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 14:17:04 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 14:17:04 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:04 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:17:04 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 14:17:04 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:17:04 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:04 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:04 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:17:04 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:17:04 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:17:04 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:17:04 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:17:04 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:17:04 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:04 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:17:04 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:17:04 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:04 INFO] [run:809] Let's rollback...
+[2021-07-19 14:17:04 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:17:04 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 14:17:04 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:17:04 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 14:17:04 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:17:04 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 14:17:04 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:17:24 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:17:24 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:17:24 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:17:25 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:17:25 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:17:25 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:17:25 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:17:25 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:17:25 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:17:25 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:17:25 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:17:25 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:17:25 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 14:17:25 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:17:25 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:17:25 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:17:25 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:17:25 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:17:25 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:17:25 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 14:17:25 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 14:17:25 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 14:17:25 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 14:17:25 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:17:25 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 14:17:25 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:17:25 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:25 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:25 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:17:25 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:17:25 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:17:25 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:17:25 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:17:25 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:17:25 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:25 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:17:25 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:17:25 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:25 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 14:17:25 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:17:25 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:25 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 14:17:25 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 14:17:25 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:17:26 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 14:17:26 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 14:17:26 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:26 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:17:26 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 14:17:26 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:17:26 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:26 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:26 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:17:26 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:17:26 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:17:26 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:17:26 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:17:26 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:17:26 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:26 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:17:26 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:17:26 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:26 INFO] [run:809] Let's rollback...
+[2021-07-19 14:17:26 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:17:26 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 14:17:26 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:17:26 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 14:17:26 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:17:26 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 14:17:26 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:17:45 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:17:45 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:17:45 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:17:46 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:17:46 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:17:46 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:17:46 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:17:46 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:17:46 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:17:46 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:17:46 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 14:17:46 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:17:46 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:17:46 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:17:46 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:17:46 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:17:46 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:17:46 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 14:17:46 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 14:17:46 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 14:17:46 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:17:46 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 14:17:46 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:46 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:17:46 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:17:46 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:17:46 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:17:46 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:17:46 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:46 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:17:46 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:46 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:46 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 14:17:46 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 14:17:46 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:17:46 DEBUG] [actions:58] Found 0 deployments named 'yelb-ui'
+[2021-07-19 14:17:46 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:17:46 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 14:17:46 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:46 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:17:46 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:17:46 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:17:46 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:17:46 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:17:46 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:17:46 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:17:46 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:17:46 INFO] [run:809] Let's rollback...
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:17:46 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:17:46 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 14:17:46 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:17:46 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 14:17:46 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:29:35 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:29:35 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:29:35 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:29:36 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:29:36 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:29:36 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:29:36 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:29:36 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:29:36 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:29:36 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:29:36 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:29:36 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:29:37 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 14:29:37 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:29:37 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:29:37 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:29:37 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:29:37 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:29:37 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:29:37 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 14:29:37 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 14:29:37 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 14:29:37 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:29:37 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 14:29:37 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:29:37 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:29:37 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:29:37 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:29:37 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:29:37 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:29:37 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:29:37 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:29:37 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:29:37 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:29:37 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 14:29:37 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 14:29:37 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:29:37 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 14:29:37 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:29:37 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 14:29:37 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:29:37 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:29:37 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:29:37 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:29:37 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:29:37 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:29:37 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:29:37 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:29:37 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:29:37 INFO] [run:809] Let's rollback...
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:29:37 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:29:37 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 14:29:37 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:29:37 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 14:29:37 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:30:10 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:30:10 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:30:10 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:30:10 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:30:10 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:30:10 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:30:10 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:30:10 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:30:10 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:30:10 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:30:10 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:30:10 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:30:11 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 14:30:11 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:30:11 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:30:11 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:30:11 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:30:11 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:30:11 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:30:11 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 14:30:11 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 14:30:11 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 14:30:11 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:30:11 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 14:30:11 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:30:11 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:30:11 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:30:11 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:30:11 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:30:11 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:30:11 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:30:11 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:30:11 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:30:11 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:30:11 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 14:30:11 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 14:30:11 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:30:11 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 14:30:11 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:30:11 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 14:30:11 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:30:11 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:30:11 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:30:11 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:30:11 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:30:11 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:30:11 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:30:11 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:30:11 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:30:11 INFO] [run:809] Let's rollback...
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:30:11 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:30:11 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 14:30:11 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:30:11 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 14:30:11 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:33:20 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:33:20 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:33:20 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:33:20 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:33:20 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:33:20 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:33:20 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:33:20 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:33:20 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:33:20 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:33:20 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:33:20 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:33:21 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 14:33:21 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:33:21 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:33:21 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:33:21 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:33:21 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:33:21 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:33:21 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 14:33:21 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 14:33:21 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 14:33:21 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:33:21 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 14:33:21 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:33:21 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:33:21 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:33:21 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:33:21 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:33:21 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:33:21 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:33:21 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:33:21 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:33:21 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:33:21 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 14:33:21 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 14:33:21 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:33:21 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 14:33:21 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:33:21 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 14:33:21 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:33:21 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:33:21 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:33:21 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:33:21 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:33:21 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:33:21 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:33:21 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:33:21 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:33:21 INFO] [run:809] Let's rollback...
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:33:21 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:33:21 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 14:33:21 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:33:21 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 14:33:21 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:44:53 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 14:44:53 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 14:44:53 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 14:44:54 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 14:44:54 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:44:54 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 14:44:54 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:44:54 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:44:54 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 14:44:54 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:44:54 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:44:54 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:44:55 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 14:44:55 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 14:44:55 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 14:44:55 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 14:44:55 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 14:44:55 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 14:44:55 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 14:44:55 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 14:44:55 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 14:44:55 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 14:44:55 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:44:55 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 14:44:55 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:44:55 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:44:55 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:44:55 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:44:55 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:44:55 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:44:55 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:44:55 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:44:55 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:44:55 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:44:55 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 14:44:55 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 14:44:55 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:44:55 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 14:44:55 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 14:44:55 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 14:44:55 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:44:55 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 14:44:55 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 14:44:55 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 14:44:55 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 14:44:55 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 14:44:55 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 14:44:55 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 14:44:55 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 14:44:55 INFO] [run:809] Let's rollback...
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:44:55 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 14:44:55 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 14:44:55 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 14:44:55 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 14:44:55 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:07:57 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 15:07:57 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 15:07:57 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 15:07:58 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 15:07:58 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:07:58 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:07:58 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:07:58 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:07:58 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 15:07:58 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:07:58 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:07:58 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:07:59 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 15:07:59 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:07:59 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:07:59 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:07:59 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:07:59 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:07:59 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:07:59 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 15:07:59 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 15:07:59 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 15:07:59 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 15:07:59 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 15:07:59 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 15:07:59 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 15:07:59 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:07:59 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:07:59 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 15:07:59 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 15:07:59 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:07:59 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 15:07:59 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 15:07:59 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 15:07:59 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:07:59 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 15:07:59 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 15:07:59 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:07:59 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 15:07:59 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 15:07:59 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:07:59 INFO] [activity:161] Action: create-deployment
+[2021-07-19 15:07:59 DEBUG] [python:34] Activity 'create-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 15:07:59 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:07:59 DEBUG] [activity:235] Activity failed
+[2021-07-19 15:07:59 ERROR] [activity:188]   => failed: kubernetes.client.exceptions.ApiException: (400)
+[2021-07-19 15:07:59 INFO] [activity:198] Pausing after activity for 20s...
+[2021-07-19 15:08:19 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:08:19 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 15:08:19 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 15:08:19 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 15:08:19 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:08:19 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:08:19 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 15:08:19 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 15:08:19 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:08:19 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 15:08:19 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 15:08:19 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 15:08:19 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:08:19 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 15:08:19 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 15:08:19 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:08:19 INFO] [run:809] Let's rollback...
+[2021-07-19 15:08:19 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 15:08:19 INFO] [rollback:28] Rollback: delete-deployment
+[2021-07-19 15:08:19 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:08:19 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 15:08:19 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 15:08:19 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:08:19 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 15:08:19 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 15:08:19 INFO] [activity:198] Pausing after activity for 10s...
+[2021-07-19 15:08:29 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:08:29 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 15:08:29 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 15:08:29 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 15:08:29 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 15:08:29 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:12:10 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 15:12:10 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 15:12:10 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 15:12:10 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 15:12:10 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:12:10 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:12:10 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:12:10 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:12:10 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 15:12:10 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:12:10 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:12:10 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:12:11 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 15:12:11 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:12:11 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:12:11 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:12:11 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:12:11 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:12:11 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:12:11 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 15:12:11 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 15:12:11 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 15:12:11 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 15:12:11 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 15:12:11 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:12:11 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 15:12:11 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 15:12:11 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:12:11 DEBUG] [probes:42] Found 1 deployment(s) named 'nginx' in ns 'default'
+[2021-07-19 15:12:11 DEBUG] [probes:50] Deployment has '3' available replicas
+[2021-07-19 15:12:11 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:12:11 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 15:12:11 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:12:11 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:12:11 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 15:12:11 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 15:12:11 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:12:11 DEBUG] [actions:58] Found 0 deployments named 'nginx'
+[2021-07-19 15:12:11 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 15:12:11 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 15:12:11 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:12:11 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 15:12:11 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 15:12:11 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:12:11 DEBUG] [probes:42] Found 1 deployment(s) named 'nginx' in ns 'default'
+[2021-07-19 15:12:11 DEBUG] [probes:50] Deployment has '3' available replicas
+[2021-07-19 15:12:11 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:12:11 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 15:12:11 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:12:11 INFO] [run:809] Let's rollback...
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 15:12:11 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 15:12:11 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 15:12:11 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 15:12:11 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 15:12:11 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:19:33 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 15:19:33 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 15:19:33 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 15:19:33 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 15:19:33 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:19:33 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:19:33 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:19:33 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:19:33 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 15:19:33 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:19:33 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:19:33 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:19:34 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:19:34 ERROR] [cli:174] argument 'spec_path' is not part of the function signature in activity 'delete_deployment'
+[2021-07-19 15:19:34 DEBUG] [cli:175] argument 'spec_path' is not part of the function signature in activity 'delete_deployment'
+[2021-07-19 15:19:47 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 15:19:47 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 15:19:47 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 15:19:47 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 15:19:47 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:19:47 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:19:47 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:19:47 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:19:47 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 15:19:47 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:19:47 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:19:47 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:19:48 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 15:19:48 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:19:48 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:19:48 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:19:48 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:19:48 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:19:48 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:19:48 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 15:19:48 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 15:19:48 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 15:19:48 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 15:19:48 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 15:19:48 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 15:19:48 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 15:19:48 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:19:48 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:19:48 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 15:19:48 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 15:19:48 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:19:48 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 15:19:48 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 15:19:48 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 15:19:48 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:19:48 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 15:19:48 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 15:19:48 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:19:48 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 15:19:48 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 15:19:48 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:19:48 INFO] [activity:161] Action: create-deployment
+[2021-07-19 15:19:48 DEBUG] [python:34] Activity 'create-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 15:19:48 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:19:48 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 15:19:48 INFO] [activity:198] Pausing after activity for 20s...
+[2021-07-19 15:20:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:20:08 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 15:20:08 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 15:20:08 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 15:20:08 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:20:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:20:08 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 15:20:08 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 15:20:08 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:20:08 DEBUG] [probes:42] Found 1 deployment(s) named 'yelb-ui' in ns 'yelb'
+[2021-07-19 15:20:08 DEBUG] [probes:50] Deployment has '1' available replicas
+[2021-07-19 15:20:08 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 15:20:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:20:08 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 15:20:08 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 15:20:08 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:20:08 INFO] [run:809] Let's rollback...
+[2021-07-19 15:20:08 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 15:20:08 INFO] [rollback:28] Rollback: delete-deployment
+[2021-07-19 15:20:08 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:20:08 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 15:20:08 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 15:20:08 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:20:08 DEBUG] [actions:58] Found 0 deployments named 'yelb-db-v3'
+[2021-07-19 15:20:08 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 15:20:08 INFO] [activity:198] Pausing after activity for 10s...
+[2021-07-19 15:20:18 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:20:18 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 15:20:18 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 15:20:18 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 15:20:18 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 15:20:18 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:21:42 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 15:21:42 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 15:21:42 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 15:21:42 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 15:21:42 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:21:42 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:21:42 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:21:42 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:21:42 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 15:21:42 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:21:42 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:21:42 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:21:43 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 15:21:43 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:21:43 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:21:43 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:21:43 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:21:43 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:21:43 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:21:43 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 15:21:43 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 15:21:43 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 15:21:43 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 15:21:43 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 15:21:43 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:21:43 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 15:21:43 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 15:21:43 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:21:43 DEBUG] [probes:42] Found 1 deployment(s) named 'nginx' in ns 'default'
+[2021-07-19 15:21:43 DEBUG] [probes:50] Deployment has '3' available replicas
+[2021-07-19 15:21:43 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:21:43 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 15:21:43 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:21:43 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:21:43 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 15:21:43 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 15:21:43 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:21:43 DEBUG] [actions:58] Found 0 deployments named 'nginx'
+[2021-07-19 15:21:43 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 15:21:43 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 15:21:43 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:21:43 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 15:21:43 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 15:21:43 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:21:43 DEBUG] [probes:42] Found 1 deployment(s) named 'nginx' in ns 'default'
+[2021-07-19 15:21:43 DEBUG] [probes:50] Deployment has '3' available replicas
+[2021-07-19 15:21:43 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:21:43 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 15:21:43 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:21:43 INFO] [run:809] Let's rollback...
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 15:21:43 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 15:21:43 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 15:21:43 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 15:21:43 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 15:21:43 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:21:59 DEBUG] [cli:73] ###############################################################################
+[2021-07-19 15:21:59 DEBUG] [cli:74] Running command 'run'
+[2021-07-19 15:21:59 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-07-19 15:22:00 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-07-19 15:22:00 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:22:00 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-07-19 15:22:00 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:22:00 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:22:00 INFO] [experiment:47] Validating the experiment's syntax
+[2021-07-19 15:22:00 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:22:00 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:22:00 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:22:01 INFO] [experiment:96] Experiment looks valid
+[2021-07-19 15:22:01 DEBUG] [caching:42] Clearing activities cache
+[2021-07-19 15:22:01 DEBUG] [caching:25] Building activity cache...
+[2021-07-19 15:22:01 DEBUG] [caching:35] Cached 2 activities
+[2021-07-19 15:22:01 DEBUG] [configuration:54] Loading configuration...
+[2021-07-19 15:22:01 DEBUG] [secret:75] Loading secrets...
+[2021-07-19 15:22:01 DEBUG] [secret:92] Secrets loaded
+[2021-07-19 15:22:01 INFO] [run:323] Running experiment: Can we scale deployments?
+[2021-07-19 15:22:01 DEBUG] [__init__:39] Initializing controls
+[2021-07-19 15:22:01 INFO] [run:342] Steady-state strategy: default
+[2021-07-19 15:22:01 INFO] [run:345] Rollbacks strategy: default
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 15:22:01 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-07-19 15:22:01 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:22:01 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 15:22:01 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 15:22:01 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:22:01 DEBUG] [probes:42] Found 1 deployment(s) named 'nginx' in ns 'default'
+[2021-07-19 15:22:01 DEBUG] [probes:50] Deployment has '3' available replicas
+[2021-07-19 15:22:01 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:22:01 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 15:22:01 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:22:01 INFO] [run:553] Playing your experiment's method now...
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:22:01 INFO] [activity:161] Action: delete-deployment
+[2021-07-19 15:22:01 DEBUG] [python:34] Activity 'delete-deployment' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-07-19 15:22:01 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:22:01 DEBUG] [actions:58] Found 0 deployments named 'nginx'
+[2021-07-19 15:22:01 DEBUG] [activity:182]   => succeeded without any result value
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-07-19 15:22:01 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-07-19 15:22:01 INFO] [hypothesis:183] Steady state hypothesis: Verifying that service is healthy
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:22:01 INFO] [activity:161] Probe: deployment-available-and-healthy
+[2021-07-19 15:22:01 DEBUG] [python:34] Activity 'deployment-available-and-healthy' loaded from '/Users/serry/env/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-07-19 15:22:01 DEBUG] [__init__:65] Using Kubernetes context: default
+[2021-07-19 15:22:01 DEBUG] [probes:42] Found 1 deployment(s) named 'nginx' in ns 'default'
+[2021-07-19 15:22:01 DEBUG] [probes:50] Deployment has '3' available replicas
+[2021-07-19 15:22:01 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-07-19 15:22:01 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-07-19 15:22:01 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-07-19 15:22:01 INFO] [run:809] Let's rollback...
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 15:22:01 INFO] [rollback:25] No declared rollbacks, let's move on.
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'rollback'
+[2021-07-19 15:22:01 INFO] [run:421] Experiment ended with status: completed
+[2021-07-19 15:22:01 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-07-19 15:22:01 DEBUG] [__init__:72] Cleaning up controls
+[2021-07-19 15:22:01 DEBUG] [caching:42] Clearing activities cache

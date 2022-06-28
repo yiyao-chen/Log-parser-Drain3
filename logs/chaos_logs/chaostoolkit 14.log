@@ -1,0 +1,354 @@
+[2021-12-29 11:51:21 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 11:51:21 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 11:51:21 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 11:51:22 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 11:51:22 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 11:51:22 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 11:51:22 ERROR] [cli:241] Path "custom/customFunctionExp.yaml" does not exist.
+[2021-12-29 11:51:22 DEBUG] [cli:242] Path "custom/customFunctionExp.yaml" does not exist.
+[2021-12-29 11:51:38 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 11:51:38 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 11:51:38 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 11:51:38 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 11:51:38 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 11:51:38 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 11:51:38 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 11:51:38 DEBUG] [caching:35] Cached 1 activities
+[2021-12-29 11:51:38 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 11:51:38 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 11:51:38 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 11:51:38 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 11:51:38 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 11:51:38 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 11:51:38 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 11:51:38 DEBUG] [caching:35] Cached 1 activities
+[2021-12-29 11:51:38 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 11:51:38 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 11:51:38 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 11:51:38 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 11:51:38 INFO] [run:320] Running experiment: Simple use of selfmade function
+[2021-12-29 11:51:38 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 11:51:38 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 11:51:38 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 11:51:38 INFO] [run:346] No steady state hypothesis defined. That's ok, just exploring.
+[2021-12-29 11:51:38 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 11:51:38 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 11:51:38 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 11:51:38 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 11:51:38 INFO] [activity:188] Probe: Checks tolerance which is returned "status" and runs basic_function
+[2021-12-29 11:51:38 DEBUG] [python:33] Activity 'Checks tolerance which is returned "status" and runs basic_function' loaded from '/home/ubuntu/chaos/custom/customChaosFunctions/probes.py'
+[2021-12-29 11:51:38 DEBUG] [activity:205]   => succeeded with '{'status': 200, 'headers': {'Accept': 'application/json'}, 'body': {'info': 'http://127.0.0.1:5000/'}}'
+[2021-12-29 11:51:38 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 11:51:38 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 11:51:38 INFO] [run:886] Let's rollback...
+[2021-12-29 11:51:38 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 11:51:38 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 11:51:38 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 11:51:38 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 11:51:38 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 11:51:38 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 11:51:38 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 11:54:34 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 11:54:34 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 11:54:34 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 11:54:35 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 11:54:35 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 11:54:35 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 11:54:35 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 11:54:35 DEBUG] [caching:35] Cached 1 activities
+[2021-12-29 11:54:35 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 11:54:35 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 11:54:35 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 11:54:35 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 11:54:35 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 11:54:35 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 11:54:35 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 11:54:35 DEBUG] [caching:35] Cached 1 activities
+[2021-12-29 11:54:35 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 11:54:35 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 11:54:35 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 11:54:35 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 11:54:35 INFO] [run:320] Running experiment: Simple use of selfmade function
+[2021-12-29 11:54:35 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 11:54:35 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 11:54:35 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 11:54:35 INFO] [run:346] No steady state hypothesis defined. That's ok, just exploring.
+[2021-12-29 11:54:35 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 11:54:35 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 11:54:35 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 11:54:35 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 11:54:35 INFO] [activity:188] Probe: Checks tolerance which is returned "status" and runs basic_function
+[2021-12-29 11:54:35 DEBUG] [python:33] Activity 'Checks tolerance which is returned "status" and runs basic_function' loaded from '/home/ubuntu/chaos/custom/customChaosFunctions/probes.py'
+[2021-12-29 11:54:35 DEBUG] [activity:205]   => succeeded with '{'status': 200, 'headers': {'Accept': 'application/json'}, 'body': {'info': 'http://127.0.0.1:5000/'}}'
+[2021-12-29 11:54:35 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 11:54:35 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 11:54:35 INFO] [run:886] Let's rollback...
+[2021-12-29 11:54:35 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 11:54:35 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 11:54:35 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 11:54:35 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 11:54:35 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 11:54:35 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 11:54:35 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 11:56:54 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 11:56:54 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 11:56:54 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 11:56:54 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 11:56:54 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 11:56:54 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 11:56:54 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 11:56:54 DEBUG] [caching:35] Cached 1 activities
+[2021-12-29 11:56:54 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 11:56:54 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 11:56:54 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 11:56:54 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 11:56:54 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 11:56:54 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 11:56:54 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 11:56:54 DEBUG] [caching:35] Cached 1 activities
+[2021-12-29 11:56:54 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 11:56:54 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 11:56:54 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 11:56:54 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 11:56:54 INFO] [run:320] Running experiment: Simple use of selfmade function
+[2021-12-29 11:56:54 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 11:56:54 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 11:56:54 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 11:56:54 INFO] [run:346] No steady state hypothesis defined. That's ok, just exploring.
+[2021-12-29 11:56:54 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 11:56:54 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 11:56:54 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 11:56:54 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 11:56:54 INFO] [activity:188] Probe: Checks tolerance which is returned "status" and runs basic_function
+[2021-12-29 11:56:54 DEBUG] [python:33] Activity 'Checks tolerance which is returned "status" and runs basic_function' loaded from '/home/ubuntu/chaos/custom/customChaosFunctions/probes.py'
+[2021-12-29 11:56:55 DEBUG] [activity:205]   => succeeded with '{'status': 200, 'headers': {'Accept': 'application/json'}, 'body': {'info': 'http://127.0.0.1:5000/'}}'
+[2021-12-29 11:56:55 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 11:56:55 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 11:56:55 INFO] [run:886] Let's rollback...
+[2021-12-29 11:56:55 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 11:56:55 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 11:56:55 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 11:56:55 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 11:56:55 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 11:56:55 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 11:56:55 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:29:49 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:29:49 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:29:49 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:29:49 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:29:49 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:29:49 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:29:49 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:29:49 DEBUG] [caching:35] Cached 1 activities
+[2021-12-30 21:29:49 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:29:49 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:29:49 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:29:49 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:29:49 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:29:49 ERROR] [cli:251] could not find Python module 'customChaosFunctions.probes' in activity 'Checks tolerance which is returned "status" and runs basic_function'
+[2021-12-30 21:29:49 DEBUG] [cli:252] could not find Python module 'customChaosFunctions.probes' in activity 'Checks tolerance which is returned "status" and runs basic_function'
+[2021-12-30 21:31:21 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:31:21 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:31:21 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:31:21 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:31:21 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:31:22 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:31:22 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:31:22 DEBUG] [caching:35] Cached 1 activities
+[2021-12-30 21:31:22 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:31:22 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:31:22 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:31:22 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:31:22 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:31:22 ERROR] [cli:251] could not find Python module 'customChaosFunctions.probes' in activity 'Checks tolerance which is returned "status" and runs basic_function'
+[2021-12-30 21:31:22 DEBUG] [cli:252] could not find Python module 'customChaosFunctions.probes' in activity 'Checks tolerance which is returned "status" and runs basic_function'
+[2021-12-30 21:33:17 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:33:17 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:33:17 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:33:18 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:33:18 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:33:18 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:33:18 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:33:18 DEBUG] [caching:35] Cached 1 activities
+[2021-12-30 21:33:18 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:33:18 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:33:18 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:33:18 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:33:18 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 21:33:18 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:33:18 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:33:18 DEBUG] [caching:35] Cached 1 activities
+[2021-12-30 21:33:18 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:33:18 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:33:18 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:33:18 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 21:33:18 INFO] [run:320] Running experiment: Simple use of selfmade function
+[2021-12-30 21:33:18 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 21:33:18 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 21:33:18 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 21:33:18 INFO] [run:346] No steady state hypothesis defined. That's ok, just exploring.
+[2021-12-30 21:33:18 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:33:18 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 21:33:18 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:33:18 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:33:18 INFO] [activity:188] Probe: Checks tolerance which is returned "status" and runs basic_function
+[2021-12-30 21:33:18 DEBUG] [python:33] Activity 'Checks tolerance which is returned "status" and runs basic_function' loaded from '/home/ubuntu/chaos/custom/customChaosFunctions/probes.py'
+[2021-12-30 21:33:18 DEBUG] [activity:205]   => succeeded with '{'status': 200, 'headers': {'Accept': 'application/json'}, 'body': {'info': 'http://127.0.0.1:5000/'}}'
+[2021-12-30 21:33:18 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:33:18 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:33:18 INFO] [run:886] Let's rollback...
+[2021-12-30 21:33:18 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:33:18 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-30 21:33:18 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:33:18 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 21:33:18 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:33:18 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 21:33:18 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:58:36 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:58:36 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:58:36 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:58:37 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:58:37 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:58:37 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:58:37 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:58:37 DEBUG] [caching:35] Cached 1 activities
+[2021-12-30 21:58:37 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:58:37 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:58:37 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:58:37 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:58:37 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 21:58:37 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:58:37 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:58:37 DEBUG] [caching:35] Cached 1 activities
+[2021-12-30 21:58:37 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:58:37 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:58:37 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:58:37 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 21:58:37 INFO] [run:320] Running experiment: Simple use of selfmade function
+[2021-12-30 21:58:37 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 21:58:37 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 21:58:37 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 21:58:37 INFO] [run:346] No steady state hypothesis defined. That's ok, just exploring.
+[2021-12-30 21:58:37 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:58:37 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 21:58:37 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:58:37 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:58:37 INFO] [activity:188] Probe: Checks tolerance which is returned "status" and runs basic_function
+[2021-12-30 21:58:37 DEBUG] [python:33] Activity 'Checks tolerance which is returned "status" and runs basic_function' loaded from '/home/ubuntu/chaos/custom/customChaosFunctions/probes.py'
+[2021-12-30 21:58:38 DEBUG] [activity:205]   => succeeded with '{'status': 200, 'headers': {'Accept': 'application/json'}, 'body': {'info': 'http://127.0.0.1:5000/'}}'
+[2021-12-30 21:58:38 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:58:38 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:58:38 INFO] [run:886] Let's rollback...
+[2021-12-30 21:58:38 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:58:38 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-30 21:58:38 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:58:38 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 21:58:38 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:58:38 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 21:58:38 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 22:17:10 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 22:17:10 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 22:17:10 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 22:17:10 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 22:17:10 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 22:17:10 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 22:17:10 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 22:17:10 DEBUG] [caching:35] Cached 1 activities
+[2021-12-30 22:17:10 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 22:17:10 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 22:17:10 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 22:17:10 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 22:17:10 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 22:17:10 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 22:17:10 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 22:17:10 DEBUG] [caching:35] Cached 1 activities
+[2021-12-30 22:17:10 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 22:17:10 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 22:17:10 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 22:17:10 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 22:17:10 INFO] [run:320] Running experiment: Simple use of selfmade function
+[2021-12-30 22:17:10 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 22:17:10 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 22:17:10 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 22:17:10 INFO] [run:346] No steady state hypothesis defined. That's ok, just exploring.
+[2021-12-30 22:17:10 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 22:17:10 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 22:17:10 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 22:17:10 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 22:17:10 INFO] [activity:188] Probe: Checks tolerance which is returned "status" and runs basic_function
+[2021-12-30 22:17:10 DEBUG] [python:33] Activity 'Checks tolerance which is returned "status" and runs basic_function' loaded from '/home/ubuntu/chaos/custom/customChaosFunctions/probes.py'
+[2021-12-30 22:17:11 DEBUG] [activity:205]   => succeeded with '{'status': 200, 'headers': {'Accept': 'application/json'}, 'body': {'info': 'http://127.0.0.1:5000/'}}'
+[2021-12-30 22:17:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 22:17:11 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 22:17:11 INFO] [run:886] Let's rollback...
+[2021-12-30 22:17:11 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 22:17:11 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-30 22:17:11 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 22:17:11 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 22:17:11 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 22:17:11 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 22:17:11 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 22:20:20 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 22:20:20 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 22:20:20 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 22:20:21 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 22:20:21 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 22:20:21 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 22:20:21 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 22:20:21 DEBUG] [caching:35] Cached 1 activities
+[2021-12-30 22:20:21 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 22:20:21 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 22:20:21 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 22:20:21 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 22:20:21 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 22:20:21 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 22:20:21 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 22:20:21 DEBUG] [caching:35] Cached 1 activities
+[2021-12-30 22:20:21 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 22:20:21 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 22:20:21 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 22:20:21 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 22:20:21 INFO] [run:320] Running experiment: Simple use of selfmade function
+[2021-12-30 22:20:21 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 22:20:21 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 22:20:21 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 22:20:21 INFO] [run:346] No steady state hypothesis defined. That's ok, just exploring.
+[2021-12-30 22:20:21 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 22:20:21 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 22:20:21 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 22:20:21 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 22:20:21 INFO] [activity:188] Probe: Checks tolerance which is returned "status" and runs basic_function
+[2021-12-30 22:20:21 DEBUG] [python:33] Activity 'Checks tolerance which is returned "status" and runs basic_function' loaded from '/home/ubuntu/chaos/custom/customChaosFunctions/probes.py'
+[2021-12-30 22:20:22 DEBUG] [activity:205]   => succeeded with '{'status': 200, 'headers': {'Accept': 'application/json'}, 'body': {'info': 'http://127.0.0.1:5000/'}}'
+[2021-12-30 22:20:22 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 22:20:22 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 22:20:22 INFO] [run:886] Let's rollback...
+[2021-12-30 22:20:22 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 22:20:22 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-30 22:20:22 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 22:20:22 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 22:20:22 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 22:20:22 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 22:20:22 DEBUG] [caching:42] Clearing activities cache
+[2022-02-02 02:26:02 DEBUG] [cli:103] ###############################################################################
+[2022-02-02 02:26:02 DEBUG] [cli:104] Running command 'run'
+[2022-02-02 02:26:02 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2022-02-02 02:26:03 WARNING] [check:33] 
+[2022-02-02 02:26:03 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2022-02-02 02:26:03 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2022-02-02 02:26:03 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2022-02-02 02:26:03 DEBUG] [caching:24] Building activity cache...
+[2022-02-02 02:26:03 DEBUG] [caching:35] Cached 1 activities
+[2022-02-02 02:26:03 INFO] [experiment:58] Validating the experiment's syntax
+[2022-02-02 02:26:03 DEBUG] [configuration:63] Loading configuration...
+[2022-02-02 02:26:03 DEBUG] [secret:78] Loading secrets...
+[2022-02-02 02:26:03 DEBUG] [secret:104] Done loading secrets
+[2022-02-02 02:26:03 INFO] [experiment:109] Experiment looks valid
+[2022-02-02 02:26:03 DEBUG] [caching:42] Clearing activities cache
+[2022-02-02 02:26:03 DEBUG] [caching:24] Building activity cache...
+[2022-02-02 02:26:03 DEBUG] [caching:35] Cached 1 activities
+[2022-02-02 02:26:03 DEBUG] [configuration:63] Loading configuration...
+[2022-02-02 02:26:03 DEBUG] [secret:78] Loading secrets...
+[2022-02-02 02:26:03 DEBUG] [secret:104] Done loading secrets
+[2022-02-02 02:26:03 DEBUG] [configuration:155] Loading dynamic configuration...
+[2022-02-02 02:

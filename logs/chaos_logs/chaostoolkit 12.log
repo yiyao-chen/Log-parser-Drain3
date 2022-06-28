@@ -1,0 +1,195 @@
+[2021-03-18 00:35:08 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 00:35:08 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 00:35:08 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 00:35:09 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 00:35:09 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 00:35:09 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 00:35:09 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 00:35:09 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 00:35:09 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 00:35:09 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 00:35:09 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 00:35:09 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 00:35:10 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 00:35:10 ERROR] [cli:174] Install the `jsonpath2` package to use a JSON path tolerance: `pip install chaostoolkit-lib[jsonpath]`.
+[2021-03-18 00:35:10 DEBUG] [cli:175] Install the `jsonpath2` package to use a JSON path tolerance: `pip install chaostoolkit-lib[jsonpath]`.
+[2021-03-18 00:35:39 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 00:35:39 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 00:35:39 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 00:35:40 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 00:35:40 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 00:35:40 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 00:35:40 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 00:35:40 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 00:35:40 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 00:35:40 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 00:35:40 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 00:35:40 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 00:35:40 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 00:35:40 ERROR] [cli:174] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'delete_deployment'
+[2021-03-18 00:35:40 DEBUG] [cli:175] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'delete_deployment'
+[2021-03-18 01:18:01 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:18:01 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:18:01 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:18:03 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:18:03 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:18:03 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:18:03 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:18:03 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 01:18:03 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:18:03 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:18:03 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 01:18:03 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:18:03 ERROR] [cli:174] Secrets make reference to an environment key that does not exist: HUMIO_INGEST_TOKEN
+[2021-03-18 01:18:03 DEBUG] [cli:175] Secrets make reference to an environment key that does not exist: HUMIO_INGEST_TOKEN
+[2021-03-18 01:18:54 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:18:54 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:18:54 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:18:55 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:18:55 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:18:55 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:18:55 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:18:55 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 01:18:55 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:18:55 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:18:55 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 01:18:55 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:18:55 ERROR] [cli:174] Secrets make reference to an environment key that does not exist: 
+[2021-03-18 01:18:55 DEBUG] [cli:175] Secrets make reference to an environment key that does not exist: 
+[2021-03-18 01:19:46 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:19:46 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:19:46 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:19:46 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:19:46 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:19:46 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:20:27 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:20:27 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:20:27 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:20:27 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:20:27 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:20:27 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:20:27 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:20:27 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 01:20:27 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:20:27 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:20:27 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 01:20:27 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 01:20:28 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:20:28 ERROR] [cli:174] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'create_deployment'
+[2021-03-18 01:20:28 DEBUG] [cli:175] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'create_deployment'
+[2021-03-18 01:27:25 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:27:25 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:27:25 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:27:27 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:27:27 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:27:27 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:27:27 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:27:27 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 01:27:27 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:27:27 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:27:27 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:27:27 ERROR] [cli:174] Configuration makes reference to an environment key that does not exist: COUNTER_URL
+[2021-03-18 01:27:27 DEBUG] [cli:175] Configuration makes reference to an environment key that does not exist: COUNTER_URL
+[2021-03-18 01:28:36 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:28:36 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:28:36 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:28:36 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:28:36 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:28:36 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:28:36 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:28:36 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 01:28:36 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:28:36 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:28:36 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 01:28:36 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 01:28:37 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:28:37 ERROR] [cli:174] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'scale_deployment'
+[2021-03-18 01:28:37 DEBUG] [cli:175] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'scale_deployment'
+[2021-03-18 01:32:25 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:32:25 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:32:25 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:32:26 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:32:26 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:32:26 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:32:26 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:32:26 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 01:32:26 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:32:26 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:32:26 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:32:26 ERROR] [cli:174] Configuration makes reference to an environment key that does not exist: COUNTER_URL
+[2021-03-18 01:32:26 DEBUG] [cli:175] Configuration makes reference to an environment key that does not exist: COUNTER_URL
+[2021-03-18 01:40:49 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:40:49 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:40:49 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:40:50 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:40:50 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:40:50 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:40:50 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:40:50 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 01:40:50 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:40:50 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:40:50 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 01:40:50 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 01:40:51 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:40:51 ERROR] [cli:174] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'delete_deployment'
+[2021-03-18 01:40:51 DEBUG] [cli:175] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'delete_deployment'
+[2021-03-18 01:47:13 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:47:13 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:47:13 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:47:15 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:47:15 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:47:15 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:47:15 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:47:15 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 01:47:15 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:47:15 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:47:15 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 01:47:15 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 01:47:16 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:47:16 ERROR] [cli:174] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'delete_deployment'
+[2021-03-18 01:47:16 DEBUG] [cli:175] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'delete_deployment'
+[2021-03-18 01:48:21 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:48:21 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:48:21 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:48:22 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:48:22 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:48:22 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:48:22 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:48:22 DEBUG] [caching:35] Cached 5 activities
+[2021-03-18 01:48:22 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:48:22 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:48:22 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 01:48:22 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 01:48:23 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:48:23 ERROR] [cli:174] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'create_deployment'
+[2021-03-18 01:48:23 DEBUG] [cli:175] 'chaosk8s.deployment.actions' does not expose 'set_deployment_image' in activity 'create_deployment'
+[2021-03-18 01:54:56 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:54:56 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:54:56 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:54:57 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:54:57 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:54:57 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:54:57 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:54:57 DEBUG] [caching:35] Cached 4 activities
+[2021-03-18 01:54:57 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:54:57 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:54:57 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 01:54:57 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 01:54:58 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:54:58 ERROR] [cli:174] could not find Python module 'load' in activity 'pretend-users-in-background'
+[2021-03-18 01:54:58 DEBUG] [cli:175] could not find Python module 'load' in activity 'pretend-users-in-background'
+[2021-03-18 01:57:10 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 01:57:10 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 01:57:10 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 01:57:10 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 01:57:10 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:57:10 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 01:57:10 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 01:57:10 DEBUG] [caching:35] Cached 3 activities
+[2021-03-18 01:57:10 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 01:57:10 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 01:57:10 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 01:57:10 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 01:57:11 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 01:57:11 ERROR] [cli:174] 'chaosk8s.deployment.probes' does not expose 'collect_deployment_status' in activity 'create_k8s_api_client'
+[2021-03-18 01:57:11 DEBUG] [cli:175] 'chaosk8s.deployment.probes' does not expose 'collect_deployment_status' in activity 'create_k8s_api_client'

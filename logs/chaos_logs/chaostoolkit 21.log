@@ -1,0 +1,2075 @@
+[2021-12-28 09:11:28 DEBUG] [cli:103] ###############################################################################
+[2021-12-28 09:11:28 DEBUG] [cli:104] Running command 'run'
+[2021-12-28 09:11:28 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-28 09:11:28 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-28 09:11:28 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-28 09:11:28 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-28 09:11:28 DEBUG] [caching:24] Building activity cache...
+[2021-12-28 09:11:28 DEBUG] [caching:35] Cached 2 activities
+[2021-12-28 09:11:28 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-28 09:11:28 DEBUG] [configuration:63] Loading configuration...
+[2021-12-28 09:11:28 DEBUG] [secret:78] Loading secrets...
+[2021-12-28 09:11:28 DEBUG] [secret:104] Done loading secrets
+[2021-12-28 09:11:31 INFO] [experiment:109] Experiment looks valid
+[2021-12-28 09:11:31 DEBUG] [caching:42] Clearing activities cache
+[2021-12-28 09:11:31 DEBUG] [caching:24] Building activity cache...
+[2021-12-28 09:11:31 DEBUG] [caching:35] Cached 2 activities
+[2021-12-28 09:11:31 DEBUG] [configuration:63] Loading configuration...
+[2021-12-28 09:11:31 DEBUG] [secret:78] Loading secrets...
+[2021-12-28 09:11:31 DEBUG] [secret:104] Done loading secrets
+[2021-12-28 09:11:31 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-28 09:11:31 INFO] [run:320] Running experiment: Do we remain available in case of pod going down?
+[2021-12-28 09:11:31 DEBUG] [__init__:49] Initializing controls
+[2021-12-28 09:11:31 INFO] [run:337] Steady-state strategy: default
+[2021-12-28 09:11:31 INFO] [run:341] Rollbacks strategy: default
+[2021-12-28 09:11:31 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-28 09:11:31 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-28 09:11:31 INFO] [hypothesis:182] Steady state hypothesis: Verifying service remains healthy
+[2021-12-28 09:11:31 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-28 09:11:31 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-28 09:11:31 INFO] [activity:188] Probe: all-our-microservices-should-be-healthy
+[2021-12-28 09:11:31 DEBUG] [python:33] Activity 'all-our-microservices-should-be-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-28 09:11:31 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-28 09:11:31 DEBUG] [probes:43] Found 1 deployment(s) named 'motion-sensor-service' in ns 'default'
+[2021-12-28 09:11:31 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-28 09:11:31 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-28 09:11:31 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-28 09:11:31 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-28 09:11:31 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-28 09:11:31 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-28 09:11:31 INFO] [run:600] Playing your experiment's method now...
+[2021-12-28 09:11:31 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-28 09:11:31 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-28 09:11:31 INFO] [activity:188] Action: terminate-motionSensor-pod
+[2021-12-28 09:11:31 DEBUG] [python:33] Activity 'terminate-motionSensor-pod' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-28 09:11:31 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-28 09:11:31 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-28 09:11:31 DEBUG] [actions:230] Pod 'motion-sensor-service-6dbbc6c8f5-t69qn' match pattern
+[2021-12-28 09:11:31 DEBUG] [activity:205]   => succeeded with '['motion-sensor-service-6dbbc6c8f5-t69qn']'
+[2021-12-28 09:11:31 INFO] [activity:223] Pausing after activity for 1s...
+[2021-12-28 09:11:32 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-28 09:11:32 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-28 09:11:32 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-28 09:11:32 INFO] [hypothesis:182] Steady state hypothesis: Verifying service remains healthy
+[2021-12-28 09:11:32 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-28 09:11:32 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-28 09:11:32 INFO] [activity:188] Probe: all-our-microservices-should-be-healthy
+[2021-12-28 09:11:32 DEBUG] [python:33] Activity 'all-our-microservices-should-be-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-28 09:11:32 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-28 09:11:32 DEBUG] [probes:43] Found 1 deployment(s) named 'motion-sensor-service' in ns 'default'
+[2021-12-28 09:11:32 DEBUG] [probes:49] Deployment has 'None' available replicas
+[2021-12-28 09:11:32 DEBUG] [activity:260] Activity failed
+[2021-12-28 09:11:32 ERROR] [activity:213]   => failed: chaoslib.exceptions.ActivityFailed: Deployment 'motion-sensor-service' is not healthy
+[2021-12-28 09:11:32 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-28 09:11:32 WARNING] [hypothesis:208] Probe terminated unexpectedly, so its tolerance could not be validated
+[2021-12-28 09:11:32 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-28 09:11:32 CRITICAL] [run:538] Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+[2021-12-28 09:11:32 INFO] [run:451] Experiment ended with status: deviated
+[2021-12-28 09:11:32 INFO] [run:453] The steady-state has deviated, a weakness may have been discovered
+[2021-12-28 09:11:32 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-28 09:11:32 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-28 09:11:32 DEBUG] [caching:42] Clearing activities cache
+[2021-12-28 09:11:36 DEBUG] [cli:103] ###############################################################################
+[2021-12-28 09:11:36 DEBUG] [cli:104] Running command 'run'
+[2021-12-28 09:11:36 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-28 09:11:37 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-28 09:11:37 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-28 09:11:37 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-28 09:11:37 DEBUG] [caching:24] Building activity cache...
+[2021-12-28 09:11:37 DEBUG] [caching:35] Cached 2 activities
+[2021-12-28 09:11:37 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-28 09:11:37 DEBUG] [configuration:63] Loading configuration...
+[2021-12-28 09:11:37 DEBUG] [secret:78] Loading secrets...
+[2021-12-28 09:11:37 DEBUG] [secret:104] Done loading secrets
+[2021-12-28 09:11:41 INFO] [experiment:109] Experiment looks valid
+[2021-12-28 09:11:41 DEBUG] [caching:42] Clearing activities cache
+[2021-12-28 09:11:41 DEBUG] [caching:24] Building activity cache...
+[2021-12-28 09:11:41 DEBUG] [caching:35] Cached 2 activities
+[2021-12-28 09:11:41 DEBUG] [configuration:63] Loading configuration...
+[2021-12-28 09:11:41 DEBUG] [secret:78] Loading secrets...
+[2021-12-28 09:11:41 DEBUG] [secret:104] Done loading secrets
+[2021-12-28 09:11:41 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-28 09:11:41 INFO] [run:320] Running experiment: Do we remain available in case of pod going down?
+[2021-12-28 09:11:41 DEBUG] [__init__:49] Initializing controls
+[2021-12-28 09:11:41 INFO] [run:337] Steady-state strategy: default
+[2021-12-28 09:11:41 INFO] [run:341] Rollbacks strategy: default
+[2021-12-28 09:11:41 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-28 09:11:41 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-28 09:11:41 INFO] [hypothesis:182] Steady state hypothesis: Verifying service remains healthy
+[2021-12-28 09:11:41 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-28 09:11:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-28 09:11:41 INFO] [activity:188] Probe: all-our-microservices-should-be-healthy
+[2021-12-28 09:11:41 DEBUG] [python:33] Activity 'all-our-microservices-should-be-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-28 09:11:41 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-28 09:11:41 DEBUG] [probes:43] Found 1 deployment(s) named 'motion-sensor-service' in ns 'default'
+[2021-12-28 09:11:41 DEBUG] [probes:49] Deployment has 'None' available replicas
+[2021-12-28 09:11:41 DEBUG] [activity:260] Activity failed
+[2021-12-28 09:11:41 ERROR] [activity:213]   => failed: chaoslib.exceptions.ActivityFailed: Deployment 'motion-sensor-service' is not healthy
+[2021-12-28 09:11:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-28 09:11:41 WARNING] [hypothesis:208] Probe terminated unexpectedly, so its tolerance could not be validated
+[2021-12-28 09:11:41 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-28 09:11:41 CRITICAL] [run:509] Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+[2021-12-28 09:11:41 INFO] [run:451] Experiment ended with status: failed
+[2021-12-28 09:11:41 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-28 09:11:41 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-28 09:11:41 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 09:51:09 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 09:51:09 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 09:51:09 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 09:51:09 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 09:51:09 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 09:51:09 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 09:51:09 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 09:51:09 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 09:51:09 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 09:51:09 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 09:51:09 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 09:51:09 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 09:51:11 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 09:51:11 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 09:51:11 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 09:51:11 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 09:51:11 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 09:51:11 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 09:51:11 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 09:51:11 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 09:51:11 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 09:51:11 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 09:51:11 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 09:51:11 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 09:51:11 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 09:51:11 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:51:11 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 09:51:11 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 09:51:11 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:51:11 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 09:51:11 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 09:51:11 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:51:11 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 09:51:11 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:51:11 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:51:11 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 09:51:11 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 09:51:11 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:51:11 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 09:51:11 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 09:51:11 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['kubectl', 'cp', '/home/ubuntu/kubernetes-scripts/temp.txt', 'temp-sensor-service-76599cc764-m5rc9:requirements.txt']
+[2021-12-29 09:51:11 DEBUG] [actions:134] Pod temp-sensor-service-76599cc764-m5rc9 do not have container named 'temp-sensor-service istio-proxy'
+[2021-12-29 09:51:11 DEBUG] [activity:205]   => succeeded with '[]'
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 09:51:11 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 09:51:11 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:51:11 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 09:51:11 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 09:51:11 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:51:11 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 09:51:11 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 09:51:11 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:51:11 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 09:51:11 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:51:11 INFO] [run:886] Let's rollback...
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 09:51:11 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 09:51:11 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 09:51:11 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 09:51:11 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 09:51:11 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 09:53:22 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 09:53:22 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 09:53:22 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 09:53:22 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 09:53:22 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 09:53:22 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 09:53:22 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 09:53:22 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 09:53:22 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 09:53:22 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 09:53:22 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 09:53:22 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 09:53:23 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 09:53:23 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 09:53:23 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 09:53:23 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 09:53:23 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 09:53:23 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 09:53:23 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 09:53:23 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 09:53:23 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 09:53:23 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 09:53:23 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 09:53:23 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 09:53:23 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 09:53:23 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:53:23 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 09:53:23 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 09:53:23 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:53:23 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 09:53:23 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 09:53:23 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:53:23 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 09:53:23 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:53:23 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:53:23 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 09:53:23 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 09:53:23 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:53:23 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 09:53:23 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 09:53:23 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['touch', 'test.txt']
+[2021-12-29 09:53:23 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': 0, 'cmd': 'touch test.txt', 'stdout': '', 'stderr': ''}]'
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 09:53:23 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 09:53:23 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:53:23 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 09:53:23 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 09:53:23 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:53:23 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 09:53:23 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 09:53:23 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:53:23 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 09:53:23 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:53:23 INFO] [run:886] Let's rollback...
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 09:53:23 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 09:53:23 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 09:53:23 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 09:53:23 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 09:53:23 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 09:56:04 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 09:56:04 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 09:56:04 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 09:56:04 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 09:56:04 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 09:56:04 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 09:56:04 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 09:56:04 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 09:56:04 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 09:56:04 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 09:56:04 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 09:56:04 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 09:56:05 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 09:56:05 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 09:56:05 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 09:56:05 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 09:56:05 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 09:56:05 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 09:56:05 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 09:56:05 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 09:56:05 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 09:56:05 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 09:56:05 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 09:56:05 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 09:56:05 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 09:56:05 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 09:56:05 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 09:56:05 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:56:05 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:56:05 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 09:56:05 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 09:56:05 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:56:05 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 09:56:05 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 09:56:05 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 09:56:05 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:56:05 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 09:56:05 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 09:56:05 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:56:05 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 09:56:05 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 09:56:05 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:56:05 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 09:56:05 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 09:56:05 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:56:05 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 09:56:05 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 09:56:05 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['kubectl', 'cp', '/home/ubuntu/chaos/temp.txt', 'temp-sensor-service-76599cc764-m5rc9:requirements.txt']
+[2021-12-29 09:56:06 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '126', 'cmd': 'kubectl cp /home/ubuntu/chaos/temp.txt temp-sensor-service-76599cc764-m5rc9:requirements.txt', 'stdout': 'OCI runtime exec failed: exec failed: container_linux.go:380: starting container process caused: exec: "kubectl": executable file not found in $PATH: unknown\r\n', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 126'}]'
+[2021-12-29 09:56:06 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:56:06 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 09:56:06 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 09:56:06 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 09:56:06 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:56:06 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:56:06 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 09:56:06 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 09:56:06 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:56:06 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 09:56:06 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 09:56:06 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 09:56:06 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:56:06 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 09:56:06 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 09:56:06 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:56:06 INFO] [run:886] Let's rollback...
+[2021-12-29 09:56:06 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 09:56:06 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 09:56:06 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 09:56:06 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 09:56:06 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 09:56:06 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 09:56:06 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 09:57:00 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 09:57:00 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 09:57:00 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 09:57:01 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 09:57:01 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 09:57:01 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 09:57:01 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 09:57:01 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 09:57:01 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 09:57:01 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 09:57:01 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 09:57:01 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 09:57:01 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 09:57:01 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 09:57:01 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 09:57:01 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 09:57:01 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 09:57:01 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 09:57:01 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 09:57:01 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 09:57:01 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 09:57:01 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 09:57:01 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 09:57:02 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 09:57:02 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 09:57:02 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:57:02 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 09:57:02 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 09:57:02 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:57:02 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 09:57:02 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 09:57:02 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:57:02 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 09:57:02 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:57:02 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:57:02 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 09:57:02 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 09:57:02 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:57:02 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 09:57:02 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 09:57:02 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['kubectl', 'cp', '/home/ubuntu/chaos/temp.txt', 'temp-sensor-service-76599cc764-m5rc9:requirements.txt']
+[2021-12-29 09:57:02 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '126', 'cmd': 'kubectl cp /home/ubuntu/chaos/temp.txt temp-sensor-service-76599cc764-m5rc9:requirements.txt', 'stdout': 'OCI runtime exec failed: exec failed: container_linux.go:380: starting container process caused: exec: "kubectl": executable file not found in $PATH: unknown\r\n', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 126'}]'
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 09:57:02 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 09:57:02 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:57:02 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 09:57:02 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 09:57:02 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:57:02 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 09:57:02 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 09:57:02 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:57:02 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 09:57:02 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:57:02 INFO] [run:886] Let's rollback...
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 09:57:02 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 09:57:02 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 09:57:02 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 09:57:02 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 09:57:02 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 09:58:50 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 09:58:50 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 09:58:50 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 09:58:50 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 09:58:50 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 09:58:50 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 09:58:50 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 09:58:50 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 09:58:50 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 09:58:50 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 09:58:50 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 09:58:50 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 09:58:51 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 09:58:51 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 09:58:51 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 09:58:51 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 09:58:51 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 09:58:51 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 09:58:51 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 09:58:51 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 09:58:51 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 09:58:51 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 09:58:51 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 09:58:51 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 09:58:51 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 09:58:51 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:58:51 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 09:58:51 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 09:58:51 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:58:51 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 09:58:51 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 09:58:51 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:58:51 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 09:58:51 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:58:51 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:58:51 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 09:58:51 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 09:58:51 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:58:51 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 09:58:51 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 09:58:51 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['cp', '/home/ubuntu/chaos/temp.txt', 'temp-sensor-service-76599cc764-m5rc9:requirements.txt']
+[2021-12-29 09:58:51 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '1', 'cmd': 'cp /home/ubuntu/chaos/temp.txt temp-sensor-service-76599cc764-m5rc9:requirements.txt', 'stdout': '', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 1'}]'
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 09:58:51 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 09:58:51 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:58:51 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 09:58:51 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 09:58:51 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 09:58:51 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 09:58:51 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 09:58:51 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 09:58:51 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 09:58:51 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 09:58:51 INFO] [run:886] Let's rollback...
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 09:58:51 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 09:58:51 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 09:58:51 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 09:58:51 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 09:58:51 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:07:34 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 10:07:34 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 10:07:34 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 10:07:35 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 10:07:35 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:07:35 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:07:35 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:07:35 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:07:35 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 10:07:35 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:07:35 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:07:35 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:07:36 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 10:07:36 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:07:36 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:07:36 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:07:36 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:07:36 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:07:36 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:07:36 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 10:07:36 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 10:07:36 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 10:07:36 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 10:07:36 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:07:36 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 10:07:36 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:07:36 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:07:36 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:07:36 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:07:36 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:07:36 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:07:36 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:07:36 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:07:36 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:07:36 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:07:36 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 10:07:36 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 10:07:36 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:07:36 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 10:07:36 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 10:07:36 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['cp', 'temp.txt', 'temp-sensor-service:requirements.txt']
+[2021-12-29 10:07:36 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '1', 'cmd': 'cp temp.txt temp-sensor-service:requirements.txt', 'stdout': '', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 1'}]'
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:07:36 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 10:07:36 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:07:36 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:07:36 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:07:36 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:07:36 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:07:36 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:07:36 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:07:36 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:07:36 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:07:36 INFO] [run:886] Let's rollback...
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:07:36 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:07:36 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 10:07:36 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:07:36 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 10:07:36 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:10:14 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 10:10:14 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 10:10:14 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 10:10:14 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 10:10:14 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:10:14 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:10:14 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:10:14 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:10:14 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 10:10:14 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:10:14 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:10:14 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:10:15 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 10:10:15 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:10:15 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:10:15 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:10:15 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:10:15 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:10:15 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:10:15 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 10:10:15 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 10:10:15 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 10:10:15 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 10:10:15 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:10:15 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 10:10:15 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:10:15 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:10:15 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:10:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:10:15 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:10:15 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:10:15 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:10:15 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:10:15 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:10:15 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:10:15 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 10:10:15 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 10:10:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:10:15 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 10:10:15 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 10:10:15 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['docker', 'cp', '/home/ubuntu/chaos/temp.txt', 'temp-sensor-service-76599cc764-m5rc9:requirements.txt']
+[2021-12-29 10:10:15 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '126', 'cmd': 'docker cp /home/ubuntu/chaos/temp.txt temp-sensor-service-76599cc764-m5rc9:requirements.txt', 'stdout': 'OCI runtime exec failed: exec failed: container_linux.go:380: starting container process caused: exec: "docker": executable file not found in $PATH: unknown\r\n', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 126'}]'
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:10:15 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 10:10:15 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:10:15 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:10:15 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:10:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:10:15 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:10:15 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:10:15 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:10:15 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:10:15 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:10:15 INFO] [run:886] Let's rollback...
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:10:15 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:10:15 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 10:10:15 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:10:15 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 10:10:15 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:11:35 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 10:11:35 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 10:11:35 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 10:11:35 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 10:11:35 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:11:35 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:11:35 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:11:35 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:11:35 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 10:11:35 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:11:35 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:11:35 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:11:36 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 10:11:36 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:11:36 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:11:36 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:11:36 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:11:36 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:11:36 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:11:36 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 10:11:36 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 10:11:37 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 10:11:37 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 10:11:37 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:11:37 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 10:11:37 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:11:37 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:11:37 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:11:37 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:11:37 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:11:37 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:11:37 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:11:37 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:11:37 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:11:37 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:11:37 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 10:11:37 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 10:11:37 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:11:37 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 10:11:37 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 10:11:37 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['kubectl', 'cp', '/home/ubuntu/chaos/temp.txt', 'temp-sensor-service-76599cc764-m5rc9:requirements.txt']
+[2021-12-29 10:11:37 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '126', 'cmd': 'kubectl cp /home/ubuntu/chaos/temp.txt temp-sensor-service-76599cc764-m5rc9:requirements.txt', 'stdout': 'OCI runtime exec failed: exec failed: container_linux.go:380: starting container process caused: exec: "kubectl": executable file not found in $PATH: unknown\r\n', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 126'}]'
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:11:37 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 10:11:37 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:11:37 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:11:37 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:11:37 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:11:37 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:11:37 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:11:37 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:11:37 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:11:37 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:11:37 INFO] [run:886] Let's rollback...
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:11:37 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:11:37 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 10:11:37 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:11:37 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 10:11:37 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:28:02 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 10:28:02 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 10:28:02 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 10:28:02 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 10:28:02 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:28:02 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:28:02 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:28:02 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:28:02 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 10:28:02 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:28:02 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:28:02 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:28:03 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 10:28:03 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:28:03 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:28:03 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:28:03 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:28:03 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:28:03 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:28:03 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 10:28:03 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 10:28:03 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 10:28:03 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 10:28:03 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 10:28:03 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:28:03 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 10:28:03 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:28:03 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:28:03 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:03 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:28:03 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:28:03 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:28:03 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:28:03 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:28:03 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:28:03 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:03 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:28:03 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:28:03 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:28:03 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 10:28:03 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:28:03 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:03 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 10:28:03 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 10:28:03 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:28:03 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 10:28:03 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 10:28:03 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['cat', '/home/ubuntu/chaos/temp.txt', '>', 'temp-sensor-service-76599cc764-m5rc9:requirements.txt']
+[2021-12-29 10:28:04 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '1', 'cmd': 'cat /home/ubuntu/chaos/temp.txt > temp-sensor-service-76599cc764-m5rc9:requirements.txt', 'stdout': '', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 1'}]'
+[2021-12-29 10:28:04 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:04 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:28:04 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 10:28:04 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:28:04 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:28:04 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:04 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:28:04 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:28:04 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:28:04 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:28:04 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:28:04 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:28:04 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:04 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:28:04 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:28:04 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:28:04 INFO] [run:886] Let's rollback...
+[2021-12-29 10:28:04 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:28:04 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 10:28:04 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:28:04 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 10:28:04 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:28:04 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 10:28:04 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:28:51 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 10:28:51 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 10:28:51 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 10:28:52 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 10:28:52 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:28:52 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:28:52 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:28:52 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:28:52 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 10:28:52 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:28:52 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:28:52 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:28:52 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 10:28:52 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:28:52 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:28:52 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:28:52 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:28:52 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:28:52 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:28:52 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 10:28:52 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 10:28:52 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 10:28:52 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 10:28:52 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 10:28:52 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:28:52 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 10:28:52 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:28:52 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:28:52 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:52 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:28:52 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:28:52 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:28:52 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:28:52 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:28:52 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:28:52 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:52 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:28:52 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:28:52 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:28:52 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 10:28:52 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:28:52 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:52 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 10:28:52 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 10:28:52 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:28:52 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 10:28:52 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 10:28:52 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['cat', '/home/ubuntu/chaos/temp.txt', '>', 'requirements.txt']
+[2021-12-29 10:28:53 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '1', 'cmd': 'cat /home/ubuntu/chaos/temp.txt > requirements.txt', 'stdout': 'paho-mqtt', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 1'}]'
+[2021-12-29 10:28:53 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:53 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:28:53 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 10:28:53 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:28:53 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:28:53 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:53 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:28:53 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:28:53 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:28:53 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:28:53 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:28:53 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:28:53 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:28:53 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:28:53 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:28:53 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:28:53 INFO] [run:886] Let's rollback...
+[2021-12-29 10:28:53 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:28:53 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 10:28:53 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:28:53 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 10:28:53 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:28:53 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 10:28:53 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:30:10 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 10:30:10 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 10:30:10 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 10:30:10 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 10:30:10 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:30:10 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:30:10 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:30:10 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:30:10 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 10:30:10 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:30:10 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:30:10 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:30:11 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 10:30:11 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:30:11 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:30:11 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:30:11 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:30:11 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:30:11 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:30:11 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 10:30:11 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 10:30:11 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 10:30:11 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 10:30:11 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:30:11 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 10:30:11 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:30:11 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:30:11 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:30:11 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:30:11 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:30:11 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:30:11 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:30:11 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:30:11 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:30:11 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:30:11 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 10:30:11 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 10:30:11 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:30:11 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 10:30:11 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 10:30:11 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['cp', '/home/ubuntu/chaos/temp.txt', '>', 'requirements.txt']
+[2021-12-29 10:30:11 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '1', 'cmd': 'cp /home/ubuntu/chaos/temp.txt > requirements.txt', 'stdout': '', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 1'}]'
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:30:11 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 10:30:11 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:30:11 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:30:11 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:30:11 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:30:11 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:30:11 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:30:11 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:30:11 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:30:11 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:30:11 INFO] [run:886] Let's rollback...
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:30:11 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:30:11 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 10:30:11 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:30:11 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 10:30:11 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:31:04 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 10:31:04 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 10:31:04 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 10:31:04 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 10:31:04 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:31:04 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:31:04 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:31:04 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:31:04 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 10:31:04 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:31:04 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:31:04 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:31:05 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 10:31:05 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:31:05 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:31:05 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:31:05 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:31:05 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:31:05 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:31:05 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 10:31:05 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 10:31:05 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 10:31:05 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 10:31:05 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:31:05 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 10:31:05 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:31:05 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:31:05 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:31:05 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:31:05 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:31:05 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:31:05 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:31:05 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:31:05 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:31:05 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:31:05 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 10:31:05 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 10:31:05 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:31:05 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 10:31:05 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 10:31:05 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['cp', '/home/ubuntu/chaos/temp.txt', 'requirements.txt']
+[2021-12-29 10:31:05 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '1', 'cmd': 'cp /home/ubuntu/chaos/temp.txt requirements.txt', 'stdout': '', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 1'}]'
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:31:05 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 10:31:05 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:31:05 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:31:05 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:31:05 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:31:05 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:31:05 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:31:05 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:31:05 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:31:05 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:31:05 INFO] [run:886] Let's rollback...
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:31:05 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:31:05 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 10:31:05 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:31:05 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 10:31:05 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:32:14 DEBUG] [cli:103] ###############################################################################
+[2021-12-29 10:32:14 DEBUG] [cli:104] Running command 'run'
+[2021-12-29 10:32:14 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-29 10:32:15 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-29 10:32:15 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:32:15 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:32:15 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-29 10:32:15 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:32:15 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:32:15 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:32:15 INFO] [experiment:109] Experiment looks valid
+[2021-12-29 10:32:15 DEBUG] [caching:42] Clearing activities cache
+[2021-12-29 10:32:15 DEBUG] [caching:24] Building activity cache...
+[2021-12-29 10:32:15 DEBUG] [caching:35] Cached 2 activities
+[2021-12-29 10:32:15 DEBUG] [configuration:63] Loading configuration...
+[2021-12-29 10:32:15 DEBUG] [secret:78] Loading secrets...
+[2021-12-29 10:32:15 DEBUG] [secret:104] Done loading secrets
+[2021-12-29 10:32:15 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-29 10:32:15 INFO] [run:320] Running experiment: Testing Appserver
+[2021-12-29 10:32:15 DEBUG] [__init__:49] Initializing controls
+[2021-12-29 10:32:15 INFO] [run:337] Steady-state strategy: default
+[2021-12-29 10:32:15 INFO] [run:341] Rollbacks strategy: default
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:32:15 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-29 10:32:15 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:32:15 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:32:15 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:32:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:32:15 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:32:15 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:32:15 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:32:15 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:32:15 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:32:15 INFO] [run:600] Playing your experiment's method now...
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:32:15 INFO] [activity:188] Action: exec-in-pods
+[2021-12-29 10:32:15 DEBUG] [python:33] Activity 'exec-in-pods' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/pod/actions.py'
+[2021-12-29 10:32:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:32:15 DEBUG] [actions:222] Found 8 pods in ns 'default'
+[2021-12-29 10:32:15 DEBUG] [actions:230] Pod 'temp-sensor-service-76599cc764-m5rc9' match pattern
+[2021-12-29 10:32:15 DEBUG] [actions:130] Picked pods 'temp-sensor-service-76599cc764-m5rc9' for command execution ['cat', 'temp-sensor-service-76599cc764-m5rc9:requirements.txt', '>', '/home/ubuntu/chaos/temp.txt']
+[2021-12-29 10:32:15 DEBUG] [activity:205]   => succeeded with '[{'pod_name': 'temp-sensor-service-76599cc764-m5rc9', 'exit_code': '1', 'cmd': 'cat temp-sensor-service-76599cc764-m5rc9:requirements.txt > /home/ubuntu/chaos/temp.txt', 'stdout': '', 'stderr': 'command terminated with non-zero exit code: Error executing in Docker Container: 1'}]'
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-29 10:32:15 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-29 10:32:15 INFO] [hypothesis:182] Steady state hypothesis: All four pods and services running
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:32:15 INFO] [activity:188] Probe: deployment_available_and_healthy
+[2021-12-29 10:32:15 DEBUG] [python:33] Activity 'deployment_available_and_healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-29 10:32:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-29 10:32:15 DEBUG] [probes:43] Found 1 deployment(s) named 'temp-sensor-service' in ns 'default'
+[2021-12-29 10:32:15 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-29 10:32:15 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-29 10:32:15 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-29 10:32:15 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-29 10:32:15 INFO] [run:886] Let's rollback...
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:32:15 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-29 10:32:15 INFO] [run:451] Experiment ended with status: completed
+[2021-12-29 10:32:15 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-29 10:32:15 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-29 10:32:15 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:15:06 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:15:06 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:15:06 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:15:07 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:15:07 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:15:07 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:15:07 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:15:07 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:15:07 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:15:07 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:15:07 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:15:07 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:15:11 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:15:11 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:15:11 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:15:11 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:15:11 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:15:11 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:15:11 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:15:11 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:15:11 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:15:11 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:15:11 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:15:11 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:15:11 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:15:11 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:15:11 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:15:11 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:15:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:15:11 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:15:11 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:15:11 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:15:11 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:15:11 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:15:11 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:15:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:15:11 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:15:11 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:15:11 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:15:11 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:15:11 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:15:11 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:15:11 INFO] [activity:188] Action: create-deployment
+[2021-12-30 20:15:11 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:15:11 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:15:11 DEBUG] [activity:260] Activity failed
+[2021-12-30 20:15:11 ERROR] [activity:213]   => failed: FileNotFoundError: [Errno 2] No such file or directory: 'humid_deployment_config.yaml'
+[2021-12-30 20:15:11 INFO] [activity:223] Pausing after activity for 30s...
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:15:41 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:15:41 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:15:41 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:15:41 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:15:41 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:15:41 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:15:41 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:15:41 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:15:41 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:15:41 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:15:41 INFO] [run:886] Let's rollback...
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:15:41 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:15:41 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:15:41 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:15:41 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:15:41 DEBUG] [actions:62] Found 0 deployments named ''
+[2021-12-30 20:15:41 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:15:41 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:15:41 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:15:41 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:15:41 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:19:56 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:19:56 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:19:56 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:19:56 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:19:56 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:19:56 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:19:56 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:19:56 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:19:56 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:19:56 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:19:56 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:19:56 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:19:57 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:19:57 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:19:57 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:19:57 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:19:57 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:19:57 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:19:57 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:19:57 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:19:57 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:19:57 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:19:57 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:19:57 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:19:57 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:19:57 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:19:57 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:19:57 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:19:57 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:19:57 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:19:57 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:19:57 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:19:57 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:19:57 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:19:57 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:19:57 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:19:57 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:19:57 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:19:57 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:19:57 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:19:57 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:19:57 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:19:57 INFO] [activity:188] Action: create-deployment
+[2021-12-30 20:19:57 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:19:57 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:19:58 DEBUG] [activity:260] Activity failed
+[2021-12-30 20:19:58 ERROR] [activity:213]   => failed: FileNotFoundError: [Errno 2] No such file or directory: 'chaos/humid_deployment_config.yaml'
+[2021-12-30 20:19:58 INFO] [activity:223] Pausing after activity for 30s...
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:20:28 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:20:28 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:20:28 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:20:28 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:20:28 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:20:28 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:20:28 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:20:28 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:20:28 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:20:28 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:20:28 INFO] [run:886] Let's rollback...
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:20:28 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:20:28 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:20:28 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:20:28 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:20:28 DEBUG] [actions:62] Found 0 deployments named ''
+[2021-12-30 20:20:28 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:20:28 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:20:28 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:20:28 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:20:28 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:21:58 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:21:58 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:21:58 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:21:58 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:21:58 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:21:58 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:21:58 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:21:58 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:21:58 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:21:58 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:21:58 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:21:58 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:22:00 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:22:00 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:22:00 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:22:00 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:22:00 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:22:00 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:22:00 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:22:00 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:22:00 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:22:00 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:22:00 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:22:00 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:22:00 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:22:00 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:22:00 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:22:00 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:22:00 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:22:00 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:22:00 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:22:00 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:22:00 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:22:00 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:22:00 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:22:00 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:22:00 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:22:00 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:22:00 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:22:00 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:22:00 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:22:00 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:22:00 INFO] [activity:188] Action: create-deployment
+[2021-12-30 20:22:00 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:22:00 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:22:00 DEBUG] [activity:260] Activity failed
+[2021-12-30 20:22:00 ERROR] [activity:213]   => failed: FileNotFoundError: [Errno 2] No such file or directory: 'home/ubuntu/chaos/humid_deploy.yaml'
+[2021-12-30 20:22:00 INFO] [activity:223] Pausing after activity for 30s...
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:22:30 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:22:30 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:22:30 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:22:30 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:22:30 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:22:30 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:22:30 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:22:30 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:22:30 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:22:30 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:22:30 INFO] [run:886] Let's rollback...
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:22:30 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:22:30 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:22:30 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:22:30 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:22:30 DEBUG] [actions:62] Found 0 deployments named ''
+[2021-12-30 20:22:30 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:22:30 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:22:30 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:22:30 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:22:30 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:25:43 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:25:43 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:25:43 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:25:43 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:25:43 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:25:43 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:25:43 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:25:43 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:25:43 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:25:43 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:25:43 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:25:43 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:25:45 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:25:45 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:25:45 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:25:45 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:25:45 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:25:45 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:25:45 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:25:45 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:25:45 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:25:45 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:25:45 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:25:45 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:25:45 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:25:45 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:25:45 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:25:45 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:25:45 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:25:45 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:25:45 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:25:45 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:25:45 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:25:45 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:25:45 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:25:45 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:25:45 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:25:45 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:25:45 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:25:45 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:25:45 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:25:45 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:25:45 INFO] [activity:188] Action: create-deployment
+[2021-12-30 20:25:45 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:25:45 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:25:45 DEBUG] [activity:260] Activity failed
+[2021-12-30 20:25:45 ERROR] [activity:213]   => failed: yaml.composer.ComposerError: expected a single document in the stream
+[2021-12-30 20:25:45 INFO] [activity:223] Pausing after activity for 2s...
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:25:47 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:25:47 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:25:47 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:25:47 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:25:47 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:25:47 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:25:47 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:25:47 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:25:47 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:25:47 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:25:47 INFO] [run:886] Let's rollback...
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:25:47 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:25:47 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:25:47 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:25:47 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:25:47 DEBUG] [actions:62] Found 0 deployments named ''
+[2021-12-30 20:25:47 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:25:47 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:25:47 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:25:47 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:25:47 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:26:36 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:26:36 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:26:36 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:26:37 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:26:37 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:26:37 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:26:37 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:26:37 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:26:37 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:26:37 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:26:37 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:26:37 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:26:39 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:26:39 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:26:39 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:26:39 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:26:39 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:26:39 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:26:39 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:26:39 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:26:39 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:26:39 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:26:39 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:26:39 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:26:39 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:26:39 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:26:39 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:26:39 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:26:39 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:26:39 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:26:39 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:26:39 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:26:39 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:26:39 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:26:39 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:26:39 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:26:39 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:26:39 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:26:39 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:26:39 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:26:39 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:26:39 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:26:39 INFO] [activity:188] Action: create-deployment
+[2021-12-30 20:26:39 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:26:39 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:26:39 DEBUG] [activity:260] Activity failed
+[2021-12-30 20:26:39 ERROR] [activity:213]   => failed: yaml.composer.ComposerError: expected a single document in the stream
+[2021-12-30 20:26:39 INFO] [activity:223] Pausing after activity for 2s...
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:26:41 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:26:41 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:26:41 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:26:41 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:26:41 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:26:41 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:26:41 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:26:41 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:26:41 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:26:41 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:26:41 INFO] [run:886] Let's rollback...
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:26:41 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:26:41 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:26:41 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:26:41 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:26:41 DEBUG] [actions:62] Found 0 deployments named ''
+[2021-12-30 20:26:41 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:26:41 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:26:41 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:26:41 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:26:41 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:27:03 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:27:03 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:27:03 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:27:03 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:27:03 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:27:03 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:27:03 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:27:03 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:27:03 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:27:03 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:27:03 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:27:03 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:27:04 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:27:04 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:27:04 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:27:04 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:27:04 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:27:04 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:27:04 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:27:04 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:27:04 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:27:04 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:27:04 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:27:04 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:27:04 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:27:04 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:27:04 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:27:04 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:27:04 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:27:04 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:27:04 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:27:04 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:27:04 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:27:04 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:27:04 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:27:04 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:27:04 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:27:04 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:27:04 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:27:04 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:27:04 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:27:04 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:27:04 INFO] [activity:188] Action: create-deployment
+[2021-12-30 20:27:04 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:27:04 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:27:04 DEBUG] [activity:260] Activity failed
+[2021-12-30 20:27:04 ERROR] [activity:213]   => failed: yaml.composer.ComposerError: expected a single document in the stream
+[2021-12-30 20:27:04 INFO] [activity:223] Pausing after activity for 2s...
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:27:06 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:27:06 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:27:06 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:27:06 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:27:06 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:27:06 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:27:06 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:27:06 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:27:06 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:27:06 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:27:06 INFO] [run:886] Let's rollback...
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:27:06 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:27:06 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:27:06 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:27:06 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:27:06 DEBUG] [actions:62] Found 0 deployments named ''
+[2021-12-30 20:27:06 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:27:06 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:27:06 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:27:06 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:27:06 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:29:24 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:29:24 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:29:24 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:29:24 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:29:24 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:29:24 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:29:24 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:29:24 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:29:24 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:29:24 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:29:24 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:29:24 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:29:25 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:29:25 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:29:25 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:29:25 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:29:25 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:29:25 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:29:25 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:29:25 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:29:25 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:29:25 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:29:25 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:29:25 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:29:25 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:29:25 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:29:25 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:29:25 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:29:25 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:29:25 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:29:25 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:29:25 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:29:25 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:29:25 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:29:25 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:29:25 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:29:25 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:29:25 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:29:25 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:29:25 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:29:25 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:29:25 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:29:25 INFO] [activity:188] Action: create-deployment
+[2021-12-30 20:29:25 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:29:25 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:29:25 DEBUG] [activity:260] Activity failed
+[2021-12-30 20:29:25 ERROR] [activity:213]   => failed: yaml.composer.ComposerError: expected a single document in the stream
+[2021-12-30 20:29:25 INFO] [activity:223] Pausing after activity for 2s...
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:29:27 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:29:27 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:29:27 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:29:27 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:29:27 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:29:27 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:29:27 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:29:27 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:29:27 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:29:27 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:29:27 INFO] [run:886] Let's rollback...
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:29:27 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:29:27 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:29:27 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:29:27 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:29:27 DEBUG] [actions:62] Found 0 deployments named ''
+[2021-12-30 20:29:27 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:29:27 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:29:27 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:29:27 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:29:27 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:31:26 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:31:26 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:31:26 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:31:27 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:31:27 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:31:27 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:31:27 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:31:27 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:31:27 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:31:27 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:31:27 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:31:27 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:31:28 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:31:28 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:31:28 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:31:28 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:31:28 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:31:28 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:31:28 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:31:28 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:31:28 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:31:28 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:31:28 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:31:28 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:31:28 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:31:28 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:31:28 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:31:28 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:31:28 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:31:28 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:31:28 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:31:28 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:31:28 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:31:28 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:31:28 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:31:28 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:31:28 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:31:28 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:31:28 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:31:28 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:31:28 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:31:28 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:31:28 INFO] [activity:188] Action: create-deployment
+[2021-12-30 20:31:28 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:31:28 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:31:28 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:31:28 INFO] [activity:223] Pausing after activity for 2s...
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:31:30 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:31:30 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:31:30 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:31:30 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:31:30 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:31:30 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:31:30 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:31:30 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:31:30 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:31:30 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:31:30 INFO] [run:886] Let's rollback...
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:31:30 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:31:30 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:31:30 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:31:30 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:31:30 DEBUG] [actions:62] Found 0 deployments named ''
+[2021-12-30 20:31:30 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:31:30 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:31:30 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:31:30 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:31:30 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:36:41 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:36:41 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:36:41 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:36:42 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:36:42 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:36:42 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:36:42 ERROR] [cli:241] Path "humid__delete_deploy.yaml" does not exist.
+[2021-12-30 20:36:42 DEBUG] [cli:242] Path "humid__delete_deploy.yaml" does not exist.
+[2021-12-30 20:36:48 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:36:48 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:36:48 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:36:48 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:36:48 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:36:48 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:36:48 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:36:48 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:36:48 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:36:48 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:36:48 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:36:48 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:36:50 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:36:50 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:36:50 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:36:50 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:36:50 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:36:50 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:36:50 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:36:50 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:36:50 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:36:50 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:36:50 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:36:50 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:36:50 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:36:50 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:36:50 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:36:50 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:36:50 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:36:50 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:36:50 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:36:50 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:36:50 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:36:50 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:36:50 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:36:50 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:36:50 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:36:50 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:36:50 DEBUG] [actions:62] Found 0 deployments named ''
+[2021-12-30 20:36:50 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:36:50 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:36:50 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:36:50 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:36:50 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:36:50 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:36:50 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:36:50 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:36:50 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:36:50 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:36:50 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:36:50 INFO] [run:886] Let's rollback...
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:36:50 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:36:50 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:36:50 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:36:50 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:36:50 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:40:13 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:40:13 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:40:13 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:40:13 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:40:13 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:40:13 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:40:13 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:40:13 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:40:13 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:40:13 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:40:13 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:40:13 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:40:15 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:40:15 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:40:15 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:40:15 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:40:15 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:40:15 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:40:15 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:40:15 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:40:15 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:40:15 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:40:15 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:40:15 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:40:15 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:40:15 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:40:15 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:40:15 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:40:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:40:15 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:40:15 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:40:15 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:40:15 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:40:15 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:40:15 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:40:15 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:40:15 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:40:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:40:15 DEBUG] [actions:62] Found 0 deployments named ''
+[2021-12-30 20:40:15 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:40:15 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:40:15 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:40:15 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:40:15 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:40:15 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:40:15 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:40:15 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:40:15 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:40:15 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:40:15 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:40:15 INFO] [run:886] Let's rollback...
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:40:15 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:40:15 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:40:15 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:40:15 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:40:15 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:45:19 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 20:45:19 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 20:45:19 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 20:45:19 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 20:45:19 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:45:19 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 20:45:19 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:45:19 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:45:19 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 20:45:19 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:45:19 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:45:19 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:45:21 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 20:45:21 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 20:45:21 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 20:45:21 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 20:45:21 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 20:45:21 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 20:45:21 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 20:45:21 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 20:45:21 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 20:45:21 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 20:45:21 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 20:45:21 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:45:21 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 20:45:21 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:45:21 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:45:21 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:45:21 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:45:21 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:45:21 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:45:21 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:45:21 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:45:21 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:45:21 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:45:21 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 20:45:21 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 20:45:21 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:45:21 DEBUG] [actions:62] Found 1 deployments named 'humid-sensor-service-v2'
+[2021-12-30 20:45:21 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 20:45:21 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 20:45:21 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:45:21 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 20:45:21 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 20:45:21 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 20:45:21 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 20:45:21 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 20:45:21 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 20:45:21 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 20:45:21 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 20:45:21 INFO] [run:886] Let's rollback...
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:45:21 INFO] [rollback:27] No declared rollbacks, let's move on.
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 20:45:21 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 20:45:21 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 20:45:21 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 20:45:21 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:01:17 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:01:17 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:01:17 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:01:17 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:01:17 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:01:17 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:01:17 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:01:17 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:01:17 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:01:17 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:01:17 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:01:17 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:01:18 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 21:01:18 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:01:18 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:01:18 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:01:18 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:01:18 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:01:18 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:01:18 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 21:01:18 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 21:01:18 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 21:01:18 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 21:01:18 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 21:01:18 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:01:18 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 21:01:18 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:01:18 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:01:18 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:01:18 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:01:18 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:01:18 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:01:18 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:01:18 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:01:18 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:01:18 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:01:18 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:01:18 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:01:18 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:01:18 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 21:01:18 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:01:18 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:01:18 INFO] [activity:188] Action: create-deployment
+[2021-12-30 21:01:18 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 21:01:18 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:01:18 DEBUG] [activity:260] Activity failed
+[2021-12-30 21:01:18 ERROR] [activity:213]   => failed: FileNotFoundError: [Errno 2] No such file or directory: 'humid_deploy.yaml'
+[2021-12-30 21:01:18 INFO] [activity:223] Pausing after activity for 2s...
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:01:20 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 21:01:20 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:01:20 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:01:20 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:01:20 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:01:20 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:01:20 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:01:20 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:01:20 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:01:20 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:01:20 INFO] [run:886] Let's rollback...
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:01:20 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:01:20 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 21:01:20 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 21:01:20 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:01:20 DEBUG] [actions:62] Found 1 deployments named 'humid-sensor-service'
+[2021-12-30 21:01:20 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:01:20 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 21:01:20 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:01:20 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 21:01:20 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:03:18 DEBUG] [cli:103] ###############################################################################
+[2021-12-30 21:03:18 DEBUG] [cli:104] Running command 'run'
+[2021-12-30 21:03:18 DEBUG] [cli:108] Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+[2021-12-30 21:03:19 DEBUG] [settings:30] The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+[2021-12-30 21:03:19 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:03:19 DEBUG] [__init__:389] No controls to apply on 'loader'
+[2021-12-30 21:03:19 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:03:19 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:03:19 INFO] [experiment:58] Validating the experiment's syntax
+[2021-12-30 21:03:19 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:03:19 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:03:19 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:03:20 INFO] [experiment:109] Experiment looks valid
+[2021-12-30 21:03:20 DEBUG] [caching:42] Clearing activities cache
+[2021-12-30 21:03:20 DEBUG] [caching:24] Building activity cache...
+[2021-12-30 21:03:20 DEBUG] [caching:35] Cached 2 activities
+[2021-12-30 21:03:20 DEBUG] [configuration:63] Loading configuration...
+[2021-12-30 21:03:20 DEBUG] [secret:78] Loading secrets...
+[2021-12-30 21:03:20 DEBUG] [secret:104] Done loading secrets
+[2021-12-30 21:03:20 DEBUG] [configuration:155] Loading dynamic configuration...
+[2021-12-30 21:03:20 INFO] [run:320] Running experiment: Adding/Deleting Humidity Sensor
+[2021-12-30 21:03:20 DEBUG] [__init__:49] Initializing controls
+[2021-12-30 21:03:20 INFO] [run:337] Steady-state strategy: default
+[2021-12-30 21:03:20 INFO] [run:341] Rollbacks strategy: default
+[2021-12-30 21:03:20 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:03:20 DEBUG] [run:499] Running steady-state hypothesis before the method
+[2021-12-30 21:03:20 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:03:20 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:03:20 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:20 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:03:20 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:03:20 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:03:20 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:03:20 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:03:20 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:03:20 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:20 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:03:20 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:03:20 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:03:20 INFO] [run:600] Playing your experiment's method now...
+[2021-12-30 21:03:20 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:03:20 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:20 INFO] [activity:188] Action: create-deployment
+[2021-12-30 21:03:20 DEBUG] [python:33] Activity 'create-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 21:03:20 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:03:20 DEBUG] [activity:260] Activity failed
+[2021-12-30 21:03:20 ERROR] [activity:213]   => failed: FileNotFoundError: [Errno 2] No such file or directory: 'humid_deploy.yaml'
+[2021-12-30 21:03:20 INFO] [activity:223] Pausing after activity for 2s...
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'method'
+[2021-12-30 21:03:22 DEBUG] [run:529] Running steady-state hypothesis after the method
+[2021-12-30 21:03:22 INFO] [hypothesis:182] Steady state hypothesis: Verifying that service is healthy
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:22 INFO] [activity:188] Probe: deployment-available-and-healthy
+[2021-12-30 21:03:22 DEBUG] [python:33] Activity 'deployment-available-and-healthy' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/probes.py'
+[2021-12-30 21:03:22 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:03:22 DEBUG] [probes:43] Found 1 deployment(s) named 'humid-sensor-service' in ns 'default'
+[2021-12-30 21:03:22 DEBUG] [probes:49] Deployment has '1' available replicas
+[2021-12-30 21:03:22 DEBUG] [activity:205]   => succeeded with 'True'
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:22 DEBUG] [hypothesis:221] allowed tolerance is True
+[2021-12-30 21:03:22 INFO] [hypothesis:231] Steady state hypothesis is met!
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'hypothesis'
+[2021-12-30 21:03:22 INFO] [run:886] Let's rollback...
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:03:22 INFO] [rollback:30] Rollback: delete-deployment
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:22 INFO] [activity:188] Action: delete-deployment
+[2021-12-30 21:03:22 DEBUG] [python:33] Activity 'delete-deployment' loaded from '/home/ubuntu/.venvs/chaostk/lib/python3.8/site-packages/chaosk8s/deployment/actions.py'
+[2021-12-30 21:03:22 DEBUG] [__init__:73] Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+[2021-12-30 21:03:22 DEBUG] [actions:62] Found 1 deployments named 'humid-sensor-service'
+[2021-12-30 21:03:22 DEBUG] [activity:207]   => succeeded without any result value
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'activity'
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'rollback'
+[2021-12-30 21:03:22 INFO] [run:451] Experiment ended with status: completed
+[2021-12-30 21:03:22 DEBUG] [__init__:389] No controls to apply on 'experiment'
+[2021-12-30 21:03:22 DEBUG] [__init__:82] Cleaning up controls
+[2021-12-30 21:03:22 DEBUG] [caching:42] Clearing activities cache

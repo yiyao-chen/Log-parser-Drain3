@@ -1,0 +1,265 @@
+[2021-03-15 13:47:32 DEBUG] [cli:73] ###############################################################################
+[2021-03-15 13:47:32 DEBUG] [cli:74] Running command 'run'
+[2021-03-15 13:47:32 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-15 13:47:34 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-15 13:47:34 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-15 13:47:34 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-15 13:47:34 DEBUG] [caching:25] Building activity cache...
+[2021-03-15 13:47:34 DEBUG] [caching:35] Cached 7 activities
+[2021-03-15 13:47:34 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-15 13:47:34 DEBUG] [configuration:54] Loading configuration...
+[2021-03-15 13:47:34 DEBUG] [secret:75] Loading secrets...
+[2021-03-15 13:47:34 DEBUG] [secret:92] Secrets loaded
+[2021-03-15 13:47:34 INFO] [experiment:96] Experiment looks valid
+[2021-03-15 13:47:34 DEBUG] [caching:42] Clearing activities cache
+[2021-03-15 13:47:34 DEBUG] [caching:25] Building activity cache...
+[2021-03-15 13:47:34 DEBUG] [caching:35] Cached 7 activities
+[2021-03-15 13:47:34 DEBUG] [configuration:54] Loading configuration...
+[2021-03-15 13:47:34 DEBUG] [secret:75] Loading secrets...
+[2021-03-15 13:47:34 DEBUG] [secret:92] Secrets loaded
+[2021-03-15 13:47:34 INFO] [run:323] Running experiment: What is the impact of an expired certificate on our application chain?
+[2021-03-15 13:47:34 DEBUG] [__init__:39] Initializing controls
+[2021-03-15 13:47:34 INFO] [run:342] Steady-state strategy: default
+[2021-03-15 13:47:34 INFO] [run:345] Rollbacks strategy: default
+[2021-03-15 13:47:34 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-15 13:47:34 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-15 13:47:34 INFO] [hypothesis:183] Steady state hypothesis: Application responds
+[2021-03-15 13:47:34 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-15 13:47:34 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 13:47:34 INFO] [activity:161] Probe: the-astre-service-must-be-running
+[2021-03-15 13:47:34 DEBUG] [python:34] Activity 'the-astre-service-must-be-running' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/genericpath.py'
+[2021-03-15 13:47:34 DEBUG] [activity:180]   => succeeded with 'False'
+[2021-03-15 13:47:34 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 13:47:34 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-03-15 13:47:34 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-15 13:47:34 CRITICAL] [run:477] Steady state probe 'the-astre-service-must-be-running' is not in the given tolerance so failing this experiment
+[2021-03-15 13:47:34 INFO] [run:421] Experiment ended with status: failed
+[2021-03-15 13:47:34 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-15 13:47:34 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-15 13:47:34 DEBUG] [caching:42] Clearing activities cache
+[2021-03-15 14:01:18 DEBUG] [cli:73] ###############################################################################
+[2021-03-15 14:01:18 DEBUG] [cli:74] Running command 'run'
+[2021-03-15 14:01:18 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-15 14:01:20 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-15 14:01:20 DEBUG] [caching:25] Building activity cache...
+[2021-03-15 14:01:20 DEBUG] [caching:35] Cached 7 activities
+[2021-03-15 14:01:20 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-15 14:01:20 DEBUG] [configuration:54] Loading configuration...
+[2021-03-15 14:01:20 DEBUG] [secret:75] Loading secrets...
+[2021-03-15 14:01:20 DEBUG] [secret:92] Secrets loaded
+[2021-03-15 14:01:20 INFO] [experiment:96] Experiment looks valid
+[2021-03-15 14:01:20 DEBUG] [caching:42] Clearing activities cache
+[2021-03-15 14:01:20 DEBUG] [caching:25] Building activity cache...
+[2021-03-15 14:01:20 DEBUG] [caching:35] Cached 7 activities
+[2021-03-15 14:01:20 DEBUG] [configuration:54] Loading configuration...
+[2021-03-15 14:01:20 DEBUG] [secret:75] Loading secrets...
+[2021-03-15 14:01:20 DEBUG] [secret:92] Secrets loaded
+[2021-03-15 14:01:20 INFO] [run:323] Running experiment: What is the impact of an expired certificate on our application chain?
+[2021-03-15 14:01:20 DEBUG] [__init__:39] Initializing controls
+[2021-03-15 14:01:20 INFO] [run:342] Steady-state strategy: default
+[2021-03-15 14:01:20 INFO] [run:345] Rollbacks strategy: default
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-15 14:01:20 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-15 14:01:20 INFO] [hypothesis:183] Steady state hypothesis: Application responds
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 INFO] [activity:161] Probe: the-astre-service-must-be-running
+[2021-03-15 14:01:20 DEBUG] [python:34] Activity 'the-astre-service-must-be-running' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/genericpath.py'
+[2021-03-15 14:01:20 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 INFO] [activity:161] Probe: the-sunset-service-must-be-running
+[2021-03-15 14:01:20 DEBUG] [python:34] Activity 'the-sunset-service-must-be-running' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/genericpath.py'
+[2021-03-15 14:01:20 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 INFO] [activity:161] Probe: we-can-request-sunset
+[2021-03-15 14:01:20 DEBUG] [activity:180]   => succeeded with '{'status': 200, 'headers': {'Content-Type': 'text/plain;charset=utf-8', 'Server': 'CherryPy/18.6.0', 'Date': 'Mon, 15 Mar 2021 13:01:20 GMT', 'Content-Length': '59'}, 'body': 'The sunset will occur at 2021-03-15T18:55:56+01:00 in Paris'}'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 DEBUG] [hypothesis:211] allowed tolerance is 200
+[2021-03-15 14:01:20 INFO] [hypothesis:221] Steady state hypothesis is met!
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-15 14:01:20 INFO] [run:553] Playing your experiment's method now...
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 INFO] [activity:161] Action: swap-to-expired-cert
+[2021-03-15 14:01:20 DEBUG] [process:53] Running: /bin/cp expired-cert.pem cert.pem
+[2021-03-15 14:01:20 DEBUG] [activity:180]   => succeeded with '{'status': 0, 'stdout': '', 'stderr': ''}'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 INFO] [activity:161] Probe: read-tls-cert-expiry-date
+[2021-03-15 14:01:20 DEBUG] [process:53] Running: /usr/bin/openssl x509 -enddate -noout -in cert.pem
+[2021-03-15 14:01:20 DEBUG] [__init__:142] Data encoding detected as 'ascii' with a confidence of 1.0
+[2021-03-15 14:01:20 DEBUG] [activity:180]   => succeeded with '{'status': 0, 'stdout': 'notAfter=May  5 15:00:00 2018 GMT\n', 'stderr': ''}'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 INFO] [activity:161] Action: restart-astre-service-to-pick-up-certificate
+[2021-03-15 14:01:20 DEBUG] [process:53] Running: /usr/bin/pkill --echo -HUP -F astre.pid
+[2021-03-15 14:01:20 WARNING] [process:66] This process returned a non-zero exit code. This may indicate some error and not what you expected. Please have a look at the logs.
+[2021-03-15 14:01:20 DEBUG] [__init__:142] Data encoding detected as 'ascii' with a confidence of 1.0
+[2021-03-15 14:01:20 DEBUG] [activity:180]   => succeeded with '{'status': 2, 'stdout': '', 'stderr': '/usr/bin/pkill: illegal option -- -\nusage: pkill [-signal] [-ILfilnovx] [-F pidfile] [-G gid]\n             [-P ppid] [-U uid] [-g pgrp]\n             [-t tty] [-u euid] pattern ...\n'}'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:20 INFO] [activity:161] Action: restart-sunset-service-to-pick-up-certificate
+[2021-03-15 14:01:20 DEBUG] [process:53] Running: /usr/bin/pkill --echo -HUP -F sunset.pid
+[2021-03-15 14:01:20 WARNING] [process:66] This process returned a non-zero exit code. This may indicate some error and not what you expected. Please have a look at the logs.
+[2021-03-15 14:01:20 DEBUG] [__init__:142] Data encoding detected as 'ascii' with a confidence of 1.0
+[2021-03-15 14:01:20 DEBUG] [activity:180]   => succeeded with '{'status': 2, 'stdout': '', 'stderr': '/usr/bin/pkill: illegal option -- -\nusage: pkill [-signal] [-ILfilnovx] [-F pidfile] [-G gid]\n             [-P ppid] [-U uid] [-g pgrp]\n             [-t tty] [-u euid] pattern ...\n'}'
+[2021-03-15 14:01:20 INFO] [activity:198] Pausing after activity for 1s...
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'method'
+[2021-03-15 14:01:21 DEBUG] [run:496] Running steady-state hypothesis after the method
+[2021-03-15 14:01:21 INFO] [hypothesis:183] Steady state hypothesis: Application responds
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:21 INFO] [activity:161] Probe: the-astre-service-must-be-running
+[2021-03-15 14:01:21 DEBUG] [python:34] Activity 'the-astre-service-must-be-running' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/genericpath.py'
+[2021-03-15 14:01:21 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:21 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:21 INFO] [activity:161] Probe: the-sunset-service-must-be-running
+[2021-03-15 14:01:21 DEBUG] [python:34] Activity 'the-sunset-service-must-be-running' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/genericpath.py'
+[2021-03-15 14:01:21 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:21 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:21 INFO] [activity:161] Probe: we-can-request-sunset
+[2021-03-15 14:01:21 DEBUG] [activity:180]   => succeeded with '{'status': 500, 'headers': {'Content-Type': 'text/html;charset=utf-8', 'Server': 'CherryPy/18.6.0', 'Date': 'Mon, 15 Mar 2021 13:01:21 GMT', 'Content-Length': '824'}, 'body': '<!DOCTYPE html PUBLIC\n"-//W3C//DTD XHTML 1.0 Transitional//EN"\n"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html>\n<head>\n    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>\n    <title>500 Internal Server Error</title>\n    <style type="text/css">\n    #powered_by {\n        margin-top: 20px;\n        border-top: 2px solid black;\n        font-style: italic;\n    }\n\n    #traceback {\n        color: red;\n    }\n    </style>\n</head>\n    <body>\n        <h2>500 Internal Server Error</h2>\n        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>\n        <pre id="traceback"></pre>\n    <div id="powered_by">\n      <span>\n        Powered by <a href="http://www.cherrypy.org">CherryPy 18.6.0</a>\n      </span>\n    </div>\n    </body>\n</html>\n'}'
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-15 14:01:21 DEBUG] [hypothesis:211] allowed tolerance is 200
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-15 14:01:21 CRITICAL] [run:507] Steady state probe 'we-can-request-sunset' is not in the given tolerance so failing this experiment
+[2021-03-15 14:01:21 INFO] [run:421] Experiment ended with status: deviated
+[2021-03-15 14:01:21 INFO] [run:423] The steady-state has deviated, a weakness may have been discovered
+[2021-03-15 14:01:21 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-15 14:01:21 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-15 14:01:21 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 00:48:21 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 00:48:21 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 00:48:21 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 00:48:23 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 00:48:23 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 00:48:23 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 00:53:39 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 00:53:39 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 00:53:39 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 00:53:39 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 00:53:39 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 00:53:39 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 00:53:39 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 00:53:39 DEBUG] [caching:35] Cached 7 activities
+[2021-03-18 00:53:39 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 00:53:39 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 00:53:39 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 00:53:39 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 00:53:39 INFO] [experiment:96] Experiment looks valid
+[2021-03-18 00:53:39 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 00:53:39 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 00:53:39 DEBUG] [caching:35] Cached 7 activities
+[2021-03-18 00:53:39 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 00:53:39 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 00:53:39 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 00:53:39 INFO] [run:323] Running experiment: What is the impact of an expired certificate on our application chain?
+[2021-03-18 00:53:39 DEBUG] [__init__:39] Initializing controls
+[2021-03-18 00:53:39 INFO] [run:342] Steady-state strategy: default
+[2021-03-18 00:53:39 INFO] [run:345] Rollbacks strategy: default
+[2021-03-18 00:53:39 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-18 00:53:39 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-18 00:53:39 INFO] [hypothesis:183] Steady state hypothesis: Application responds
+[2021-03-18 00:53:39 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-18 00:53:39 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 00:53:39 INFO] [activity:161] Probe: the-astre-service-must-be-running
+[2021-03-18 00:53:39 DEBUG] [python:34] Activity 'the-astre-service-must-be-running' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/genericpath.py'
+[2021-03-18 00:53:39 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-03-18 00:53:39 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 00:53:39 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-03-18 00:53:39 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 00:53:39 INFO] [activity:161] Probe: the-sunset-service-must-be-running
+[2021-03-18 00:53:39 DEBUG] [python:34] Activity 'the-sunset-service-must-be-running' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/genericpath.py'
+[2021-03-18 00:53:39 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-03-18 00:53:39 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 00:53:39 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-03-18 00:53:39 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 00:53:39 INFO] [activity:161] Probe: we-can-request-sunset
+[2021-03-18 00:53:40 DEBUG] [activity:180]   => succeeded with '{'status': 500, 'headers': {'Content-Type': 'text/html;charset=utf-8', 'Server': 'CherryPy/18.6.0', 'Date': 'Wed, 17 Mar 2021 23:53:39 GMT', 'Content-Length': '824'}, 'body': '<!DOCTYPE html PUBLIC\n"-//W3C//DTD XHTML 1.0 Transitional//EN"\n"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html>\n<head>\n    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>\n    <title>500 Internal Server Error</title>\n    <style type="text/css">\n    #powered_by {\n        margin-top: 20px;\n        border-top: 2px solid black;\n        font-style: italic;\n    }\n\n    #traceback {\n        color: red;\n    }\n    </style>\n</head>\n    <body>\n        <h2>500 Internal Server Error</h2>\n        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>\n        <pre id="traceback"></pre>\n    <div id="powered_by">\n      <span>\n        Powered by <a href="http://www.cherrypy.org">CherryPy 18.6.0</a>\n      </span>\n    </div>\n    </body>\n</html>\n'}'
+[2021-03-18 00:53:40 DEBUG] [__init__:355] No controls to apply on 'activity'
+[2021-03-18 00:53:40 DEBUG] [hypothesis:211] allowed tolerance is 200
+[2021-03-18 00:53:40 DEBUG] [__init__:355] No controls to apply on 'hypothesis'
+[2021-03-18 00:53:40 CRITICAL] [run:477] Steady state probe 'we-can-request-sunset' is not in the given tolerance so failing this experiment
+[2021-03-18 00:53:40 INFO] [run:421] Experiment ended with status: failed
+[2021-03-18 00:53:40 DEBUG] [__init__:355] No controls to apply on 'experiment'
+[2021-03-18 00:53:40 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-18 00:53:40 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 00:54:24 DEBUG] [cli:73] ###############################################################################
+[2021-03-18 00:54:24 DEBUG] [cli:74] Running command 'run'
+[2021-03-18 00:54:24 DEBUG] [cli:78] Using settings file '/Users/serry/.chaostoolkit/settings.yaml'
+[2021-03-18 00:54:24 DEBUG] [settings:26] The Chaos Toolkit settings file could not be found at '/Users/serry/.chaostoolkit/settings.yaml'.
+[2021-03-18 00:54:24 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 00:54:24 DEBUG] [__init__:355] No controls to apply on 'loader'
+[2021-03-18 00:54:24 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 00:54:24 DEBUG] [caching:35] Cached 7 activities
+[2021-03-18 00:54:24 INFO] [experiment:47] Validating the experiment's syntax
+[2021-03-18 00:54:24 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 00:54:24 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 00:54:24 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 00:54:25 INFO] [experiment:96] Experiment looks valid
+[2021-03-18 00:54:25 DEBUG] [caching:42] Clearing activities cache
+[2021-03-18 00:54:25 DEBUG] [caching:25] Building activity cache...
+[2021-03-18 00:54:25 DEBUG] [caching:35] Cached 7 activities
+[2021-03-18 00:54:25 DEBUG] [configuration:54] Loading configuration...
+[2021-03-18 00:54:25 DEBUG] [secret:75] Loading secrets...
+[2021-03-18 00:54:25 DEBUG] [secret:92] Secrets loaded
+[2021-03-18 00:54:25 INFO] [run:323] Running experiment: What is the impact of an expired certificate on our application chain?
+[2021-03-18 00:54:25 DEBUG] [__init__:39] Initializing controls
+[2021-03-18 00:54:25 DEBUG] [__init__:48] Initializing control 'opentracing'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'configure_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 DEBUG] [control:24] Configuring opentracing control...
+[2021-03-18 00:54:25 DEBUG] [control:29] Creating a jaeger tracer
+[2021-03-18 00:54:25 DEBUG] [control:311] Configured Jaeger Tracer to send to '127.0.0.1:6831'
+[2021-03-18 00:54:25 DEBUG] [control:41] OpenTracing tracer <jaeger_client.tracer.Tracer object at 0x7f9cdc6a1a00> created
+[2021-03-18 00:54:25 INFO] [run:342] Steady-state strategy: default
+[2021-03-18 00:54:25 INFO] [run:345] Rollbacks strategy: default
+[2021-03-18 00:54:25 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'experiment'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'before_experiment_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 DEBUG] [run:466] Running steady-state hypothesis before the method
+[2021-03-18 00:54:25 INFO] [hypothesis:183] Steady state hypothesis: Application responds
+[2021-03-18 00:54:25 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'hypothesis'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'before_hypothesis_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'activity'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'before_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 INFO] [activity:161] Probe: the-astre-service-must-be-running
+[2021-03-18 00:54:25 DEBUG] [python:34] Activity 'the-astre-service-must-be-running' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/genericpath.py'
+[2021-03-18 00:54:25 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-03-18 00:54:25 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'activity'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'after_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-03-18 00:54:25 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'activity'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'before_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 INFO] [activity:161] Probe: the-sunset-service-must-be-running
+[2021-03-18 00:54:25 DEBUG] [python:34] Activity 'the-sunset-service-must-be-running' loaded from '/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/genericpath.py'
+[2021-03-18 00:54:25 DEBUG] [activity:180]   => succeeded with 'True'
+[2021-03-18 00:54:25 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'activity'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'after_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 DEBUG] [hypothesis:211] allowed tolerance is True
+[2021-03-18 00:54:25 DEBUG] [__init__:365] Applying before-control 'opentracing' on 'activity'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'before_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 INFO] [activity:161] Probe: we-can-request-sunset
+[2021-03-18 00:54:25 DEBUG] [activity:180]   => succeeded with '{'status': 500, 'headers': {'Content-Type': 'text/html;charset=utf-8', 'Server': 'CherryPy/18.6.0', 'Date': 'Wed, 17 Mar 2021 23:54:25 GMT', 'Content-Length': '824'}, 'body': '<!DOCTYPE html PUBLIC\n"-//W3C//DTD XHTML 1.0 Transitional//EN"\n"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html>\n<head>\n    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>\n    <title>500 Internal Server Error</title>\n    <style type="text/css">\n    #powered_by {\n        margin-top: 20px;\n        border-top: 2px solid black;\n        font-style: italic;\n    }\n\n    #traceback {\n        color: red;\n    }\n    </style>\n</head>\n    <body>\n        <h2>500 Internal Server Error</h2>\n        <p>The server encountered an unexpected condition which prevented it from fulfilling the request.</p>\n        <pre id="traceback"></pre>\n    <div id="powered_by">\n      <span>\n        Powered by <a href="http://www.cherrypy.org">CherryPy 18.6.0</a>\n      </span>\n    </div>\n    </body>\n</html>\n'}'
+[2021-03-18 00:54:25 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'activity'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'after_activity_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 DEBUG] [hypothesis:211] allowed tolerance is 200
+[2021-03-18 00:54:25 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'hypothesis'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'after_hypothesis_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 CRITICAL] [run:477] Steady state probe 'we-can-request-sunset' is not in the given tolerance so failing this experiment
+[2021-03-18 00:54:25 INFO] [run:421] Experiment ended with status: failed
+[2021-03-18 00:54:25 DEBUG] [__init__:365] Applying after-control 'opentracing' on 'experiment'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'after_experiment_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:25 DEBUG] [__init__:72] Cleaning up controls
+[2021-03-18 00:54:25 DEBUG] [__init__:81] Cleaning up control 'opentracing'
+[2021-03-18 00:54:25 DEBUG] [python:166] Control 'cleanup_control' loaded from '/Users/serry/my_env/lib/python3.8/site-packages/chaostracing/control.py'
+[2021-03-18 00:54:26 DEBUG] [caching:42] Clearing activities cache

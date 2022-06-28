@@ -274,6 +274,9 @@ class Drain:
 
         return ret_val
 
+    # def get_tree(self, file=None, max_clusters=5):
+    # def get_node(self, file=None, max_clusters=5):
+
     def print_tree(self, file=None, max_clusters=5):
         self.print_node("root", self.root_node, 0, file, max_clusters)
 
