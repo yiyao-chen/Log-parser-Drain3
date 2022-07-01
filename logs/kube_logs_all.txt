@@ -1,0 +1,1074 @@
+2022-06-28 15:52:39.695995 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (20m ago)    20m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Running   2 (21m ago)    21m
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (19m ago)    19m
+2022-06-28 15:52:44.779193 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (20m ago)    20m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Running   2 (21m ago)    21m
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (19m ago)    19m
+2022-06-28 15:52:49.864744 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (20m ago)    20m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Running   2 (21m ago)    21m
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (19m ago)    19m
+2022-06-28 15:52:54.938503 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (20m ago)    20m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Running   2 (21m ago)    21m
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (19m ago)    19m
+2022-06-28 15:53:00.035863 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (20m ago)    20m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Running   2 (21m ago)    21m
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (19m ago)    20m
+2022-06-28 15:53:05.100659 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (20m ago)    20m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Terminating   2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-fslkt       0/2     Error         0              5s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (20m ago)    20m
+2022-06-28 15:53:10.160653 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (20m ago)    20m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Terminating        2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-fslkt       0/2     CrashLoopBackOff   1 (4s ago)     10s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (20m ago)    20m
+2022-06-28 15:53:15.224564 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (20m ago)    20m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Terminating        2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-fslkt       0/2     CrashLoopBackOff   1 (9s ago)     15s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (20m ago)    20m
+2022-06-28 15:53:20.312204 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (20m ago)    21m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Terminating        2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-fslkt       1/2     CrashLoopBackOff   1 (14s ago)    20s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (20m ago)    20m
+2022-06-28 15:53:25.383024 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Terminating   2 (21m ago)    22m
+humid-sensor-service-68cf767dc9-fslkt       2/2     Running       2 (19s ago)    25s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (20m ago)    20m
+2022-06-28 15:53:30.444500 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-dmrxq       2/2     Terminating   2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-fslkt       2/2     Running       2 (24s ago)    30s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (20m ago)    20m
+2022-06-28 15:53:35.536671 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-fslkt       2/2     Running   2 (29s ago)    35s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (20m ago)    20m
+2022-06-28 15:53:40.597168 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-fslkt       2/2     Running   2 (34s ago)    40s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (20m ago)    20m
+2022-06-28 15:53:45.668942 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-fslkt       2/2     Running   2 (39s ago)    45s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (20m ago)    20m
+2022-06-28 15:53:50.743765 :: 
+NAME                                        READY   STATUS            RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running           2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-b4bjs       0/2     PodInitializing   0              2s
+humid-sensor-service-68cf767dc9-fslkt       2/2     Terminating       2 (44s ago)    50s
+mosquitto-dd699f856-sjrnc                   2/2     Running           4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running           2 (20m ago)    20m
+2022-06-28 15:53:55.812089 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-b4bjs       0/2     Error         1 (3s ago)     7s
+humid-sensor-service-68cf767dc9-fslkt       2/2     Terminating   2 (49s ago)    55s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (20m ago)    20m
+2022-06-28 15:54:00.886139 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-b4bjs       0/2     CrashLoopBackOff   1 (6s ago)     12s
+humid-sensor-service-68cf767dc9-fslkt       2/2     Terminating        2 (54s ago)    60s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (20m ago)    21m
+2022-06-28 15:54:06.026551 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-b4bjs       0/2     CrashLoopBackOff   1 (12s ago)    18s
+humid-sensor-service-68cf767dc9-fslkt       2/2     Terminating        2 (60s ago)    66s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (21m ago)    21m
+2022-06-28 15:54:11.094689 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-b4bjs       2/2     Terminating   2 (17s ago)    23s
+humid-sensor-service-68cf767dc9-fslkt       2/2     Terminating   2 (65s ago)    71s
+humid-sensor-service-68cf767dc9-pwchq       0/2     Init:0/1      0              2s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (21m ago)    21m
+2022-06-28 15:54:16.201356 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (21m ago)    21m
+humid-sensor-service-68cf767dc9-b4bjs       2/2     Terminating   2 (22s ago)    28s
+humid-sensor-service-68cf767dc9-fslkt       2/2     Terminating   2 (70s ago)    76s
+humid-sensor-service-68cf767dc9-pwchq       0/2     Error         1 (3s ago)     7s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (21m ago)    21m
+2022-06-28 15:54:21.344407 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (21m ago)    22m
+humid-sensor-service-68cf767dc9-9f5hn       0/2     Terminating        0              0s
+humid-sensor-service-68cf767dc9-b4bjs       2/2     Terminating        2 (27s ago)    33s
+humid-sensor-service-68cf767dc9-pwchq       0/2     CrashLoopBackOff   1 (6s ago)     12s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (21m ago)    21m
+2022-06-28 15:54:26.414900 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-b4bjs       2/2     Terminating        2 (32s ago)    38s
+humid-sensor-service-68cf767dc9-pwchq       0/2     CrashLoopBackOff   1 (11s ago)    17s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (21m ago)    21m
+2022-06-28 15:54:31.485154 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-b4bjs       2/2     Terminating   2 (37s ago)    43s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running       2 (16s ago)    22s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (21m ago)    21m
+2022-06-28 15:54:36.561415 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-b4bjs       2/2     Terminating   2 (42s ago)    48s
+humid-sensor-service-68cf767dc9-p9qxz       0/2     Terminating   0              0s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running       2 (21s ago)    27s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (21m ago)    21m
+2022-06-28 15:54:41.665867 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-b4bjs       2/2     Terminating   2 (47s ago)    53s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running       2 (26s ago)    32s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (21m ago)    21m
+2022-06-28 15:54:46.723869 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running   2 (31s ago)    37s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (21m ago)    21m
+2022-06-28 15:54:51.834018 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-4sngq       0/2     Terminating   0              0s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running       2 (36s ago)    42s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (21m ago)    21m
+2022-06-28 15:54:56.893196 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running   2 (41s ago)    47s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (21m ago)    21m
+2022-06-28 15:55:01.969620 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running   2 (46s ago)    52s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (21m ago)    22m
+2022-06-28 15:55:07.085805 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-mkncs       0/2     Terminating   0              1s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running       2 (52s ago)    58s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (22m ago)    22m
+2022-06-28 15:55:12.155476 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running   2 (57s ago)    63s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (22m ago)    22m
+2022-06-28 15:55:17.214984 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (22m ago)    22m
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running   2 (62s ago)    68s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (22m ago)    22m
+2022-06-28 15:55:22.291552 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (22m ago)    23m
+humid-sensor-service-68cf767dc9-pwchq       2/2     Running       2 (67s ago)    73s
+humid-sensor-service-68cf767dc9-r4lhx       0/2     Terminating   0              1s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (22m ago)    22m
+2022-06-28 15:55:27.358390 :: 
+NAME                                        READY   STATUS            RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running           2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-m9d6n       0/2     PodInitializing   0              2s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Terminating       2 (72s ago)    78s
+mosquitto-dd699f856-sjrnc                   2/2     Running           4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running           2 (22m ago)    22m
+2022-06-28 15:55:32.423081 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-m9d6n       0/2     CrashLoopBackOff   1 (2s ago)     7s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Terminating        2 (77s ago)    83s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (22m ago)    22m
+2022-06-28 15:55:37.486511 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-cgdpm       0/2     Terminating        0              1s
+humid-sensor-service-68cf767dc9-m9d6n       0/2     CrashLoopBackOff   1 (7s ago)     12s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Terminating        2 (82s ago)    88s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (22m ago)    22m
+2022-06-28 15:55:42.566899 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-m9d6n       0/2     CrashLoopBackOff   1 (12s ago)    17s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Terminating        2 (87s ago)    93s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (22m ago)    22m
+2022-06-28 15:55:47.661658 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-m9d6n       2/2     Running       2 (17s ago)    22s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Terminating   2 (92s ago)    98s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (22m ago)    22m
+2022-06-28 15:55:52.745591 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-2gk8g       0/2     Terminating   0              1s
+humid-sensor-service-68cf767dc9-m9d6n       2/2     Running       2 (22s ago)    27s
+humid-sensor-service-68cf767dc9-pwchq       2/2     Terminating   2 (97s ago)    103s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (22m ago)    22m
+2022-06-28 15:55:57.810572 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-m9d6n       2/2     Running   2 (27s ago)    32s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (22m ago)    22m
+2022-06-28 15:56:02.874796 :: 
+NAME                                        READY   STATUS            RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running           2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-d7cww       0/2     PodInitializing   0              2s
+humid-sensor-service-68cf767dc9-m9d6n       2/2     Terminating       2 (32s ago)    37s
+mosquitto-dd699f856-sjrnc                   2/2     Running           4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running           2 (22m ago)    23m
+2022-06-28 15:56:07.964140 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-d7cww       0/2     CrashLoopBackOff   1 (2s ago)     7s
+humid-sensor-service-68cf767dc9-m9d6n       2/2     Terminating        2 (37s ago)    42s
+humid-sensor-service-68cf767dc9-spp2t       0/2     Terminating        0              1s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (23m ago)    23m
+2022-06-28 15:56:13.037929 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-d7cww       0/2     CrashLoopBackOff   1 (8s ago)     13s
+humid-sensor-service-68cf767dc9-m9d6n       2/2     Terminating        2 (43s ago)    48s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (23m ago)    23m
+2022-06-28 15:56:18.112775 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (23m ago)    23m
+humid-sensor-service-68cf767dc9-d7cww       0/2     CrashLoopBackOff   1 (13s ago)    18s
+humid-sensor-service-68cf767dc9-m9d6n       2/2     Terminating        2 (48s ago)    53s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (23m ago)    23m
+2022-06-28 15:56:23.185702 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (23m ago)    24m
+humid-sensor-service-68cf767dc9-d7cww       2/2     Running       2 (18s ago)    23s
+humid-sensor-service-68cf767dc9-lh5q4       0/2     Terminating   0              2s
+humid-sensor-service-68cf767dc9-m9d6n       2/2     Terminating   2 (53s ago)    58s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (23m ago)    23m
+2022-06-28 15:56:28.268095 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-d7cww       2/2     Running       2 (23s ago)    28s
+humid-sensor-service-68cf767dc9-m9d6n       2/2     Terminating   2 (58s ago)    63s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (23m ago)    23m
+2022-06-28 15:56:33.339883 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-d7cww       2/2     Running   2 (28s ago)    33s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (23m ago)    23m
+2022-06-28 15:56:38.414678 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-d7cww       2/2     Running       2 (33s ago)    38s
+humid-sensor-service-68cf767dc9-hxbbq       0/2     Terminating   0              2s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (23m ago)    23m
+2022-06-28 15:56:43.524357 :: 
+NAME                                        READY   STATUS            RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running           2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-d7cww       2/2     Terminating       2 (38s ago)    43s
+humid-sensor-service-68cf767dc9-s9ptd       0/2     PodInitializing   0              3s
+mosquitto-dd699f856-sjrnc                   2/2     Running           4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running           2 (23m ago)    23m
+2022-06-28 15:56:48.588026 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-d7cww       2/2     Terminating        2 (43s ago)    48s
+humid-sensor-service-68cf767dc9-s9ptd       0/2     CrashLoopBackOff   1 (3s ago)     8s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (23m ago)    23m
+2022-06-28 15:56:53.656381 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-27g52       0/2     Terminating        0              2s
+humid-sensor-service-68cf767dc9-d7cww       2/2     Terminating        2 (48s ago)    53s
+humid-sensor-service-68cf767dc9-s9ptd       0/2     CrashLoopBackOff   1 (8s ago)     13s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (23m ago)    23m
+2022-06-28 15:56:58.718370 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-d7cww       2/2     Terminating        2 (53s ago)    58s
+humid-sensor-service-68cf767dc9-s9ptd       1/2     CrashLoopBackOff   1 (13s ago)    18s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (23m ago)    23m
+2022-06-28 15:57:03.812488 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-d7cww       2/2     Terminating   2 (58s ago)    63s
+humid-sensor-service-68cf767dc9-s9ptd       2/2     Running       2 (18s ago)    23s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (23m ago)    24m
+2022-06-28 15:57:08.889017 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-d7cww       2/2     Terminating   2 (63s ago)    68s
+humid-sensor-service-68cf767dc9-s9ptd       2/2     Running       2 (23s ago)    28s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (24m ago)    24m
+2022-06-28 15:57:13.956698 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-s9ptd       2/2     Running   2 (28s ago)    33s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (24m ago)    24m
+2022-06-28 15:57:19.036747 :: 
+NAME                                        READY   STATUS            RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running           2 (24m ago)    24m
+humid-sensor-service-68cf767dc9-rkbgj       0/2     PodInitializing   0              3s
+humid-sensor-service-68cf767dc9-s9ptd       2/2     Terminating       2 (34s ago)    39s
+mosquitto-dd699f856-sjrnc                   2/2     Running           4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running           2 (24m ago)    24m
+2022-06-28 15:57:24.118426 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (24m ago)    25m
+humid-sensor-service-68cf767dc9-8q78c       0/2     Terminating        0              3s
+humid-sensor-service-68cf767dc9-rkbgj       0/2     CrashLoopBackOff   1 (2s ago)     8s
+humid-sensor-service-68cf767dc9-s9ptd       2/2     Terminating        2 (39s ago)    44s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (24m ago)    24m
+2022-06-28 15:57:29.189314 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-rkbgj       0/2     CrashLoopBackOff   1 (7s ago)     13s
+humid-sensor-service-68cf767dc9-s9ptd       2/2     Terminating        2 (44s ago)    49s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (24m ago)    24m
+2022-06-28 15:57:34.259741 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-rkbgj       0/2     CrashLoopBackOff   1 (12s ago)    18s
+humid-sensor-service-68cf767dc9-s9ptd       2/2     Terminating        2 (49s ago)    54s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (24m ago)    24m
+2022-06-28 15:57:39.353314 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-rkbgj       2/2     Running       2 (17s ago)    23s
+humid-sensor-service-68cf767dc9-s9ptd       2/2     Terminating   2 (54s ago)    59s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (24m ago)    24m
+2022-06-28 15:57:44.430708 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-rkbgj       2/2     Running       2 (22s ago)    28s
+humid-sensor-service-68cf767dc9-s9ptd       2/2     Terminating   2 (59s ago)    64s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (24m ago)    24m
+2022-06-28 15:57:49.501319 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-rkbgj       2/2     Running   2 (27s ago)    33s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (24m ago)    24m
+2022-06-28 15:57:54.569872 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-p6zxs       0/2     Error         0              4s
+humid-sensor-service-68cf767dc9-rkbgj       2/2     Terminating   2 (32s ago)    38s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (24m ago)    24m
+2022-06-28 15:57:59.646170 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-p6zxs       0/2     CrashLoopBackOff   1 (4s ago)     9s
+humid-sensor-service-68cf767dc9-rkbgj       2/2     Terminating        2 (37s ago)    43s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (24m ago)    25m
+2022-06-28 15:58:04.713538 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-p6zxs       0/2     CrashLoopBackOff   1 (9s ago)     14s
+humid-sensor-service-68cf767dc9-rkbgj       2/2     Terminating        2 (42s ago)    48s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (24m ago)    25m
+2022-06-28 15:58:09.827879 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-p6zxs       1/2     CrashLoopBackOff   1 (14s ago)    19s
+humid-sensor-service-68cf767dc9-rkbgj       2/2     Terminating        2 (47s ago)    53s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (25m ago)    25m
+2022-06-28 15:58:14.910340 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Running       2 (19s ago)    24s
+humid-sensor-service-68cf767dc9-rkbgj       2/2     Terminating   2 (52s ago)    58s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (25m ago)    25m
+2022-06-28 15:58:19.984411 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (25m ago)    25m
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Running       2 (24s ago)    29s
+humid-sensor-service-68cf767dc9-rkbgj       2/2     Terminating   2 (57s ago)    63s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (25m ago)    25m
+2022-06-28 15:58:25.049947 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Running   2 (30s ago)    35s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (25m ago)    25m
+2022-06-28 15:58:30.137710 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Running   2 (35s ago)    40s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (25m ago)    25m
+2022-06-28 15:58:35.207998 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Running   2 (40s ago)    45s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (25m ago)    25m
+2022-06-28 15:58:40.275128 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Running   2 (45s ago)    50s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (25m ago)    25m
+2022-06-28 15:58:45.408848 :: 
+NAME                                        READY   STATUS            RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running           2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-bnm55       0/2     PodInitializing   0              3s
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Terminating       2 (50s ago)    55s
+mosquitto-dd699f856-sjrnc                   2/2     Running           4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running           2 (25m ago)    25m
+2022-06-28 15:58:50.475405 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-bnm55       0/2     CrashLoopBackOff   1 (3s ago)     8s
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Terminating        2 (55s ago)    60s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (25m ago)    25m
+2022-06-28 15:58:55.573157 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-bnm55       0/2     CrashLoopBackOff   1 (8s ago)     13s
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Terminating        2 (60s ago)    65s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (25m ago)    25m
+2022-06-28 15:59:00.634799 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-bnm55       0/2     CrashLoopBackOff   1 (13s ago)    18s
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Terminating        2 (65s ago)    70s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (25m ago)    26m
+2022-06-28 15:59:05.701442 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Running       2 (18s ago)    23s
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Terminating   2 (70s ago)    75s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (26m ago)    26m
+2022-06-28 15:59:10.764902 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Running       2 (23s ago)    28s
+humid-sensor-service-68cf767dc9-p6zxs       2/2     Terminating   2 (75s ago)    80s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (26m ago)    26m
+2022-06-28 15:59:15.831551 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (26m ago)    26m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Running   2 (28s ago)    33s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (26m ago)    26m
+2022-06-28 15:59:20.892621 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (26m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Running   2 (33s ago)    38s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (26m ago)    26m
+2022-06-28 15:59:25.955910 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Running   2 (38s ago)    43s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (26m ago)    26m
+2022-06-28 15:59:31.040004 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Running   2 (44s ago)    49s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (26m ago)    26m
+2022-06-28 15:59:36.135901 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Running   2 (49s ago)    54s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (26m ago)    26m
+2022-06-28 15:59:41.216573 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Running   2 (54s ago)    59s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (26m ago)    26m
+2022-06-28 15:59:46.311125 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Terminating   2 (59s ago)    64s
+humid-sensor-service-68cf767dc9-zlbv8       0/2     Init:0/1      0              1s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (26m ago)    26m
+2022-06-28 15:59:51.381141 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Terminating   2 (64s ago)    69s
+humid-sensor-service-68cf767dc9-zlbv8       0/2     Error         1 (3s ago)     6s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (26m ago)    26m
+2022-06-28 15:59:56.449893 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Terminating        2 (69s ago)    74s
+humid-sensor-service-68cf767dc9-zlbv8       0/2     CrashLoopBackOff   1 (6s ago)     11s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (26m ago)    26m
+2022-06-28 16:00:01.522417 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Terminating        2 (74s ago)    79s
+humid-sensor-service-68cf767dc9-zlbv8       0/2     CrashLoopBackOff   1 (11s ago)    16s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (26m ago)    27m
+2022-06-28 16:00:06.577915 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Terminating   2 (79s ago)    84s
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Running       2 (16s ago)    21s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (27m ago)    27m
+2022-06-28 16:00:11.642757 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-bnm55       2/2     Terminating   2 (84s ago)    89s
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Running       2 (21s ago)    26s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (27m ago)    27m
+2022-06-28 16:00:16.706644 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (27m ago)    27m
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Running   2 (26s ago)    31s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (27m ago)    27m
+2022-06-28 16:00:21.776721 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (27m ago)    28m
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Running   2 (31s ago)    36s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (27m ago)    27m
+2022-06-28 16:00:26.866633 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Running   2 (36s ago)    41s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (27m ago)    27m
+2022-06-28 16:00:31.943565 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Running   2 (41s ago)    46s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (27m ago)    27m
+2022-06-28 16:00:37.066146 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-4jtfg       0/2     Terminating   0              1s
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Running       2 (47s ago)    52s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (27m ago)    27m
+2022-06-28 16:00:42.148251 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-skm5l       0/2     Error         0              5s
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Terminating   2 (52s ago)    57s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (27m ago)    27m
+2022-06-28 16:00:47.215053 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-skm5l       0/2     CrashLoopBackOff   1 (4s ago)     10s
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Terminating        2 (57s ago)    62s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (27m ago)    27m
+2022-06-28 16:00:52.280586 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-skm5l       0/2     CrashLoopBackOff   1 (9s ago)     15s
+humid-sensor-service-68cf767dc9-wfjsx       0/2     Terminating        0              1s
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Terminating        2 (62s ago)    67s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (27m ago)    27m
+2022-06-28 16:00:57.367550 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-skm5l       1/2     CrashLoopBackOff   1 (14s ago)    20s
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Terminating        2 (67s ago)    72s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (27m ago)    27m
+2022-06-28 16:01:02.465459 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-skm5l       2/2     Running       2 (19s ago)    25s
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Terminating   2 (72s ago)    77s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (27m ago)    28m
+2022-06-28 16:01:07.578156 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-mc45f       0/2     Terminating   0              0s
+humid-sensor-service-68cf767dc9-skm5l       2/2     Running       2 (24s ago)    30s
+humid-sensor-service-68cf767dc9-zlbv8       2/2     Terminating   2 (77s ago)    82s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (28m ago)    28m
+2022-06-28 16:01:12.665744 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-skm5l       2/2     Running   2 (29s ago)    35s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (28m ago)    28m
+2022-06-28 16:01:17.738953 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (28m ago)    28m
+humid-sensor-service-68cf767dc9-skm5l       2/2     Running   2 (34s ago)    40s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (28m ago)    28m
+2022-06-28 16:01:22.849307 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (28m ago)    29m
+humid-sensor-service-68cf767dc9-m92bx       0/2     Terminating   0              0s
+humid-sensor-service-68cf767dc9-skm5l       2/2     Running       2 (39s ago)    45s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (28m ago)    28m
+2022-06-28 16:01:27.924262 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-skm5l       2/2     Running   2 (44s ago)    50s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (28m ago)    28m
+2022-06-28 16:01:32.982519 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-skm5l       2/2     Terminating   2 (49s ago)    55s
+humid-sensor-service-68cf767dc9-vfjnv       0/2     Error         0              4s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (28m ago)    28m
+2022-06-28 16:01:38.107502 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-skm5l       2/2     Terminating        2 (55s ago)    61s
+humid-sensor-service-68cf767dc9-vfjnv       0/2     CrashLoopBackOff   1 (5s ago)     10s
+humid-sensor-service-68cf767dc9-zknx6       0/2     Terminating        0              1s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (28m ago)    28m
+2022-06-28 16:01:43.182117 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-skm5l       2/2     Terminating        2 (60s ago)    66s
+humid-sensor-service-68cf767dc9-vfjnv       0/2     CrashLoopBackOff   1 (10s ago)    15s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (28m ago)    28m
+2022-06-28 16:01:48.302959 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-skm5l       2/2     Terminating        2 (65s ago)    71s
+humid-sensor-service-68cf767dc9-vfjnv       1/2     CrashLoopBackOff   1 (15s ago)    20s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (28m ago)    28m
+2022-06-28 16:01:53.370012 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-skm5l       2/2     Terminating   2 (70s ago)    76s
+humid-sensor-service-68cf767dc9-tbkjf       0/2     Terminating   0              1s
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Running       2 (20s ago)    25s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (28m ago)    28m
+2022-06-28 16:01:58.445431 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-skm5l       2/2     Terminating   2 (75s ago)    81s
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Running       2 (25s ago)    30s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (28m ago)    28m
+2022-06-28 16:02:03.526802 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Running   2 (30s ago)    35s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (28m ago)    29m
+2022-06-28 16:02:08.610933 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-pkqb5       0/2     Terminating   0              1s
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Running       2 (35s ago)    40s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (29m ago)    29m
+2022-06-28 16:02:13.680903 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Running   2 (40s ago)    45s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (29m ago)    29m
+2022-06-28 16:02:18.756010 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (29m ago)    29m
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Running   2 (45s ago)    50s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (29m ago)    29m
+2022-06-28 16:02:23.823135 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (29m ago)    30m
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Running       2 (50s ago)    55s
+humid-sensor-service-68cf767dc9-zzdd9       0/2     Terminating   0              1s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (29m ago)    29m
+2022-06-28 16:02:28.896918 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Running   2 (55s ago)    60s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (29m ago)    29m
+2022-06-28 16:02:33.960194 :: 
+NAME                                        READY   STATUS            RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running           2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Terminating       2 (60s ago)    65s
+humid-sensor-service-68cf767dc9-vqw65       0/2     PodInitializing   0              2s
+mosquitto-dd699f856-sjrnc                   2/2     Running           4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running           2 (29m ago)    29m
+2022-06-28 16:02:39.082711 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-7cq8z       0/2     Terminating        0              2s
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Terminating        2 (66s ago)    71s
+humid-sensor-service-68cf767dc9-vqw65       0/2     CrashLoopBackOff   1 (2s ago)     8s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (29m ago)    29m
+2022-06-28 16:02:44.182544 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Terminating        2 (71s ago)    76s
+humid-sensor-service-68cf767dc9-vqw65       0/2     CrashLoopBackOff   1 (7s ago)     13s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (29m ago)    29m
+2022-06-28 16:02:49.250610 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Terminating        2 (76s ago)    81s
+humid-sensor-service-68cf767dc9-vqw65       0/2     CrashLoopBackOff   1 (12s ago)    18s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (29m ago)    29m
+2022-06-28 16:02:54.320119 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-r6cq7       0/2     Terminating   0              2s
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Terminating   2 (81s ago)    86s
+humid-sensor-service-68cf767dc9-vqw65       2/2     Running       2 (17s ago)    23s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (29m ago)    29m
+2022-06-28 16:02:59.385771 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-vfjnv       2/2     Terminating   2 (86s ago)    91s
+humid-sensor-service-68cf767dc9-vqw65       2/2     Running       2 (22s ago)    28s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (29m ago)    30m
+2022-06-28 16:03:04.459359 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-vqw65       2/2     Running   2 (27s ago)    33s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (29m ago)    30m
+2022-06-28 16:03:09.585509 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-vqw65       2/2     Running   2 (32s ago)    38s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (30m ago)    30m
+2022-06-28 16:03:14.667377 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-vqw65       2/2     Running   2 (37s ago)    43s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (30m ago)    30m
+2022-06-28 16:03:19.795144 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (30m ago)    30m
+humid-sensor-service-68cf767dc9-v46s8       0/2     Init:0/1      0              0s
+humid-sensor-service-68cf767dc9-vqw65       2/2     Terminating   2 (42s ago)    48s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (30m ago)    30m
+2022-06-28 16:03:24.866114 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (30m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       0/2     Error         0              5s
+humid-sensor-service-68cf767dc9-vqw65       2/2     Terminating   2 (47s ago)    53s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (30m ago)    30m
+2022-06-28 16:03:29.929455 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (31m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       0/2     CrashLoopBackOff   1 (3s ago)     10s
+humid-sensor-service-68cf767dc9-vqw65       2/2     Terminating        2 (52s ago)    58s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (30m ago)    30m
+2022-06-28 16:03:35.001681 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (31m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       0/2     CrashLoopBackOff   1 (8s ago)     15s
+humid-sensor-service-68cf767dc9-vqw65       2/2     Terminating        2 (57s ago)    63s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (30m ago)    30m
+2022-06-28 16:03:40.086049 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (31m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       1/2     CrashLoopBackOff   1 (14s ago)    21s
+humid-sensor-service-68cf767dc9-vqw65       2/2     Terminating        2 (63s ago)    69s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (30m ago)    30m
+2022-06-28 16:03:45.150945 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (31m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       2/2     Running       2 (19s ago)    26s
+humid-sensor-service-68cf767dc9-vqw65       2/2     Terminating   2 (68s ago)    74s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (30m ago)    30m
+2022-06-28 16:03:50.215133 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (31m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       2/2     Running       2 (24s ago)    31s
+humid-sensor-service-68cf767dc9-vqw65       2/2     Terminating   2 (73s ago)    79s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (30m ago)    30m
+2022-06-28 16:03:55.280188 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (31m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       2/2     Running   2 (29s ago)    36s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (30m ago)    30m
+2022-06-28 16:04:00.348053 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (31m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       2/2     Running   2 (34s ago)    41s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (30m ago)    31m
+2022-06-28 16:04:05.415115 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (31m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       2/2     Running   2 (39s ago)    46s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (31m ago)    31m
+2022-06-28 16:04:10.566280 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (31m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       2/2     Running   2 (44s ago)    51s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (31m ago)    31m
+2022-06-28 16:04:15.663517 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (31m ago)    31m
+humid-sensor-service-68cf767dc9-v46s8       2/2     Running   2 (49s ago)    56s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (31m ago)    31m
+2022-06-28 16:04:20.803957 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (31m ago)    32m
+humid-sensor-service-68cf767dc9-v46s8       2/2     Running   2 (54s ago)    61s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (31m ago)    31m
+2022-06-28 16:04:25.949966 :: 
+NAME                                        READY   STATUS            RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running           2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       0/2     PodInitializing   0              2s
+humid-sensor-service-68cf767dc9-v46s8       2/2     Terminating       2 (59s ago)    66s
+mosquitto-dd699f856-sjrnc                   2/2     Running           4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running           2 (31m ago)    31m
+2022-06-28 16:04:31.043214 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       0/2     CrashLoopBackOff   1 (2s ago)     8s
+humid-sensor-service-68cf767dc9-v46s8       2/2     Terminating        2 (65s ago)    72s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (31m ago)    31m
+2022-06-28 16:04:36.162819 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       0/2     CrashLoopBackOff   1 (7s ago)     13s
+humid-sensor-service-68cf767dc9-v46s8       2/2     Terminating        2 (70s ago)    77s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (31m ago)    31m
+2022-06-28 16:04:41.226092 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       0/2     CrashLoopBackOff   1 (12s ago)    18s
+humid-sensor-service-68cf767dc9-v46s8       2/2     Terminating        2 (75s ago)    82s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (31m ago)    31m
+2022-06-28 16:04:46.297070 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Running       2 (17s ago)    23s
+humid-sensor-service-68cf767dc9-v46s8       2/2     Terminating   2 (80s ago)    87s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (31m ago)    31m
+2022-06-28 16:04:51.359955 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Running       2 (22s ago)    28s
+humid-sensor-service-68cf767dc9-v46s8       2/2     Terminating   2 (85s ago)    92s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (31m ago)    31m
+2022-06-28 16:04:56.434938 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Running   2 (27s ago)    33s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (31m ago)    31m
+2022-06-28 16:05:01.501888 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Running   2 (32s ago)    38s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (31m ago)    32m
+2022-06-28 16:05:06.565013 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Running   2 (37s ago)    43s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (32m ago)    32m
+2022-06-28 16:05:11.639309 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Running   2 (42s ago)    48s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (32m ago)    32m
+2022-06-28 16:05:16.701901 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (32m ago)    32m
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Running   2 (47s ago)    53s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (32m ago)    32m
+2022-06-28 16:05:21.777028 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (32m ago)    33m
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Running   2 (52s ago)    58s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (32m ago)    32m
+2022-06-28 16:05:26.846330 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (33m ago)    33m
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Running   2 (57s ago)    63s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (32m ago)    32m
+2022-06-28 16:05:31.928729 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (33m ago)    33m
+humid-sensor-service-68cf767dc9-56rhb       0/2     Init:0/1      0              1s
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Terminating   2 (62s ago)    68s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (32m ago)    32m
+2022-06-28 16:05:37.005579 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (33m ago)    33m
+humid-sensor-service-68cf767dc9-56rhb       0/2     Error         1 (3s ago)     6s
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Terminating   2 (67s ago)    73s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (32m ago)    32m
+2022-06-28 16:05:42.061543 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (33m ago)    33m
+humid-sensor-service-68cf767dc9-56rhb       0/2     CrashLoopBackOff   1 (7s ago)     12s
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Terminating        2 (73s ago)    79s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (32m ago)    32m
+2022-06-28 16:05:47.137732 :: 
+NAME                                        READY   STATUS             RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running            2 (33m ago)    33m
+humid-sensor-service-68cf767dc9-56rhb       0/2     CrashLoopBackOff   1 (12s ago)    17s
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Terminating        2 (78s ago)    84s
+mosquitto-dd699f856-sjrnc                   2/2     Running            4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running            2 (32m ago)    32m
+2022-06-28 16:05:52.216945 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (33m ago)    33m
+humid-sensor-service-68cf767dc9-56rhb       2/2     Running       2 (17s ago)    22s
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Terminating   2 (83s ago)    89s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (32m ago)    32m
+2022-06-28 16:05:57.302968 :: 
+NAME                                        READY   STATUS        RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running       2 (33m ago)    33m
+humid-sensor-service-68cf767dc9-56rhb       2/2     Running       2 (22s ago)    27s
+humid-sensor-service-68cf767dc9-bc5qz       2/2     Terminating   2 (88s ago)    94s
+mosquitto-dd699f856-sjrnc                   2/2     Running       4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running       2 (32m ago)    32m
+2022-06-28 16:06:02.367946 :: 
+NAME                                        READY   STATUS    RESTARTS       AGE
+external-weather-service-74f6cfb458-zm289   2/2     Running   2 (33m ago)    33m
+humid-sensor-service-68cf767dc9-56rhb       2/2     Running   2 (27s ago)    32s
+mosquitto-dd699f856-sjrnc                   2/2     Running   4 (113d ago)   145d
+system-monitor-7f4fc48c76-25t59             2/2     Running   2 (32m ago)    33m
