@@ -8,27 +8,31 @@ from os.path import dirname
 
 from drain3 import TemplateMiner
 from drain3.template_miner_config import TemplateMinerConfig
+from drain3.file_persistence import FilePersistence
 
 def main():
-    in_file = "logs/kube_logs_all.txt"
-    to_file = "result/kube_result.txt"
+    persistence = FilePersistence("drain3_state.bin")
+    in_file = "logs/terminate_pods_logs/sorted_logs.txt"
+    template_file = "result/terminate_pods_templates.txt"
+    event_file = "result/terminate_pods_events.txt"
 
-    logger, template_miner = init_config()
+    logger, template_miner = init_config(persistence)
     parse_file(in_file, logger, template_miner)
-    write_result_to_file(logger, template_miner, to_file)
+    write_templates_to_file(logger, template_miner, template_file)
+    write_events_to_file(in_file, event_file, template_miner)
 
     print("Prefix Tree:")
     template_miner.drain.print_tree()
     template_miner.profiler.report(0)
 
 
-def init_config():
+def init_config(persistence):
     logger = logging.getLogger(__name__)
     logging.basicConfig(stream=sys.stdout, level=logging.INFO, format='%(message)s')
     config = TemplateMinerConfig()
     config.load(dirname(__file__) + "/drain3.ini")
     config.profiling_enabled = True
-    template_miner = TemplateMiner(config=config)
+    template_miner = TemplateMiner(persistence, config=config)
     return logger, template_miner
 
 
@@ -75,13 +79,32 @@ def parse_file(file, logger, template_miner):
         f"{len(template_miner.drain.clusters)} clusters")
 
 
-def write_result_to_file(logger, template_miner, to_file):
+def write_templates_to_file(logger, template_miner, to_file):
     sorted_clusters = sorted(template_miner.drain.clusters, key=lambda it: it.size, reverse=True)
     to_file = open(to_file, "w")
     for cluster in sorted_clusters:
         logger.info(cluster)
         to_file.write(str(cluster) + "\n")
     to_file.close()
+
+
+def write_events_to_file(in_file, to_file, template_miner):
+    to_file = open(to_file, "w")
+
+    lines = get_lines_from_file(in_file)
+
+    for line in lines:
+        line = line.rstrip()
+        in_bracket = "\[(.*?)\]"
+        datetimeToken = re.search(in_bracket, line).group()
+        dateMatched = re.search(r'\d{4}-\d{2}-\d{2}', datetimeToken)
+        timeMatched = re.search(r'\d{2}:\d{2}:\d{2}', datetimeToken)
+        dateTime = dateMatched.group() + " " + timeMatched.group()
+
+        line = re.sub(in_bracket, "", line)  # remove brackets and contents inside brackets
+        result_dict = template_miner.add_log_message(line)
+        result = dateTime + " ; " + str(result_dict["cluster_id"]) + " ; " + result_dict["template_mined"]
+        to_file.write(result + "\n")
 
 
 if __name__ == '__main__':
