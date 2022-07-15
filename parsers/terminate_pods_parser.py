@@ -19,7 +19,7 @@ def main():
     logger, template_miner = init_config(persistence)
     parse_file(in_file, logger, template_miner)
     write_templates_to_file(logger, template_miner, template_file)
-    write_events_to_file(in_file, event_file, template_miner)
+    #write_events_to_file(in_file, event_file, template_miner)
 
     print("Prefix Tree:")
     template_miner.drain.print_tree()
@@ -58,6 +58,8 @@ def parse_file(file, logger, template_miner):
 
     for line in lines:
         line = line.rstrip()
+        in_bracket = "\[(.*?)\]"
+        line = re.sub(in_bracket, "", line)  # remove brackets and contents inside brackets
 
         result = template_miner.add_log_message(line)
         line_count += 1
