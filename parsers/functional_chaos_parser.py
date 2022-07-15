@@ -12,13 +12,13 @@ from drain3.file_persistence import FilePersistence
 
 def main():
     persistence = FilePersistence("drain3_state.bin")
-    in_file = "logs/functional_chaos_logs/functional_chaos_logs_merged.txt"
+    in_file = "logs/functional_chaos_logs/sorted_logs.txt"
     template_file = "result/functional_chaos_templates.txt"
     event_file = "result/functional_chaos_events.txt"
 
     logger, template_miner = init_config(persistence)
     parse_file(in_file, logger, template_miner)
-    #write_templates_to_file(logger, template_miner, template_file)
+    write_templates_to_file(logger, template_miner, template_file)
     #write_events_to_file(in_file, event_file, template_miner)
 
     print("Prefix Tree:")
@@ -58,6 +58,8 @@ def parse_file(file, logger, template_miner):
 
     for line in lines:
         line = line.rstrip()
+        in_bracket = "\[(.*?)\]"
+        line = re.sub(in_bracket, "", line)  # remove brackets and contents inside brackets
 
         result = template_miner.add_log_message(line)
         line_count += 1
