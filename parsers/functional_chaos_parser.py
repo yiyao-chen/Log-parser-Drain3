@@ -93,20 +93,25 @@ def write_templates_to_file(logger, template_miner, to_file):
 def write_events_to_file(in_file, to_file, template_miner):
     to_file = open(to_file, "w")
 
+    unnecessary_template_ids = [2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 16, 17, 18, 22, 27, 23, 25, 32, 33, 35]
     lines = get_lines_from_file(in_file)
 
     for line in lines:
         line = line.rstrip()
         in_bracket = "\[(.*?)\]"
         datetimeToken = re.search(in_bracket, line).group()
+        parts = re.split(in_bracket, line)
+        component = parts[-2]
         dateMatched = re.search(r'\d{4}-\d{2}-\d{2}', datetimeToken)
         timeMatched = re.search(r'\d{2}:\d{2}:\d{2}', datetimeToken)
         dateTime = dateMatched.group() + " " + timeMatched.group()
 
         line = re.sub(in_bracket, "", line)  # remove brackets and contents inside brackets
-        result_dict = template_miner.add_log_message(line)
-        result = dateTime + " ; " + str(result_dict["cluster_id"]) + " ; " + result_dict["template_mined"]
-        to_file.write(result + "\n")
+        matched_cluster = template_miner.match(line)
+
+        result = dateTime + " ; " + str(matched_cluster.cluster_id) + " ; " + component + " ; " + matched_cluster.get_template()
+        if matched_cluster.cluster_id not in unnecessary_template_ids:
+            to_file.write(result + "\n")
 
 
 if __name__ == '__main__':
